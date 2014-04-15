@@ -1,6 +1,7 @@
 *.pydevproject
 .project
 .metadata
+.buildpath
 bin/**
 tmp/**
 tmp/**/*
@@ -18,7 +19,6 @@ local.properties
 
 # Locally stored "Eclipse launch configurations"
 *.launch
-
 
 # PDT-specific
 .buildpath
