@@ -1,2 +1,2 @@
 <?php
-require_once('PtExt/simpletest/autorun.php');
+require_once(__DIR__.'/Ext/simpletest/autorun.php');
