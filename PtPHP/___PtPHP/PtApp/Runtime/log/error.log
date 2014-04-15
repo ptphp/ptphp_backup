@@ -1,0 +1,56 @@
+2013-08-24 13:45:45 [DEBUG] array (
+  'result' => 
+  array (
+    'msg' => 'Undefined index: pic_path',
+    'errfile' => 'C:\\Users\\Joseph\\Desktop\\Dhole\\wwwroot\\offline\\download_view.php',
+    'errline' => 16,
+    'router' => NULL,
+    'trace' => 
+    array (
+    ),
+  ),
+  'error' => 1,
+  'id' => '80ca9c7644e8bbbd56f78641ced20664',
+)
+2013-08-24 13:48:54 [DEBUG] array (
+  'result' => 
+  array (
+    'msg' => 'Undefined index: url',
+    'errfile' => 'C:\\Users\\Joseph\\Desktop\\Dhole\\wwwroot\\offline\\download_view.php',
+    'errline' => 17,
+    'router' => NULL,
+    'trace' => 
+    array (
+    ),
+  ),
+  'error' => 1,
+  'id' => '275320b25da9fb15ea8d8d296918af18',
+)
+2013-08-24 13:48:54 [DEBUG] array (
+  'result' => 
+  array (
+    'msg' => 'Undefined index: url',
+    'errfile' => 'C:\\Users\\Joseph\\Desktop\\Dhole\\wwwroot\\offline\\download_view.php',
+    'errline' => 17,
+    'router' => NULL,
+    'trace' => 
+    array (
+    ),
+  ),
+  'error' => 1,
+  'id' => '275320b25da9fb15ea8d8d296918af18',
+)
+2013-08-24 13:48:57 [DEBUG] array (
+  'result' => 
+  array (
+    'msg' => 'Undefined index: url',
+    'errfile' => 'C:\\Users\\Joseph\\Desktop\\Dhole\\wwwroot\\offline\\download_view.php',
+    'errline' => 17,
+    'router' => NULL,
+    'trace' => 
+    array (
+    ),
+  ),
+  'error' => 1,
+  'id' => 'a4537e94aa792710fedd42ba898e21d7',
+)

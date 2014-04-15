@@ -1,0 +1,35 @@
+{css(style)}
+{Block(navbar)}
+
+<div class="h30"></div>
+<div class="row" id="dhole">
+    <div class="region" >
+        <div class="block">
+            <h2 class="des">素材中心 </h2>
+        </div>
+    </div>
+</div>
+
+<div class="row clearfix">
+    <div class="region main">
+        <div class="block sucai_list">
+            <div class="list clearfix">
+                {foreach($data['rows'] as $row)}
+                <div class="item">
+                    <a href="{% Model\Content::getContentUrl($row) %}">                        
+                    <div class="pic">
+                        <img src="{if($row['thumb'])}
+                        {if(strpos($row['thumb'],'img') === 0)}http://s.ptphp.com/{end}{$row['thumb']}?imageView/2/w/215{else}/static/img/sucai/prev.gif{end}" alt="" />
+                    </div>
+                    <div class="info">{$row['title']}</div>
+                </a>
+                </div>
+                {end}
+            </div> 
+            {$data['page']['bar']}
+        </div>
+    </div>
+</div>   
+
+{Block(footer)}
+

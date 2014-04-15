@@ -1,0 +1,9 @@
+{css(style)}
+<div class="ptadmin" style="padding:20px">	
+	<form action="/admin/content/upload" enctype="multipart/form-data" method='post'>
+        <input type="hidden" name="max_file_size" value="15000000">
+        <input type="hidden" name="iid" value="{$iid}">
+        <input type="file" name="file" />
+        <input type="submit" value="上传" onclick="" />
+    </form>
+</div>
