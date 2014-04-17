@@ -7,6 +7,7 @@ set_include_path(
 require_once('Ext/simpletest/autorun.php');
 
 function __pt_test_autoload($class_name){	
+	//var_dump($class_name);
 	if ( substr($class_name, 0,5) == "PtPHP" ){		
 		$path = str_replace( "\\", "/",$class_name).".php";
 		require_once $path;	
