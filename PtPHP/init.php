@@ -5,6 +5,19 @@ $config = array();
 $console_array = array();
 include PATH_PTPHP."/Config/default.php";
 
+
+function __pt_autoload($class_name){	
+	//echo $class_name;
+	if ( substr($class_name, 0,10) == "Controller" ){		
+		$path = PATH_APP."/".str_replace( "\\", "/",$class_name).".php";
+		#var_dump($path);
+		require_once $path;
+	}
+}
+
+spl_autoload_register('__pt_autoload');
+
+
 function curl_proxy_checker ($url,$proxy,$time_out = 5,$user_agent = "Mozilla/4.0"){
 	$start_time = microtime(0);
 	$ch = curl_init();
@@ -52,7 +65,7 @@ RES;
 	}	
 }
 
-register_shutdown_function(shut_down_fun);
+register_shutdown_function("shut_down_fun");
 
 function console($var){	
 	global $config;
@@ -63,9 +76,9 @@ function console($var){
 	$tree = debug_backtrace();
 	//print_pre(debug_backtrace());
 	$console_array[] = array(
-			data=>$var,
-			line=>$tree[0]['line'],
-			file=>str_replace(PATH_PRO, '',$tree[0]['file']),
+			"data"=>$var,
+			"line"=>$tree[0]['line'],
+			"file"=>str_replace(PATH_PRO, '',$tree[0]['file']),
 	);
 }
 
@@ -85,8 +98,15 @@ function parse_router(){
 	}
 	
 	$path_array = pathinfo($c_path);	
-	$base_path = $path_array['dirname']."/".$path_array['filename'];
+	console($path_array);
+	if($path_array['dirname'] == "\\"){
+		$base_path = "/index";
+	}else{
+		$base_path = $path_array['dirname']."/".$path_array['filename'];
+	}
 	
+	//echo $base_path;
+	//echo "<br>";
 	$t = explode('/', $base_path);
 	$_base_path = "";
 	foreach ($t as $_t){
@@ -99,7 +119,7 @@ function parse_router(){
 	$router['namespace'] = str_replace("/", "\\", $router['base_path']);
 	$router['controller_path'] = $router['base_path'].".php";
 	$router['method'] = strtolower($_SERVER['REQUEST_METHOD']);
-	console($router);
+	//console($router);
 	return $router;
 }
 
@@ -111,7 +131,8 @@ function run(){
 	if(!is_file($controller)){
 		$controller = PATH_PTPHP.'/'.$router['controller_path'];
 	}
-	
+	//print_pre($router);
+	//exit;
 	if(!is_file($controller)){
 		die("not found");
 	}

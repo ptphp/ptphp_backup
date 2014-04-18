@@ -32,7 +32,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#331e5799', e
 clear:both;
 }
 
-
+*{
+	-webkit-user-select:none;
+}
 .top-block:hover{
 text-decoration:none;
 }

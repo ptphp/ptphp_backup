@@ -47,6 +47,7 @@ class SimpleCollector {
                     continue;
                 }
                 $this->handle($test, $path . DIRECTORY_SEPARATOR . $entry);
+                exit;
             }
             closedir($handle);
         }
