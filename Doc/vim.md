@@ -1,6 +1,7 @@
 
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-
+:autocmd FileType php noremap <C-M> :w!<CR>:!/usr/bin/php %<CR>i
+:map <C-M> :w!<CR>:!/usr/bin/php %<CR>
 
 
 set nocompatible              " be iMproved, required
