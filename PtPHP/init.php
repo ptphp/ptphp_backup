@@ -48,6 +48,17 @@ function print_pre($v){
 	print_r($v);
 	echo "</pre>";	
 }
+
+
+function tail_log($msg){
+	if(is_array($msg)){
+		$_msg = var_export($msg,TRUE);
+	}else{
+		$_msg = $msg;
+	}
+	error_log("[ ".date("m/d H:i:s",time())." ] ".str_replace("\n", "\n\t", $_msg)."\n",3,"c:\\log.txt");
+}
+
 function shut_down_fun(){		
 	global $config;
 	if($config['debug']){
