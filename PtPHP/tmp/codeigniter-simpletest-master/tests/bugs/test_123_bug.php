@@ -19,7 +19,7 @@ class test_123_bug extends CodeIgniterUnitTestCase
 
 	public function test_issue3()
 	{
-		$this->dump(array("s",1));
+		// $this->dump('Just some dump data');
 		$this->assertEqual(11,11);
 	}
 
