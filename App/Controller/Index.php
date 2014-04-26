@@ -3,7 +3,7 @@ namespace Controller;
 
 class Index{	
 	function get(){
-		header("Location:/manage/");
+		//header("Location:/manage/");
 		#include View('index');
 	}
 	function post(){		

@@ -58,8 +58,13 @@ function tail_log($msg){
 	}
 	error_log("[ ".date("m/d H:i:s",time())." ] ".str_replace("\n", "\n\t", $_msg)."\n",3,"c:\\log.txt");
 }
-
-function shut_down_fun(){		
+function is_xhr(){
+	return TRUE === (isset($_SERVER["HTTP_X_REQUESTED_WITH"]) && $_SERVER["HTTP_X_REQUESTED_WITH"] == "XMLHttpRequest");
+}
+function shut_down_fun(){	
+	if(is_xhr()){
+		return;
+	}
 	global $config;
 	if($config['debug']){
 		global $console_array;
@@ -99,17 +104,20 @@ function View($path){
 
 function parse_router(){
 	$router = array();
-	$uri = $_SERVER['REQUEST_URI'];
-	$url_array = parse_url($uri);
 	
-	$c_path = $url_array['path'];
-	
+	if(isset($_GET['_r'])){
+		$c_path = $_GET['_r'];
+	}else{
+		$uri = $_SERVER['REQUEST_URI'];
+		$url_array = parse_url($uri);
+		$c_path = $url_array['path'];
+	}	
 	if(substr($c_path, strlen($c_path)-1) == "/"){
 		$c_path .= "index";
 	}
 	
 	$path_array = pathinfo($c_path);	
-	console($path_array);
+	//console($path_array);
 	if($path_array['dirname'] == "\\"){
 		$base_path = "/index";
 	}else{

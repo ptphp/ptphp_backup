@@ -18,6 +18,14 @@ xdebug.profiler_output_name = cachegrind.out.%s
 xdebug.profiler_output_name = cachegrind.out.%H.%u.%s
 
 
+xdebug.remote_enable=1
+xdebug.remote_handler=dbgp
+xdebug.remote_mode=req
+xdebug.remote_host=127.0.0.1
+xdebug.remote_port=9003
+xdebug.idekey=xdebug
+
+
 [Xdebug]
 zend_extension = ext\php_xdebug-2.2.4-5.3-vc9-nts.dll
 xdebug.trace_output_dir="c:/xdebug"  
@@ -29,6 +37,12 @@ xdebug.profiler_output_name = cachegrind.out.%s
 ;是否开启自动跟踪
 xdebug.auto_trace= On
 ;是否开启异常跟踪
+
+
+
+
+
+
 xdebug.show_exception_trace= On
 ;是否收集变量
 xdebug.collect_vars= On
@@ -49,3 +63,18 @@ xdebug.default_enable=On
 xdebug.show_local_vars=1 
 xdebug.max_nesting_level=50 
 xdebug.var_display_max_depth=6 
+
+
+
+
++++++++++++++++++++++++++++
+zend_extension = php_xdebug-2.2.4-5.5-vc11-nts.dll
+
+xdebug.auto_trace=On
+xdebug.trace_output_name="trace.%t.%H.%R"
+xdebug.trace_format=1
+;xdebug.collect_vars= On
+xdebug.collect_return=On
+xdebug.collect_params=3
+xdebug.collect_assignments=0
+xdebug.collect_includes=0
