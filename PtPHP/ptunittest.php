@@ -15,6 +15,9 @@ function test(){
 }
 function get_unit_tests($path){
 	$tests = array();
+	if(!is_file($path)){
+		return array();
+	}
 	$content = file_get_contents($path);
 	preg_match_all("/function\s+(test_\w+)\(\)/", $content,$m,PREG_SET_ORDER);
 
