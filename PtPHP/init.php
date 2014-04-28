@@ -5,7 +5,6 @@ $config = array();
 $console_array = array();
 include PATH_PTPHP."/Config/default.php";
 
-
 function __pt_autoload($class_name){	
 	//echo $class_name;
 	if ( substr($class_name, 0,10) == "Controller" ){		
@@ -98,8 +97,14 @@ function console($var){
 	);
 }
 
-function View($path){
-	return PATH_APP."/View/".$path.".php";
+function View($_path){
+	$path = PATH_APP."/View/".$_path.".php";
+
+	if(!is_file($path)){
+		$path = PATH_PTPHP."/View/".$_path.".php";
+	}
+	
+	return $path;
 }
 
 function parse_router(){
@@ -139,6 +144,9 @@ function run(){
 		$controller = PATH_PTPHP.'/'.$router['controller_path'];
 	}
 	//print_pre($router);
+	if($router['controller_path'] == 'Controller/Pttest.php'){
+		include_once PATH_PTPHP.'/ptunittest.php';	
+	}
 	//exit;
 	if(!is_file($controller)){
 		die("not found");

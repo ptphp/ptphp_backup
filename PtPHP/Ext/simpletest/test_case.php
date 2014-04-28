@@ -141,8 +141,11 @@ class SimpleTestCase {
                 }
                 $invoker = $this->reporter->createInvoker($this->createInvoker());
                 $invoker->before($method);
+                
                 $invoker->invoke($method);
+             
                 $invoker->after($method);
+                
             }
         }
         if ($started) {
@@ -181,7 +184,16 @@ class SimpleTestCase {
      */
     protected function isTest($method) {
         if (strtolower(substr($method, 0, 4)) == 'test') {
-            return ! SimpleTestCompatibility::isA($this, strtolower($method));
+        	
+        	if(isset($_POST['method']) && $_POST['method']){        		
+        		if($method == $_POST['method']){
+        			return ! SimpleTestCompatibility::isA($this, strtolower($method));
+        		}
+        		
+        	}else{
+        		return ! SimpleTestCompatibility::isA($this, strtolower($method));
+        	}
+            
         }
         return false;
     }
