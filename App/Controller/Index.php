@@ -1,8 +1,8 @@
 <?php
-namespace Controller;
-
-class Index{	
+namespace Controller\Index;
+class Index{
 	function get(){
+		echo "index";
 		//header("Location:/manage/");
 		#include View('index');
 	}

@@ -7,7 +7,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</a>
-				<a class="brand" href="index.html"> 
+				<a class="brand" href="#"> 
 				<img alt="Charisma Logo" src="/static/theme/manage/img/logo20.png" /> <span>
 				Charisma</span></a>
 				

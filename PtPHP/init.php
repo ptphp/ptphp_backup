@@ -103,50 +103,38 @@ function View($path){
 }
 
 function parse_router(){
-	$router = array();
+	$router = array();	
 	
-	if(isset($_GET['_r'])){
-		$c_path = $_GET['_r'];
+	$controller = isset($_GET['_c'])?$_GET['_c']:"index";
+	$action     = isset($_GET['_a'])?$_GET['_a']:"index";
+	$module     = isset($_GET['_m'])?$_GET['_m']:"";
+	
+	$controller = ucfirst(strtolower($controller));
+	$action = ucfirst(strtolower($action));
+	if($module)
+		$module = ucfirst(strtolower($module));
+	
+	if($module){
+		$router['base_path'] = "Controller"."/".$module."/".$controller;
+		$router['namespace'] = "Controller"."\\".$module."\\".$controller."\\".$action;
 	}else{
-		$uri = $_SERVER['REQUEST_URI'];
-		$url_array = parse_url($uri);
-		$c_path = $url_array['path'];
-	}	
-	if(substr($c_path, strlen($c_path)-1) == "/"){
-		$c_path .= "index";
+		$router['base_path'] = "Controller"."/".$controller;
+		$router['namespace'] = "Controller"."\\".$controller."\\".$action;
 	}
-	
-	$path_array = pathinfo($c_path);	
-	//console($path_array);
-	if($path_array['dirname'] == "\\"){
-		$base_path = "/index";
-	}else{
-		$base_path = $path_array['dirname']."/".$path_array['filename'];
-	}
-	
-	//echo $base_path;
-	//echo "<br>";
-	$t = explode('/', $base_path);
-	$_base_path = "";
-	foreach ($t as $_t){
-		if($_t){
-			$_base_path .= "/".ucfirst(strtolower($_t));
-		}
 		
-	}
-	$router['base_path'] = "Controller".$_base_path;
-	$router['namespace'] = str_replace("/", "\\", $router['base_path']);
-	$router['controller_path'] = $router['base_path'].".php";
+	
+	$router['action'] = $action;
+	$router['controller_path'] = $router['base_path'].".php";	
 	$router['method'] = strtolower($_SERVER['REQUEST_METHOD']);
-	//console($router);
+	//var_dump($router);
 	return $router;
 }
-
 
 function run(){
 	global $config;
 	$router = parse_router();
 	$controller = PATH_APP.'/'.$router['controller_path'];
+	
 	if(!is_file($controller)){
 		$controller = PATH_PTPHP.'/'.$router['controller_path'];
 	}
@@ -156,7 +144,9 @@ function run(){
 		die("not found");
 	}
 	
-	include $controller;	
+	include $controller;
+
 	$controller_obj = new $router['namespace']();
 	$controller_obj->$router['method']();
+	
 }

@@ -1,8 +1,10 @@
 <?php
-namespace Controller\Manage;
+namespace Controller\Manage\Index;
 
 class Index{
 	function get(){
-		include View('manage/index');
+		$cat = isset($_GET['cat'])?$_GET['cat']:"index";
+		$cat = strtolower(str_replace(".html", "", $cat));
+		include View('manage/'.$cat);
 	}
 }
