@@ -1,0 +1,17 @@
+RewriteEngine On
+RewriteBase /  
+
+RewriteCond %{QUERY_STRING} ^(.*)$
+RewriteRule ^index.html$ index.php?_c=index&_a=index&%1
+
+RewriteCond %{QUERY_STRING} ^(.*)$
+RewriteRule ^manage/$ index.php?_m=manage&_c=index&_a=index&%1
+
+RewriteCond %{QUERY_STRING} ^(.*)$
+RewriteRule ^(\w+)/(\w+)$ index.php?_c=$1&_a=$2&%1
+
+RewriteCond %{QUERY_STRING} ^(.*)$
+RewriteRule ^(\w+)/(\w+)/(\w+)$ index.php?_m=$1&_c=$2&_a=$3&%1
+
+RewriteCond %{QUERY_STRING} ^(.*)$
+RewriteRule ^(\w+)/(\w+)/$ index.php?_m=$1&_c=$2&_a=&%1

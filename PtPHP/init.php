@@ -105,8 +105,8 @@ function View($path){
 function parse_router(){
 	$router = array();	
 	
-	$controller = isset($_GET['_c'])?$_GET['_c']:"index";
-	$action     = isset($_GET['_a'])?$_GET['_a']:"index";
+	$controller = (isset($_GET['_c']) && $_GET['_c']) ? $_GET['_c']:"index";
+	$action     = (isset($_GET['_a']) && $_GET['_a']) ? $_GET['_a']:"index";
 	$module     = isset($_GET['_m'])?$_GET['_m']:"";
 	
 	$controller = ucfirst(strtolower($controller));

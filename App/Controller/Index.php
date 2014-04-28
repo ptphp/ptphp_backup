@@ -10,3 +10,14 @@ class Index{
 		print_r($_SERVER);
 	}
 }
+
+class Action{
+	function get(){
+		echo "Action";
+		//header("Location:/manage/");
+		#include View('index');
+	}
+	function post(){
+		print_r($_SERVER);
+	}
+}
