@@ -10,9 +10,7 @@ require_once PATH_SIMPLE_TEST.'/web_tester.php';
 require_once PATH_SIMPLE_TEST.'/extensions/my_reporter.php';
 require_once PATH_SIMPLE_TEST.'/extensions/cli_reporter.php';
 
-function test(){
-	echo "test";
-}
+
 function get_unit_tests($path){
 	$tests = array();
 	if(!is_file($path)){
@@ -100,4 +98,14 @@ class PtTestCase extends UnitTestCase {
 	{
 		parent::__construct($name);
 	}
+	public function setUp()
+	{
+	
+	}
+	
+	public function tearDown()
+	{
+		
+	}
+	
 }

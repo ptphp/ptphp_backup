@@ -8,7 +8,7 @@ class test_user extends PtTestCase
 	
 	public function test_included()
 	{		
-		$this->assertTrue(class_exists("Model\User"));
+		$this->assertTrue(class_exists("Model\Proxy"));
 	}
 
 }

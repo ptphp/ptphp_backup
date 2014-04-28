@@ -12,6 +12,10 @@ function __pt_autoload($class_name){
 		#var_dump($path);
 		require_once $path;
 	}
+	if ( substr($class_name, 0,5) == "Model" ){
+		$path = PATH_APP."/".str_replace( "\\", "/",$class_name).".php";
+		require_once $path;
+	}
 }
 
 spl_autoload_register('__pt_autoload');
