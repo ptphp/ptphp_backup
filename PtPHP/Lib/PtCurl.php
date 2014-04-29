@@ -5,6 +5,7 @@ class PtCurl{
 	var $cache = FALSE;
 	var $cache_file = '';
 	var $del_cache = FALSE;
+	var $_proxy = '';
 	function request($method = 'GET',$url = '',$query='',$_options = array()){
 		$cache_file = '';
 
@@ -31,6 +32,7 @@ class PtCurl{
 				CURLOPT_URL 			=> $url,
 				CURLOPT_RETURNTRANSFER 	=> 1,
 				CURLOPT_TIMEOUT 		=> 30,
+				CURLOPT_ENCODING 		=> "gzip",
 				CURLOPT_USERAGENT  		=> 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36',
 				CURLOPT_HTTPHEADER  	=> $http_header,
 				CURLOPT_CUSTOMREQUEST 	=> $method, // GET POST PUT PATCH DELETE HEAD OPTIONS
@@ -39,10 +41,8 @@ class PtCurl{
 
 		$ch = curl_init();
 		$options = $_options + $options;
-		$proxy = "";
-		$proxy = "http://127.0.0.1:8888";
-		if($proxy)
-			$options[CURLOPT_PROXY] = $proxy;
+		if($this->_proxy)
+			$options[CURLOPT_PROXY] = $this->_proxy;
 		//print_pre($options);
 		curl_setopt_array($ch, $options);
 		
