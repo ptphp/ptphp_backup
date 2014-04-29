@@ -8,6 +8,8 @@ class Test_tree{
 			echo "<h3>".$_u_test['title']."</h3>";
 			echo $_u_test['test_name'];			
 			echo '<button onclick="on_test_btn_click(this)" class="test_btn" data-id="'.$_u_test['id'].'" data-method="'. $_u_test['test_name'].'" data-path="'.$_u_test['path'].'">Test</button>';
+			echo "<button onclick=\"do_copy('".$_u_test['id']."')\">CLI</button><br />";			
+			echo "<div style=\"display:none\" id=\"cli_txt_".$_u_test['id']."\">php index.php -_c=pttest -_a=run -path=".$_u_test['path']." -method=".$_u_test['test_name']."</div>";
 			echo "<br /><hr>\n";
 		}
 	}
@@ -45,8 +47,21 @@ class Index{
 		$test_suite->run(new \MyReporter());
 		$content = ob_get_clean();
 		echo str_replace(PATH_PRO, ".", $content."");
+		//print_pre(get_included_files());
 	}
 }
-
-
+/*
+ * usage:
+ * 		php index.php -c=pttest -a=run -path= -method=
+ */
+class Run{	
+	function get()
+	{				
+		$file =  $_GET['path'];
+		$_REQUEST['method'] =  $_GET['method'];		
+		$test_suite = new \TestSuite();
+		$test_suite->addFile($file);	
+		$test_suite->run(new \CliReporter());
+	}
+}
 

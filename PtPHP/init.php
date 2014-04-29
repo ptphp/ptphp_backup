@@ -16,6 +16,14 @@ function __pt_autoload($class_name){
 		$path = PATH_APP."/".str_replace( "\\", "/",$class_name).".php";
 		require_once $path;
 	}
+	if ( substr($class_name, 0,6) == "Module" ){
+		$path = PATH_APP."/".str_replace( "\\", "/",$class_name).".php";
+		require_once $path;
+	}
+	if ( substr($class_name, 0,3) == "Lib" ){
+		$path = PATH_PTPHP."/".str_replace( "\\", "/",$class_name).".php";
+		require_once $path;
+	}
 }
 
 spl_autoload_register('__pt_autoload');
@@ -65,6 +73,9 @@ function is_xhr(){
 	return TRUE === (isset($_SERVER["HTTP_X_REQUESTED_WITH"]) && $_SERVER["HTTP_X_REQUESTED_WITH"] == "XMLHttpRequest");
 }
 function shut_down_fun(){	
+	if(PHP_SAPI == "cli"){
+		return;
+	}
 	if(is_xhr()){
 		return;
 	}
@@ -86,11 +97,19 @@ RES;
 
 register_shutdown_function("shut_down_fun");
 
-function console($var){	
+function console($var){		
 	global $config;
+	
+	if(PHP_SAPI == "cli"){
+		echo "[".date("m-d H:i:s")."] ";
+		print_r($var);
+		echo PHP_EOL;
+	}
+	
 	if(!$config['debug']){
 		return;
 	}	
+	
 	global $console_array;
 	$tree = debug_backtrace();
 	//print_pre(debug_backtrace());
@@ -130,7 +149,6 @@ function parse_router(){
 		$router['base_path'] = "Controller"."/".$controller;
 		$router['namespace'] = "Controller"."\\".$controller."\\".$action;
 	}
-		
 	
 	$router['action'] = $action;
 	$router['controller_path'] = $router['base_path'].".php";	
@@ -141,6 +159,26 @@ function parse_router(){
 
 function run(){
 	global $config;
+
+	if(PHP_SAPI == "cli"){		
+		$argv = $_SERVER['argv'];
+		unset($argv[0]);
+		foreach ($argv as $a){
+			$t = explode("=", $a);
+			#echo $t[0].PHP_EOL;
+			if(count($t) == 2){
+				$_GET[ltrim($t[0],"-")] = $t[1];
+			}
+		}
+		if(isset($_GET['_data'])){
+			$_SERVER['REQUEST_METHOD'] = "post";
+		}else{
+			$_SERVER['REQUEST_METHOD'] = "get";
+		}		
+	}
+	
+	//var_dump($_GET);
+	
 	$router = parse_router();
 	$controller = PATH_APP.'/'.$router['controller_path'];
 	
@@ -148,6 +186,7 @@ function run(){
 		$controller = PATH_PTPHP.'/'.$router['controller_path'];
 	}
 	//print_pre($router);
+	//exit;
 	if($router['controller_path'] == 'Controller/Pttest.php'){
 		include_once PATH_PTPHP.'/ptunittest.php';	
 	}

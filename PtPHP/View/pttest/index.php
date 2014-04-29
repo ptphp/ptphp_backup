@@ -142,6 +142,7 @@ padding:			20px 20px 12px 20px;
 </style>
 <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
 <script src="http://cdn.bootcss.com/Cookies.js/0.3.1/cookies.min.js"></script>
+<script src="/static/lib/md5.js"></script>
 </head>
 <body>
 	<div id="header">
@@ -162,14 +163,39 @@ padding:			20px 20px 12px 20px;
 		</div>
 	</div>
 	<script>
+	var t_id,t_path,t_method;
+	var tmp_q = [];
+	function do_copy(id){
+		var data = $("#cli_txt_"+id).text();
+		//window.clipboardData.setData("Text",data);	
+		window.prompt("Copy to clipboard: Ctrl+C, Enter", data);
+	}
+	
 	var on_test_btn_click = function(obj){
-		var id = $(obj).data("id");
-		var path = $(obj).data("path");
-		var method = $(obj).data("method");
+		t_id= $(obj).data("id");
+		t_path = $(obj).data("path");		
+		t_method = $(obj).data("method");
 		//console.log(id,path);
-		$.post(location.href,{id:id,method:method,path:path,op:"do_test"},function(data){
-			//console.log(data);
-			$("#report").html(data);
+		get_one_tset(t_id,t_method,t_path);
+	}
+	function auto_test(){
+		get_one_tset(t_id,t_method,t_path);
+	}
+	function get_one_tset(id,method,path){
+		console.log(method);
+		$.post(location.href,{id:id,method:method,path:path},function(data){
+			//console.log(data);			
+			var md5 = Cookies.get("md5");
+			var _md5 = hex_md5(data);
+			if(md5 != _md5){				
+				$("#report").html(data);
+				Cookies.set("md5",_md5)
+			}
+			if(t_method == method){
+				//setTimeout("auto_test()",2000)
+			}
+						
+			
 		});
 	}
 	function on_select_unit_test_changed(obj){
@@ -186,7 +212,7 @@ padding:			20px 20px 12px 20px;
 	function get_tests(v){		
 		if(!v){
 			return false;
-		}
+		}		
 		Cookies.set("v",v);
 		var url = "/pttest/test_tree?path="+v+"&_t="+(+new Date());
 		$.get(url,function(data){
@@ -197,11 +223,22 @@ padding:			20px 20px 12px 20px;
 		var url = "/pttest/test_select?_t="+(+new Date())
 		$("#test_select").load(url);
 	}
+
+	function check_file(){	
+		var path = Cookies.get("v");
+		console.log(path);
+		var url = "/pttest/file_status?_t="+(+new Date())
+		$.get(url,{path:path},function(data){
+			console.log(data);
+		})
+	}
 	$(function(){
+		Cookies.set("md5","")
 		get_test_select();
 		var v = Cookies.get("v");
 		if(v){
-			get_tests(v);
+			//console.log(v);
+			get_tests(v);			
 			$("#test_select").val(v);
 		}
 	})

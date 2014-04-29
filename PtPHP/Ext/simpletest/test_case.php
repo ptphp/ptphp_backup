@@ -184,9 +184,9 @@ class SimpleTestCase {
      */
     protected function isTest($method) {
         if (strtolower(substr($method, 0, 4)) == 'test') {
-        	
-        	if(isset($_POST['method']) && $_POST['method']){        		
-        		if($method == $_POST['method']){
+      
+        	if(isset($_REQUEST['method']) && $_REQUEST['method']){        		
+        		if($method == $_REQUEST['method']){
         			return ! SimpleTestCompatibility::isA($this, strtolower($method));
         		}
         		

@@ -1,5 +1,5 @@
 <?php
-namespace PtPHP\Lib;
+namespace Lib;
 
 class PtCurl{
 	var $cache = FALSE;
@@ -22,13 +22,15 @@ class PtCurl{
 		}
 
 		$http_header = array(
-				"Connection: keep-alive",
+				#"Connection: keep-alive",
+				"Accept-Encoding:gzip,deflate,sdch",
+				"Accept-Language:zh-CN,zh;q=0.8,en;q=0.6"
 		);
 
 		$options = array(
 				CURLOPT_URL 			=> $url,
 				CURLOPT_RETURNTRANSFER 	=> 1,
-				CURLOPT_TIMEOUT 		=> 10,
+				CURLOPT_TIMEOUT 		=> 30,
 				CURLOPT_USERAGENT  		=> 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36',
 				CURLOPT_HTTPHEADER  	=> $http_header,
 				CURLOPT_CUSTOMREQUEST 	=> $method, // GET POST PUT PATCH DELETE HEAD OPTIONS
@@ -37,9 +39,13 @@ class PtCurl{
 
 		$ch = curl_init();
 		$options = $_options + $options;
-		curl_setopt_array($ch, $options);
-
+		$proxy = "";
+		$proxy = "http://127.0.0.1:8888";
+		if($proxy)
+			$options[CURLOPT_PROXY] = $proxy;
 		//print_pre($options);
+		curl_setopt_array($ch, $options);
+		
 		$content = curl_exec($ch);
 		//print_pre($content);
 		$res = array();
@@ -56,6 +62,7 @@ class PtCurl{
 			$t = explode("\r\n\r\n", $content);
 			//var_dump($content);
 			//var_dump($t);
+			
 			if(isset($options[CURLOPT_PROXY])){
 				$res['header'] = $t[1];
 				$res['body'] = str_replace($t[0]."\r\n\r\n","",$content);
@@ -64,16 +71,19 @@ class PtCurl{
 				$res['header'] = $t[0];
 				$res['body'] = str_replace($res['header']."\r\n\r\n","",$content);
 			}
+			
 			//var_dump($res);
 			//exit;
 			$res['cookie'] = $this->get_cookie($res['header']);
 			$res['location'] = $this->get_location($res['header']);
-				
 
 		}else{
 			$res['body'] = $content;
 		}
-
+				
+		if($this->is_gzip($res['body']))
+			$res['body'] = gzdecode($res['body']);
+		
 		if($this->cache){
 			$res['cache_file'] = $cache_file;
 			$this->cache_file = $cache_file;
@@ -82,6 +92,26 @@ class PtCurl{
 		//print_pre($res);
 		return $res;
 	}
+	function is_gzip($content){
+		if(!$content)
+			return FALSE;
+		$bin = substr($content, 0 , 2);
+		$strInfo = @unpack("C2chars", $bin);		
+		$typeCode = intval($strInfo['chars1'].$strInfo['chars2']);
+		
+		$isGzip = FALSE;
+		switch ($typeCode)
+		{
+			case 31139:
+				//网站开启了gzip
+				$isGzip = TRUE;
+				break;
+			default:
+				$isGzip = FALSE;
+		}
+		return $isGzip;
+	}
+	
 	function get_cookie($header){
 		preg_match_all("/set\-cookie:([^\r\n]*)/i", $header, $matches);
 		$cookies = implode(';', $matches[1]);
