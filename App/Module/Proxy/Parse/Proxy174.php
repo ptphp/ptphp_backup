@@ -1,23 +1,16 @@
 <?php 
 namespace Module\Proxy\Parse;
+use Module\Proxy\Parse\Base\ParseBase as ParseBase;
+use Module\Proxy\Parse\Base\ParseInterface as ParseInterface;
 
-class Proxy174{
+class Proxy174 extends ParseBase implements ParseInterface{
+	
 	var $need_pub = True;
 	var $source = 'Proxy174';
 	public function __construct(){
 		$this->curl = new \Lib\PtCurl();
 	}
-	public function handle_result($ip,$port){
-		$url = "http://sdc2.weilver.com/proxy/pages/addproxy.php";
-		$data = array(
-				'source'=>$this->source,
-				'ip'=>$ip,
-				'port'=>$port,
-		);
-		
-		$this->curl->post($url, http_build_query($data));	
-		console("Published");
-	}
+
 	
 	function get_list(){	
 		$url = "http://174.139.241.42/msn/lists/check/";

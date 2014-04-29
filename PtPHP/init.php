@@ -17,6 +17,8 @@ function __pt_autoload($class_name){
 		require_once $path;
 	}
 	if ( substr($class_name, 0,6) == "Module" ){
+		#echo $class_name;
+		#echo PHP_EOL;
 		$path = PATH_APP."/".str_replace( "\\", "/",$class_name).".php";
 		require_once $path;
 	}
