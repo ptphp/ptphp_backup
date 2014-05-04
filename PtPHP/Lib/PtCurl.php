@@ -60,9 +60,6 @@ class PtCurl{
 
 		if(isset($options[CURLOPT_HEADER]) && $options[CURLOPT_HEADER] == 1){
 			$t = explode("\r\n\r\n", $content);
-			//var_dump($content);
-			//var_dump($t);
-			
 			if(isset($options[CURLOPT_PROXY])){
 				$res['header'] = $t[1];
 				$res['body'] = str_replace($t[0]."\r\n\r\n","",$content);
@@ -71,9 +68,7 @@ class PtCurl{
 				$res['header'] = $t[0];
 				$res['body'] = str_replace($res['header']."\r\n\r\n","",$content);
 			}
-			
-			//var_dump($res);
-			//exit;
+
 			$res['cookie'] = $this->get_cookie($res['header']);
 			$res['location'] = $this->get_location($res['header']);
 

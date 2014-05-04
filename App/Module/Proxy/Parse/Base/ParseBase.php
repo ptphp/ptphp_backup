@@ -1,7 +1,8 @@
 <?php 
 namespace Module\Proxy\Parse\Base;
 
-class ParseBase{	
+class ParseBase{
+    var $need_pub = True;
 	public function handle_result($ip,$port){
 		$url = "http://sdc2.weilver.com/proxy/pages/addproxy.php";
 		$data = array(

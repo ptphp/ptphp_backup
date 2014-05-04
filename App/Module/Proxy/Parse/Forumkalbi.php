@@ -2,13 +2,13 @@
 namespace Module\Proxy\Parse;
 use Module\Proxy\Parse\Base\ParseBase as ParseBase;
 use Module\Proxy\Parse\Base\ParseInterface as ParseInterface;
+use Lib\PtCurl;
 class Forumkalbi extends ParseBase implements ParseInterface{
 	var $source = 'Forumkalbi';
 	var $need_pub = True;
 	public function __construct(){
-		$this->curl = new \Lib\PtCurl();
+		$this->curl = new PtCurl();
 	}
-	
 	function get_list(){	
 		$url = "http://www.forumkalbi.com/proxy-list/";
 		console("get:".$url);

@@ -6,11 +6,14 @@ class test_proxy_parse_samair extends PtTestCase{
 		$this->obj->need_pub =FALSE;
 		$this->obj->curl->_proxy = "127.0.0.1:8888";
 	}
-	
 	public function test_included()
-	{		
+	{
 		$this->assertTrue(class_exists("Module\Proxy\Parse\Samair"));
 	}
+    function test_get_page_lists(){
+        $this->obj->get_page_lists("http://www.samair.ru/proxy/proxy-04.htm");
+    }
+
 	function test_run(){
 		$this->obj->run();
 	}

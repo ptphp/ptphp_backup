@@ -1,9 +1,10 @@
 <?php
-namespace parse;
-use Http;
-use PtPHP\Lib\PtCurl as PtCurl;
+namespace Module\Proxy\Parse;
+use Module\Proxy\Parse\Base\ParseBase as ParseBase;
+use Module\Proxy\Parse\Base\ParseInterface as ParseInterface;
+use Lib\PtCurl;
 
-class ParseDcs extends ParseBase implements ParseInterface{
+class Dcs extends ParseBase implements ParseInterface{
 	var $domain = "http://www.dcsproxy.com";
 	var $login_url = "http://www.dcsproxy.com/login.php?do=login";
 	var $test_login_url = "http://www.dcsproxy.com/usercp.php";
@@ -11,7 +12,6 @@ class ParseDcs extends ParseBase implements ParseInterface{
 	var $page_urls = array();
 	var $cookie = null;
 	var $push = TRUE;
-	
 	
 	function __construct(){
 		$this->curl = new PtCurl();
@@ -24,6 +24,7 @@ class ParseDcs extends ParseBase implements ParseInterface{
 		$res = $this->curl->post($url,$data,array(CURLOPT_HEADER=>1));
 		$this->cookie = $res['cookie'];		
 		//print_pre($res['cookie']);
+        //exit;
 		return strpos($res['body'],'Thank you for logging in, weilver.') > 0;
 	}
 	
@@ -31,19 +32,22 @@ class ParseDcs extends ParseBase implements ParseInterface{
 		$url = $this->test_login_url;
 		#$url = "http://www.ptphp.dev/test.php";
 		$res = $this->curl->get($url,array(CURLOPT_COOKIE=>$this->cookie));
-		//print_r($res['body']);
-		return strpos($res['body'],'Welcome, weilver.') > 0;
+        $is_login = strpos($res['body'],'Welcome, weilver.') > 0;
+        //var_dump($is_login);
+        //exit;
+		return $is_login;
 	}
 	
 	function parseProxy($url){
 		$res = $this->curl->get($url,array(
 				CURLOPT_COOKIE=>$this->cookie
 		));
-		//print_pre($res);
+		print_pre($res['cookie']);
 		
 		$m = preg_match_all('/(\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3}):([\d]+)/', $res['body'],$matches,PREG_SET_ORDER);
 		$proxys = array();
-		//print_pre($m);
+		print_pre($m);
+        exit;
 		if($m){
 			//print_pre($matches);			
 			foreach ($matches as $match){
@@ -79,7 +83,6 @@ class ParseDcs extends ParseBase implements ParseInterface{
 		}
 		return $urls;
 	}
-	
 	
 	function run(){
 		$this->login();

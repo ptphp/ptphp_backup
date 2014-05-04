@@ -140,8 +140,8 @@ padding:			20px 20px 12px 20px;
 }
 
 </style>
-<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
-<script src="http://cdn.bootcss.com/Cookies.js/0.3.1/cookies.min.js"></script>
+<script src="/static/lib/jquery/jquery-1.7.2.min.js"></script>
+<script src="/static/lib/jquery/jquery.cookie.js"></script>
 <script src="/static/lib/md5.js"></script>
 </head>
 <body>
@@ -185,11 +185,11 @@ padding:			20px 20px 12px 20px;
 		console.log(method);
 		$.post(location.href,{id:id,method:method,path:path},function(data){
 			//console.log(data);			
-			var md5 = Cookies.get("md5");
+			var md5 = $.cookie("md5");
 			var _md5 = hex_md5(data);
 			if(md5 != _md5){				
 				$("#report").html(data);
-				Cookies.set("md5",_md5)
+				$.cookie("md5",_md5)
 			}
 			if(t_method == method){
 				//setTimeout("auto_test()",2000)
@@ -213,7 +213,7 @@ padding:			20px 20px 12px 20px;
 		if(!v){
 			return false;
 		}		
-		Cookies.set("v",v);
+		$.cookie("v",v);
 		var url = "/pttest/test_tree?path="+v+"&_t="+(+new Date());
 		$.get(url,function(data){
 			$("#test_tree").html(data);
@@ -225,7 +225,7 @@ padding:			20px 20px 12px 20px;
 	}
 
 	function check_file(){	
-		var path = Cookies.get("v");
+		var path = $.cookie("v");
 		console.log(path);
 		var url = "/pttest/file_status?_t="+(+new Date())
 		$.get(url,{path:path},function(data){
@@ -233,9 +233,9 @@ padding:			20px 20px 12px 20px;
 		})
 	}
 	$(function(){
-		Cookies.set("md5","")
+		$.cookie("md5","")
 		get_test_select();
-		var v = Cookies.get("v");
+		var v = $.cookie("v");
 		if(v){
 			//console.log(v);
 			get_tests(v);			

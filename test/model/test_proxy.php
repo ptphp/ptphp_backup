@@ -11,5 +11,4 @@ class test_user extends PtTestCase
 		$this->assertTrue(class_exists("Model\Proxy"));
 	}
 	
-	
 }

@@ -5,11 +5,12 @@ class Test_tree{
 	function get(){
 		$tree_test = get_unit_tests($_GET['path']);		
 		foreach ($tree_test as $_u_test){
+			$test_path = str_replace(PATH_TEST."/", "", $_u_test['path']);
 			echo "<h3>".$_u_test['title']."</h3>";
 			echo $_u_test['test_name'];			
-			echo '<button onclick="on_test_btn_click(this)" class="test_btn" data-id="'.$_u_test['id'].'" data-method="'. $_u_test['test_name'].'" data-path="'.$_u_test['path'].'">Test</button>';
+			echo '<button onclick="on_test_btn_click(this)" class="test_btn" data-id="'.$_u_test['id'].'" data-method="'. $_u_test['test_name'].'" data-path="'.$test_path.'">Test</button>';
 			echo "<button onclick=\"do_copy('".$_u_test['id']."')\">CLI</button><br />";			
-			echo "<div style=\"display:none\" id=\"cli_txt_".$_u_test['id']."\">php index.php -_c=pttest -_a=run -path=".$_u_test['path']." -method=".$_u_test['test_name']."</div>";
+			echo "<div style=\"display:none\" id=\"cli_txt_".$_u_test['id']."\">php index.php -_c=pttest -_a=run -path=".$test_path." -method=".$_u_test['test_name']."</div>";
 			echo "<br /><hr>\n";
 		}
 	}
@@ -39,7 +40,7 @@ class Index{
 	}
 	
 	function post(){		
-		$file =  $_POST['path'];
+		$file =  PATH_TEST."/".$_POST['path'];
 		$test_suite = new \TestSuite();
 		$test_suite->addFile($file);
 		ob_start();
@@ -57,11 +58,14 @@ class Index{
 class Run{	
 	function get()
 	{				
-		$file =  $_GET['path'];
-		$_REQUEST['method'] =  $_GET['method'];		
+		$file =  PATH_TEST."/".$_GET['path'];
+		$_REQUEST['method'] =  $_GET['method'];	
+		
+		console($_GET['path']." : ".$_GET['method']);
 		$test_suite = new \TestSuite();
-		$test_suite->addFile($file);	
+		$test_suite->addFile($file);
 		$test_suite->run(new \CliReporter());
+		
 	}
 }
 

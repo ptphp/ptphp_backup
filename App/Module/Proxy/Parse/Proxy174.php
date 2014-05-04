@@ -4,15 +4,12 @@ use Module\Proxy\Parse\Base\ParseBase as ParseBase;
 use Module\Proxy\Parse\Base\ParseInterface as ParseInterface;
 
 class Proxy174 extends ParseBase implements ParseInterface{
-	
 	var $need_pub = True;
 	var $source = 'Proxy174';
 	public function __construct(){
 		$this->curl = new \Lib\PtCurl();
 	}
-
-	
-	function get_list(){	
+	function get_list(){
 		$url = "http://174.139.241.42/msn/lists/check/";
 		$curl = $this->curl;
 		console("get:".$url);
