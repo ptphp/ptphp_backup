@@ -42,31 +42,21 @@ class Dcs extends ParseBase implements ParseInterface{
 		$res = $this->curl->get($url,array(
 				CURLOPT_COOKIE=>$this->cookie
 		));
-		print_pre($res['cookie']);
-		
-		$m = preg_match_all('/(\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3}):([\d]+)/', $res['body'],$matches,PREG_SET_ORDER);
 		$proxys = array();
-		print_pre($m);
-        exit;
-		if($m){
+		if(preg_match_all('/(\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3}):([\d]+)/', $res['body'],$matches,PREG_SET_ORDER)){
 			//print_pre($matches);			
 			foreach ($matches as $match){
 				$ip = $match[1];
 				$port = $match[2];
-				$proxys[] = array(
-					'ip'=>$ip,
-					'port'=>$port,
-					'source'=>$this->source,
-				);
-				
-				if($this->push){
-					$this->handle_result($ip, $port);
-				}
+                console("proxy: ".$ip.":".$port);
+                if($this->need_pub && $port){
+                    $this->handle_result($ip,$port);
+                }
 			}
 		}
 		//self::log($proxys);
-		var_dump(count($proxys));
-		return $proxys;
+		//var_dump(count($proxys));
+		//return $proxys;
 	}
 	
 	function get_proxy_page_lists($url)
@@ -79,6 +69,7 @@ class Dcs extends ParseBase implements ParseInterface{
 			$url = $match['2'];
 			$date = $match['1'];
 			//print_pre($url);
+            console($url);
 			$urls[] = $url;
 		}
 		return $urls;
@@ -89,6 +80,7 @@ class Dcs extends ParseBase implements ParseInterface{
 		$url = "http://www.dcsproxy.com/anonymous-http-proxies/";
 		$urls = $this->get_proxy_page_lists($url);
 		foreach ($urls as $url){
+            console("get:".$url);
 			$this->parseProxy($url);
 		}
 	}

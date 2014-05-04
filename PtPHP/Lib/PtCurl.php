@@ -60,11 +60,14 @@ class PtCurl{
 
 		if(isset($options[CURLOPT_HEADER]) && $options[CURLOPT_HEADER] == 1){
 			$t = explode("\r\n\r\n", $content);
-			if(isset($options[CURLOPT_PROXY])){
+            //console($t[0]);
+            //exit;
+			if(0 && isset($options[CURLOPT_PROXY])){
 				$res['header'] = $t[1];
 				$res['body'] = str_replace($t[0]."\r\n\r\n","",$content);
 				$res['body'] = str_replace($t[1]."\r\n\r\n","",$res['body']);
 			}else{
+                //console(11);
 				$res['header'] = $t[0];
 				$res['body'] = str_replace($res['header']."\r\n\r\n","",$content);
 			}
