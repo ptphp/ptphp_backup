@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16952b0e-bd3d-4c7a-a858-42c8ae6aa3df" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Module/Proxy/Parse/FreeProxyList.php" afterPath="$PROJECT_DIR$/App/Module/Proxy/Parse/FreeProxyList.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/boot.php" afterPath="$PROJECT_DIR$/App/boot.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PtPHP.iws" />
