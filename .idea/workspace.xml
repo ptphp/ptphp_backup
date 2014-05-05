@@ -45,21 +45,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FreeProxyList.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FreeProxyList.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Module/Proxy/Parse/FreeProxyList.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="1" selection-start="1119" selection-end="1119" vertical-scroll-proportion="2.4391892" vertical-offset="0" max-vertical-offset="912">
-              <folding>
-                <element signature="e#36#87#0" expanded="true" />
-              </folding>
+            <state line="2" column="51" selection-start="87" selection-end="87" vertical-scroll-proportion="8.428572" vertical-offset="274" max-vertical-offset="912">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="run.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bin/run.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="37" selection-start="62" selection-end="62" vertical-scroll-proportion="-1.3571428" vertical-offset="0" max-vertical-offset="247">
+            <state line="2" column="37" selection-start="62" selection-end="62" vertical-scroll-proportion="0.122977346" vertical-offset="0" max-vertical-offset="309">
               <folding />
             </state>
           </provider>
@@ -262,60 +260,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PtPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PtPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PtPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PtPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PtPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PtPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proxy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Parse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -425,10 +369,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="79" y="145" width="1557" height="893" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33771354" sideWeight="0.49966645" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.510828" sideWeight="0.54510057" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.510828" sideWeight="0.54510057" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31800264" sideWeight="0.49966645" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864866" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1927952" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -762,13 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/run.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="37" selection-start="62" selection-end="62" vertical-scroll-proportion="-1.3571428" vertical-offset="0" max-vertical-offset="247">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/boot.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="206" selection-end="206" vertical-scroll-proportion="-4.071429" vertical-offset="0" max-vertical-offset="228">
@@ -778,10 +715,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Module/Proxy/Parse/FreeProxyList.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="1" selection-start="1119" selection-end="1119" vertical-scroll-proportion="2.4391892" vertical-offset="0" max-vertical-offset="912">
-          <folding>
-            <element signature="e#36#87#0" expanded="true" />
-          </folding>
+        <state line="2" column="51" selection-start="87" selection-end="87" vertical-scroll-proportion="8.428572" vertical-offset="274" max-vertical-offset="912">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/run.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="37" selection-start="62" selection-end="62" vertical-scroll-proportion="0.122977346" vertical-offset="0" max-vertical-offset="309">
+          <folding />
         </state>
       </provider>
     </entry>

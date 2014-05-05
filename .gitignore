@@ -2,7 +2,6 @@
 .project
 .metadata
 .buildpath
-bin/**
 tmp/**
 tmp/**/*
 *.tmp
