@@ -10,6 +10,7 @@ class Cn_Proxy extends ParseBase implements ParseInterface{
 	var $source = "cn_proxy";
     function  __construct(){
         $this->curl = new PtCurl();
+
     }
 	function get_page_detail($url){
         console("get:".$url);
