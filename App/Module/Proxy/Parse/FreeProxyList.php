@@ -23,7 +23,7 @@ class FreeProxyList extends ParseBase implements ParseInterface{
             console("parse error");
             return;
         }
-        foreach ($matches as $match)
+        foreach ($matches as $match){
             $ip = $match[1];
             $port = $match[2];
             console("proxy: ".$ip.":".$port);
