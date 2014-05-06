@@ -5,7 +5,7 @@ $config = array();
 $console_array = array();
 include PATH_PTPHP."/Config/default.php";
 
-function __pt_autoload($class_name){	
+function __pt_autoload($class_name){
 	//echo $class_name;
 	if ( substr($class_name, 0,10) == "Controller" ){		
 		$path = PATH_APP."/".str_replace( "\\", "/",$class_name).".php";
@@ -30,38 +30,11 @@ function __pt_autoload($class_name){
 
 spl_autoload_register('__pt_autoload');
 
-
-function curl_proxy_checker ($url,$proxy,$time_out = 5,$user_agent = "Mozilla/4.0"){
-	$start_time = microtime(0);
-	$ch = curl_init();
-	curl_setopt ($ch, CURLOPT_PROXY, $proxy);
-	curl_setopt ($ch, CURLOPT_URL, $url);
-	curl_setopt ($ch, CURLOPT_USERAGENT, $user_agent);
-	curl_setopt ($ch, CURLOPT_HEADER, 1);
-	curl_setopt ($ch, CURLOPT_RETURNTRANSFER, 1);
-	curl_setopt ($ch, CURLOPT_FOLLOWLOCATION, 1);
-	curl_setopt ($ch, CURLOPT_TIMEOUT, $time_out);
-	curl_exec ($ch);
-	$status = curl_getinfo($ch,CURLINFO_HTTP_CODE);
-	$time = microtime(0) - $start_time;
-	curl_close($ch);
-	if($status != "200"){
-		$time = $time_out;
-	}
-
-	return array(
-			'time'=>$time,
-			'status'=>$status,
-	);
-}
-
-
 function print_pre($v){
 	echo "<pre>";
 	print_r($v);
 	echo "</pre>";	
 }
-
 
 function tail_log($msg){
 	if(is_array($msg)){
@@ -196,10 +169,7 @@ function run(){
 	if(!is_file($controller)){
 		die("not found");
 	}
-	
 	include $controller;
-
 	$controller_obj = new $router['namespace']();
 	$controller_obj->$router['method']();
-	
 }

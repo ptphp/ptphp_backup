@@ -14,7 +14,7 @@ class Index{
  * 		php bin/run.php -_c=proxy -_a=crawl
  */
 class Crawl{
-	function get(){		
+	function get(){
 		$jobs= array(
 			new \Module\Proxy\Parse\Forumkalbi(),
             new \Module\Proxy\Parse\Cn_Proxy(),

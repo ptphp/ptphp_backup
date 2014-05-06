@@ -45,6 +45,7 @@ class CnProxy extends ParseBase implements ParseInterface{
             }
         }
 	}
+
 	function run(){
 		for($i=1;$i<11;$i++){
 			$this->get_page_lists("http://www.cnproxy.com/proxy".$i.".html");			

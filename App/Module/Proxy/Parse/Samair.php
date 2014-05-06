@@ -27,6 +27,7 @@ class Samair extends ParseBase implements ParseInterface{
 		console("parse:".$url);
 		if(!preg_match('/\(\'([0-9a-z=;]+)\',20,20,\'([|a-z]+)\'.*\)/', $js['body'], $jsres_matches)){
 			console("parse js content error");
+
 			return;
 		}	
 		#console($jsres_matches);
