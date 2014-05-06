@@ -106,54 +106,83 @@ function View($_path){
 }
 
 function parse_router(){
-	$router = array();	
-	
-	$controller = (isset($_GET['_c']) && $_GET['_c']) ? $_GET['_c']:"index";
-	$action     = (isset($_GET['_a']) && $_GET['_a']) ? $_GET['_a']:"index";
-	$module     = isset($_GET['_m'])?$_GET['_m']:"";
-	
-	$controller = ucfirst(strtolower($controller));
-	$action = ucfirst(strtolower($action));
-	if($module)
-		$module = ucfirst(strtolower($module));
-	
-	if($module){
-		$router['base_path'] = "Controller"."/".$module."/".$controller;
-		$router['namespace'] = "Controller"."\\".$module."\\".$controller."\\".$action;
-	}else{
-		$router['base_path'] = "Controller"."/".$controller;
-		$router['namespace'] = "Controller"."\\".$controller."\\".$action;
-	}
+    if(PHP_SAPI == "cli"){
+        $argv = $_SERVER['argv'];
+        unset($argv[0]);
+        foreach ($argv as $a){
+            $t = explode("=", $a);
+            #echo $t[0].PHP_EOL;
+            if(count($t) == 2){
+                $_GET[ltrim($t[0],"-")] = $t[1];
+            }
+        }
+        if(isset($_GET['_data'])){
+            $_SERVER['REQUEST_METHOD'] = "post";
+        }else{
+            $_SERVER['REQUEST_METHOD'] = "get";
+        }
+    }
+
+    $url_mod = 0;
+    $router = array();
+
+    if($url_mod == 1){
+        $controller = (isset($_GET['_c']) && $_GET['_c']) ? $_GET['_c']:"index";
+        $action     = (isset($_GET['_a']) && $_GET['_a']) ? $_GET['_a']:"index";
+        $module     = isset($_GET['_m'])?$_GET['_m']:"";
+
+        $controller = ucfirst(strtolower($controller));
+        $action = ucfirst(strtolower($action));
+        if($module)
+            $module = ucfirst(strtolower($module));
+
+        if($module){
+            $router['base_path'] = "Controller"."/".$module."/".$controller;
+            $router['namespace'] = "Controller"."\\".$module."\\".$controller."\\".$action;
+        }else{
+            $router['base_path'] = "Controller"."/".$controller;
+            $router['namespace'] = "Controller"."\\".$controller."\\".$action;
+        }
+
+    }else{
+        $__R__ = isset( $_GET['__R__'] ) ? $_GET['__R__'] : "index/index";
+
+        $len = strlen($__R__);
+        if(substr($__R__,$len-1) == "/"){
+            $__R__ .= "index";
+        }
+        $r = explode("/",$__R__);
+        if(count($r) == 1){
+            $__R__ .= "/index";
+        }
+        $r = explode("/",$__R__);
+        $len = count($r);
+        $__action = $r[$len-1];
+
+        $__namespace = $__path = 'Controller';
+        for($i = 0;$i < $len-1;$i++){
+           // echo $r[$i];
+            $__path .= "/".ucfirst(strtolower($r[$i]));
+            $__namespace .= "\\".ucfirst(strtolower($r[$i]));
+        }
+        $action = ucfirst(strtolower($__action));
+        $router['base_path'] = $__path;
+        $router['namespace'] = $__namespace."\\".$action;
+        //var_dump($router);
+        //exit;
+    }
+
 	
 	$router['action'] = $action;
 	$router['controller_path'] = $router['base_path'].".php";	
 	$router['method'] = strtolower($_SERVER['REQUEST_METHOD']);
-	//var_dump($router);
+	console($router);
+    //exit;
 	return $router;
 }
 
 function run(){
 	global $config;
-
-	if(PHP_SAPI == "cli"){		
-		$argv = $_SERVER['argv'];
-		unset($argv[0]);
-		foreach ($argv as $a){
-			$t = explode("=", $a);
-			#echo $t[0].PHP_EOL;
-			if(count($t) == 2){
-				$_GET[ltrim($t[0],"-")] = $t[1];
-			}
-		}
-		if(isset($_GET['_data'])){
-			$_SERVER['REQUEST_METHOD'] = "post";
-		}else{
-			$_SERVER['REQUEST_METHOD'] = "get";
-		}		
-	}
-	
-	//var_dump($_GET);
-	
 	$router = parse_router();
 	$controller = PATH_APP.'/'.$router['controller_path'];
 	
