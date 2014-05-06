@@ -10,7 +10,7 @@ class Test_tree{
 			echo $_u_test['test_name'];			
 			echo '<button onclick="on_test_btn_click(this)" class="test_btn" data-id="'.$_u_test['id'].'" data-method="'. $_u_test['test_name'].'" data-path="'.$test_path.'">Test</button>';
 			echo "<button onclick=\"do_copy('".$_u_test['id']."')\">CLI</button><br />";			
-			echo "<div style=\"display:none\" id=\"cli_txt_".$_u_test['id']."\">php index.php -_c=pttest -_a=run -path=".$test_path." -method=".$_u_test['test_name']."</div>";
+			echo "<div style=\"display:none\" id=\"cli_txt_".$_u_test['id']."\">php bin/run.php -_c=pttest -_a=run -path=".$test_path." -method=".$_u_test['test_name']."</div>";
 			echo "<br /><hr>\n";
 		}
 	}

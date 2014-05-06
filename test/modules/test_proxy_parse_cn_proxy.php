@@ -11,6 +11,7 @@ class test_proxy_parse_cn_proxy extends PtTestCase {
 	{
 		$this->assertTrue(class_exists("Module\Proxy\Parse\Cn_Proxy"));
 	}
+
 	function test_run(){
 		$this->obj->run();
 	}

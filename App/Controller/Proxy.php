@@ -3,7 +3,6 @@ namespace Controller\Proxy;
 
 class Index{	
 	function get(){
-		echo 11;
 		//include View("proxy/index");
 	}
 }
@@ -12,7 +11,7 @@ class Index{
  * 
  * @author joseph
  * usage:
- * 		php index.php -_c=proxy -_a=crawl
+ * 		php bin/run.php -_c=proxy -_a=crawl
  */
 class Crawl{
 	function get(){		
