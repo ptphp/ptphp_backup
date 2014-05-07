@@ -3,7 +3,71 @@ defined("PATH_PTPHP") or define("PATH_PTPHP", __DIR__);
 defined("PATH_APP") or define("PATH_APP", realpath("./../App"));
 $config = array();
 $console_array = array();
+ob_start();
 include PATH_PTPHP."/Config/default.php";
+
+define("DEBUG",1);
+@ini_set('display_errors', 'On');
+error_reporting(E_ALL);
+
+set_error_handler("pt_error_handler"); #设置error异常理函数
+
+function pt_error_handler($errno, $errstr, $errfile, $errline )
+{
+    ob_end_clean();
+    //ob_clean();
+    ob_start();
+
+    if(!defined('E_STRICT'))            define('E_STRICT', 2048);
+    if(!defined('E_RECOVERABLE_ERROR')) define('E_RECOVERABLE_ERROR', 4096);
+    $trace = debug_backtrace();
+    array_shift($trace);
+
+    $res['result']['msg']        = $errstr;
+    $res['result']['errfile']    = $errfile;
+    $res['result']['errline']    = $errline;
+    //$res['result']['router']     = PtApp::$router;
+    $res['result']['trace']      = $trace;
+    $res['error']                = 1;
+    $res['id']                   = null;
+
+    if(DEBUG){
+        if(is_xhr()){
+            echo json_encode($res);
+        }else{
+            include PATH_PTPHP.'/View/Block/site/debug.html';
+        }
+    }else{
+        global $config;
+        if($errstr == '404'){
+            if(file_exists(PATH_APP.'/View/Block/site/tpl/404.html')){
+                include PATH_APP.'/View/Block/site/tpl/404.html';
+            }else{
+                include PATH_PTPHP.'/View/Block/site/404.html';
+            }
+        }else{
+            $id = md5(time());
+            $res['id'] = $id;
+            if(is_xhr()){
+                $res_ajax                   = array();
+                $res_ajax['result']['msg']  = "System Error";
+                $res_ajax['error']          = 1;
+                $res_ajax['id']             = null;
+                echo json_encode($res_ajax);
+            }else{
+                $view_msg = "System Error :".$id;
+                if(file_exists(PATH_APP.'/View/Block/site/tpl/505.html')){
+                    include PATH_APP.'/View/Block/site/tpl/505.html';
+                }else{
+                    include PATH_PTPHP.'/View/Block/site/505.html';
+                }
+            }
+        }
+
+    }
+    ob_end_flush();
+    exit;
+}
 
 function __pt_autoload($class_name){
 	//echo $class_name;
@@ -57,6 +121,7 @@ function shut_down_fun(){
 	global $config;
 	if($config['debug']){
 		global $console_array;
+		array_unshift($console_array,$_SERVER);
 		$data = json_encode($console_array);
 		$res = <<<RES
 	<script>
@@ -88,6 +153,7 @@ function console($var){
 	global $console_array;
 	$tree = debug_backtrace();
 	//print_pre(debug_backtrace());
+
 	$console_array[] = array(
 			"data"=>$var,
 			"line"=>$tree[0]['line'],
@@ -145,7 +211,7 @@ function parse_router(){
         }
 
     }else{
-        $__R__ = isset( $_GET['__R__'] ) ? $_GET['__R__'] : "index/index";
+        $__R__ = (isset( $_GET['__R__'] ) && $_GET['__R__'] )? $_GET['__R__'] : "index/index";
 
         $len = strlen($__R__);
         if(substr($__R__,$len-1) == "/"){
