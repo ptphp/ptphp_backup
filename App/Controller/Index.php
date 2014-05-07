@@ -2,9 +2,7 @@
 namespace Controller\Index;
 class Index{
 	function get(){
-		echo "index";
-		//header("Location:/manage/");
-		#include View('index');
+        include View('theme/neat/dashboard');
 	}
 	function post(){		
 		print_r($_SERVER);

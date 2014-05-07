@@ -2,378 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16952b0e-bd3d-4c7a-a858-42c8ae6aa3df" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/View/theme/neat/dashboard.php" />
-      <change type="DELETED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\out.log" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\App\Controller\Theme\Index.php" afterPath="$PROJECT_DIR$/App/Controller/Theme/Neat.php" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\bootstrap-responsive.css" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/bootstrap-responsive.css" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\bootstrap.css" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/bootstrap.css" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\bootstrap.datepicker.css" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/bootstrap.datepicker.css" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\chosen.css" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/chosen.css" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\error.css" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/error.css" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\fullcalendar.css" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/fullcalendar.css" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\fullcalendar.print.css" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/fullcalendar.print.css" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\jquery.cleditor.css" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/jquery.cleditor.css" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\jquery.fancybox.css" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/jquery.fancybox.css" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\jquery.jgrowl.css" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/jquery.jgrowl.css" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\jquery.plupload.queue.css" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/jquery.plupload.queue.css" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\jquery.tagsinput.css" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/jquery.tagsinput.css" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\jquery.ui.plupload.css" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/jquery.ui.plupload.css" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\login.css" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/login.css" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\print.css" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/print.css" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\smoothness\Descr.WD3" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/smoothness/Descr.WD3" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\smoothness\images\Descr.WD3" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/smoothness/images/Descr.WD3" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\smoothness\images\ui-bg_flat_0_aaaaaa_5F40x100.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/smoothness/images/ui-bg_flat_0_aaaaaa_5F40x100.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\smoothness\images\ui-bg_flat_75_ffffff_5F40x100.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/smoothness/images/ui-bg_flat_75_ffffff_5F40x100.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\smoothness\images\ui-bg_glass_55_fbf9ee_1x400.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\smoothness\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\smoothness\images\ui-bg_glass_75_dadada_1x400.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\smoothness\images\ui-bg_glass_75_e6e6e6_1x400.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\smoothness\images\ui-bg_glass_95_fef1ec_1x400.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\smoothness\images\ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\smoothness\images\ui-icons_222222_5F256x240.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/smoothness/images/ui-icons_222222_5F256x240.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\smoothness\images\ui-icons_2e83ff_5F256x240.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/smoothness/images/ui-icons_2e83ff_5F256x240.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\smoothness\images\ui-icons_454545_5F256x240.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/smoothness/images/ui-icons_454545_5F256x240.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\smoothness\images\ui-icons_888888_5F256x240.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/smoothness/images/ui-icons_888888_5F256x240.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\smoothness\images\ui-icons_cd0a0a_5F256x240.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/smoothness/images/ui-icons_cd0a0a_5F256x240.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\smoothness\jquery-ui-1.8.22.custom.css" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/smoothness/jquery-ui-1.8.22.custom.css" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\style.css" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/style.css" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\css\uniform.default.css" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/css/uniform.default.css" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\arrow-left.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/arrow-left.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\arrow-right.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/arrow-right.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\bg2.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/bg2.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\buttons-disabled.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/buttons-disabled.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\buttons.gif" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/buttons.gif" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\buttons.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/buttons.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\chosen-sprite.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/chosen-sprite.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\dribble.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/dribble.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\facebook.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/facebook.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\fancy\Descr.WD3" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/fancy/Descr.WD3" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\fancy\blank.gif" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/fancy/blank.gif" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\fancy\fancy_title_over.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/fancy/fancy_title_over.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\fancy\fancybox-x.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/fancy/fancybox-x.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\fancy\fancybox-y.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/fancy/fancybox-y.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\fancy\fancybox.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/fancy/fancybox.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\forrst.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/forrst.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\glyphicons-halflings-white.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/glyphicons-halflings-white.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\glyphicons-halflings.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/glyphicons-halflings.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\Descr.WD3" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/Descr.WD3" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\address.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/address.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\administrative-docs.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/administrative-docs.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\advertising.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/advertising.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\archives.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/archives.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\attibutes.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/attibutes.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\bank.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/bank.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\basket.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/basket.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\bestseller.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/bestseller.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\billing.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/billing.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\bookmark.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/bookmark.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\brainstorming.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/brainstorming.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\business-contact.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/business-contact.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\busy.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/busy.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\calendar.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/calendar.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\category.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/category.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\check.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/check.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\collaboration.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/collaboration.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\comment.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/comment.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\communication.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/communication.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\config.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/config.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\consulting.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/consulting.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\contact.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/contact.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\cost.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/cost.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\credit-card.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/credit-card.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\credit.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/credit.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\current-work.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/current-work.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\customers.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/customers.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\cv.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/cv.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\database.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/database.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\date.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/date.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\delicious.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/delicious.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\document-library.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/document-library.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\donate.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/donate.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\drawings.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/drawings.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\edit.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/edit.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\email.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/email.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\facebook.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/facebook.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\featured.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/featured.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\feed.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/feed.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\finished-work.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/finished-work.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\flag.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/flag.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\folder.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/folder.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\free-for-job.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/free-for-job.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\freelance.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/freelance.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\full-time.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/full-time.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\future-projects.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/future-projects.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\graphic-design.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/graphic-design.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\heart.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/heart.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\hire-me.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/hire-me.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\home.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/home.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\illustration.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/illustration.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\invoice.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/invoice.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\issue.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/issue.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\library.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/library.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\lightbulb.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/lightbulb.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\limited-edition.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/limited-edition.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\link.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/link.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\lock.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/lock.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\login.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/login.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\milestone.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/milestone.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\my-account.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/my-account.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\networking.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/networking.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\old-versions.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/old-versions.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\order-192.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/order-192.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\order.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/order.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\payment-card.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/payment-card.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\paypal.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/paypal.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\pc.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/pc.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\pen.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/pen.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\pencil.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/pencil.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\phone.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/phone.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\photography.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/photography.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\plus.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/plus.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\premium.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/premium.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\print.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/print.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\process.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/process.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\product-193.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/product-193.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\product-design.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/product-design.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\product.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/product.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\project.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/project.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\publish.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/publish.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\refresh.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/refresh.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\search.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/search.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\settings.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/settings.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\shipping.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/shipping.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\showreel.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/showreel.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\sign-in.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/sign-in.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\sign-out.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/sign-out.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\sign-up.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/sign-up.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\sitemap.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/sitemap.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\special-offer.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/special-offer.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\star.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/star.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\statistics.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/statistics.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\suppliers.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/suppliers.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\tag.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/tag.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\ticket.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/ticket.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\twitter.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/twitter.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\upcoming-work.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/upcoming-work.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\user.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/user.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\world.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/world.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\16\zoom.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/16/zoom.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\Descr.WD3" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/Descr.WD3" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\address.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/address.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\administrative-docs.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/administrative-docs.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\advertising.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/advertising.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\archives.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/archives.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\attibutes.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/attibutes.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\bank.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/bank.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\basket.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/basket.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\bestseller.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/bestseller.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\billing.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/billing.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\bookmark.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/bookmark.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\brainstorming.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/brainstorming.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\business-contact.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/business-contact.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\busy.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/busy.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\calendar.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/calendar.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\category.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/category.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\check.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/check.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\collaboration.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/collaboration.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\comment.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/comment.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\communication.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/communication.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\config.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/config.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\consulting.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/consulting.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\contact.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/contact.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\cost.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/cost.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\credit-card.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/credit-card.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\credit.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/credit.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\current-work.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/current-work.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\customers.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/customers.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\cv.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/cv.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\database.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/database.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\date.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/date.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\delicious.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/delicious.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\document-library.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/document-library.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\donate.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/donate.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\drawings.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/drawings.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\edit.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/edit.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\email.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/email.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\facebook.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/facebook.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\featured.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/featured.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\feed.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/feed.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\finished-work.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/finished-work.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\flag.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/flag.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\folder.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/folder.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\free-for-job.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/free-for-job.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\freelance.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/freelance.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\full-time.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/full-time.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\future-projects.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/future-projects.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\graphic-design.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/graphic-design.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\heart.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/heart.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\hire-me.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/hire-me.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\home.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/home.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\illustration.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/illustration.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\invoice.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/invoice.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\issue.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/issue.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\library.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/library.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\lightbulb.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/lightbulb.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\limited-edition.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/limited-edition.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\link.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/link.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\lock.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/lock.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\login.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/login.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\milestone.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/milestone.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\my-account.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/my-account.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\networking.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/networking.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\old-versions.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/old-versions.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\order-149.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/order-149.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\order.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/order.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\payment-card.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/payment-card.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\paypal.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/paypal.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\pc.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/pc.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\pen.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/pen.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\pencil.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/pencil.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\phone.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/phone.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\photography.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/photography.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\plus.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/plus.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\premium.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/premium.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\print.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/print.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\process.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/process.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\product-163.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/product-163.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\product-design.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/product-design.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\product.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/product.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\project.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/project.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\publish.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/publish.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\refresh.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/refresh.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\search.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/search.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\settings.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/settings.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\shipping.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/shipping.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\showreel.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/showreel.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\sign-in.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/sign-in.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\sign-out.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/sign-out.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\sign-up.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/sign-up.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\sitemap.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/sitemap.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\special-offer.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/special-offer.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\star.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/star.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\statistics.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/statistics.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\suppliers.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/suppliers.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\tag.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/tag.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\ticket.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/ticket.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\twitter.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/twitter.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\upcoming-work.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/upcoming-work.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\user.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/user.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\world.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/world.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\essen\32\zoom.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/essen/32/zoom.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\fugue\Descr.WD3" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/fugue/Descr.WD3" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\fugue\address-book-blue.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/fugue/address-book-blue.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\fugue\arrow-270-small.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/fugue/arrow-270-small.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\fugue\arrow-270.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/fugue/arrow-270.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\fugue\balloons-white.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/fugue/balloons-white.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\fugue\bin-metal.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/fugue/bin-metal.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\fugue\book-question.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/fugue/book-question.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\fugue\calendar--plus.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/fugue/calendar--plus.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\fugue\color.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/fugue/color.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\fugue\control-power.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/fugue/control-power.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\fugue\cross.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/fugue/cross.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\fugue\disk-black.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/fugue/disk-black.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\fugue\document-task.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/fugue/document-task.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\fugue\gear.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/fugue/gear.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\fugue\magnifier.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/fugue/magnifier.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\fugue\mail--minus.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/fugue/mail--minus.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\fugue\mail-open.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/fugue/mail-open.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\fugue\mail-reply.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/fugue/mail-reply.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\fugue\printer.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/fugue/printer.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\fugue\slash.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/fugue/slash.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\icons\fugue\star.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/icons/fugue/star.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\light.jpg" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/light.jpg" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\low_contrast_linen.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/low_contrast_linen.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\magnifier_grey.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/magnifier_grey.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\natural_paper.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/natural_paper.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\preload.gif" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/preload.gif" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\retina_wood.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/retina_wood.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\sample\100.gif" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/sample/100.gif" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\sample\180x220.gif" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/sample/180x220.gif" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\sample\40.gif" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/sample/40.gif" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\sample\500.gif" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/sample/500.gif" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\sample\60.gif" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/sample/60.gif" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\sample\Descr.WD3" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/sample/Descr.WD3" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\slider.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/slider.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\slider_hover.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/slider_hover.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\sort_asc.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/sort_asc.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\sort_asc_disabled.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/sort_asc_disabled.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\sort_both.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/sort_both.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\sort_desc.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/sort_desc.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\sort_desc_disabled.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/sort_desc_disabled.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\spinner_arrows.gif" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/spinner_arrows.gif" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\toggle-subnav-down.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/toggle-subnav-down.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\toggle-subnav-up-white.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/toggle-subnav-up-white.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\toolbar.gif" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/toolbar.gif" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\transp50.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/transp50.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\twitter.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/twitter.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\uniform\Descr.WD3" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/uniform/Descr.WD3" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\uniform\bg-input-focus.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/uniform/bg-input-focus.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\uniform\bg-input.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/uniform/bg-input.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\uniform\sprite.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/uniform/sprite.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\wood-black.jpg" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/wood-black.jpg" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\img\wood.jpg" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/img/wood.jpg" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\Descr.WD3" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/Descr.WD3" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\bbq.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/bbq.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\bootstrap.datepicker.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/bootstrap.datepicker.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\bootstrap.min.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\bootstrap.timepicker.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/bootstrap.timepicker.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\chosen.jquery.min.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/chosen.jquery.min.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\custom.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/custom.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\demo.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/demo.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\error.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/error.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\fullcalendar.min.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/fullcalendar.min.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\jquery-ui-1.8.22.custom.min.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/jquery-ui-1.8.22.custom.min.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\jquery.cleditor.min.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/jquery.cleditor.min.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\jquery.color.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/jquery.color.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\jquery.cookie.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/jquery.cookie.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\jquery.dataTables.bootstrap.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/jquery.dataTables.bootstrap.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\jquery.dataTables.min.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/jquery.dataTables.min.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\jquery.fancybox.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/jquery.fancybox.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\jquery.flot.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/jquery.flot.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\jquery.flot.orderBars.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/jquery.flot.orderBars.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\jquery.flot.pie.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/jquery.flot.pie.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\jquery.flot.resize.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/jquery.flot.resize.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\jquery.form.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/jquery.form.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\jquery.form.wizard-min.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/jquery.form.wizard-min.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\jquery.inputmask.min.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/jquery.inputmask.min.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\jquery.jgrowl_minimized.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/jquery.jgrowl_minimized.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\jquery.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/jquery.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\jquery.metadata.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/jquery.metadata.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\jquery.mousewheel.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/jquery.mousewheel.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\jquery.peity.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/jquery.peity.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\jquery.tagsinput.min.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/jquery.tagsinput.min.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\jquery.textareaCounter.plugin.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/jquery.textareaCounter.plugin.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\jquery.uniform.min.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/jquery.uniform.min.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\jquery.validate.min.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/jquery.validate.min.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\less.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/less.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\plupload\Descr.WD3" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/plupload/Descr.WD3" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\plupload\jquery.plupload.queue\Descr.WD3" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/plupload/jquery.plupload.queue/Descr.WD3" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\plupload\jquery.plupload.queue\jquery.plupload.queue.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/plupload/jquery.plupload.queue/jquery.plupload.queue.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\plupload\plupload.flash.swf" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/plupload/plupload.flash.swf" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\plupload\plupload.full.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/plupload/plupload.full.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\plupload\plupload.silverlight.xap" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/plupload/plupload.silverlight.xap" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\plupload\upload.php" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/plupload/upload.php" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\tableTools\css\Descr.WD3" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/tableTools/css/Descr.WD3" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\tableTools\css\TableTools.css" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/tableTools/css/TableTools.css" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\tableTools\images\Descr.WD3" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/tableTools/images/Descr.WD3" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\tableTools\images\background.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/tableTools/images/background.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\tableTools\images\collection.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/tableTools/images/collection.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\tableTools\images\collection_hover.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/tableTools/images/collection_hover.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\tableTools\images\copy.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/tableTools/images/copy.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\tableTools\images\copy_hover.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/tableTools/images/copy_hover.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\tableTools\images\csv.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/tableTools/images/csv.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\tableTools\images\csv_hover.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/tableTools/images/csv_hover.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\tableTools\images\pdf.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/tableTools/images/pdf.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\tableTools\images\pdf_hover.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/tableTools/images/pdf_hover.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\tableTools\images\print.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/tableTools/images/print.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\tableTools\images\print_hover.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/tableTools/images/print_hover.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\tableTools\images\xls.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/tableTools/images/xls.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\tableTools\images\xls_hover.png" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/tableTools/images/xls_hover.png" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\tableTools\js\Descr.WD3" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/tableTools/js/Descr.WD3" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\tableTools\js\TableTools.min.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/tableTools/js/TableTools.min.js" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\tableTools\swf\Descr.WD3" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/tableTools/swf/Descr.WD3" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\tableTools\swf\copy_csv_xls_pdf.swf" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/tableTools/swf/copy_csv_xls_pdf.swf" />
-      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\neat\js\ui.spinner.js" afterPath="$PROJECT_DIR$/webroot/static/theme/neat/js/ui.spinner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/View/theme/neat/block/main_nav.php" />
+      <change type="MOVED" beforePath="C:\Users\joseph\Desktop\workspace\PtPHP\App\View\theme\neat\datatables.html" afterPath="$PROJECT_DIR$/App/View/theme/neat/datatables.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PtPHP/View/Block/site/505.html" afterPath="$PROJECT_DIR$/PtPHP/View/Block/site/505.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Controller/Index.php" afterPath="$PROJECT_DIR$/App/Controller/Index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/View/theme/neat/dashboard.php" afterPath="$PROJECT_DIR$/App/View/theme/neat/dashboard.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PtPHP/View/Block/site/debug.html" afterPath="$PROJECT_DIR$/PtPHP/View/Block/site/debug.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/httpd.conf" afterPath="$PROJECT_DIR$/etc/httpd.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PtPHP/init.php" afterPath="$PROJECT_DIR$/PtPHP/init.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PtPHP.iws" />
@@ -397,46 +33,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webroot/.htaccess">
+      <file leaf-file-name="Index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Controller/Index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="45" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="init.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PtPHP/init.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="5" selection-start="1418" selection-end="1418" vertical-scroll-proportion="-18.64151" vertical-offset="0" max-vertical-offset="3971">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Neat.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Controller/Theme/Neat.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="10" selection-start="188" selection-end="188" vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="323">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="error.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webroot/static/theme/neat/css/error.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="21" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="931">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="datatables.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webroot/neat/datatables.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="34447">
+            <state line="18" column="26" selection-start="308" selection-end="308" vertical-scroll-proportion="-12.214286" vertical-offset="0" max-vertical-offset="494">
               <folding />
             </state>
           </provider>
@@ -445,7 +45,43 @@
       <file leaf-file-name="dashboard.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/App/View/theme/neat/dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="889" column="10" selection-start="30221" selection-end="30221" vertical-scroll-proportion="2.6708543" vertical-offset="15828" max-vertical-offset="17271">
+            <state line="64" column="67" selection-start="2026" selection-end="2026" vertical-scroll-proportion="0.83568907" vertical-offset="743" max-vertical-offset="14003">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_nav.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/View/theme/neat/block/main_nav.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="38" selection-start="828" selection-end="828" vertical-scroll-proportion="-13.571428" vertical-offset="57" max-vertical-offset="3382">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="datatables.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/View/theme/neat/datatables.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="189" selection-end="898" vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="34447">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/View/theme/neat/default.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1235">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/View/theme/neat/dashboard.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="24" selection-start="563" selection-end="563" vertical-scroll-proportion="-11.535714" vertical-offset="0" max-vertical-offset="17271">
               <folding />
             </state>
           </provider>
@@ -506,8 +142,12 @@
         <option value="$PROJECT_DIR$/App/Controller/Theme/Index.php" />
         <option value="$PROJECT_DIR$/Doc/apache/rewrite.md" />
         <option value="$PROJECT_DIR$/webroot/.htaccess" />
-        <option value="$PROJECT_DIR$/PtPHP/init.php" />
         <option value="$PROJECT_DIR$/App/Controller/Theme/Neat.php" />
+        <option value="$PROJECT_DIR$/PtPHP/View/Block/site/505.html" />
+        <option value="$PROJECT_DIR$/PtPHP/View/Block/site/debug.html" />
+        <option value="$PROJECT_DIR$/PtPHP/init.php" />
+        <option value="$PROJECT_DIR$/App/Controller/Index.php" />
+        <option value="$PROJECT_DIR$/App/View/theme/neat/block/main_nav.php" />
         <option value="$PROJECT_DIR$/App/View/theme/neat/dashboard.php" />
       </list>
     </option>
@@ -518,10 +158,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="382" />
-    <option name="y" value="26" />
-    <option name="width" value="1398" />
-    <option name="height" value="902" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -529,6 +169,48 @@
         <expanded-state>
           <State>
             <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript function metricsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>PHPDocPHP</id>
+          </State>
+          <State>
+            <id>Portability issues</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>UndefinedPHP</id>
+          </State>
+          <State>
+            <id>XPath</id>
           </State>
         </expanded-state>
         <selected-state>
@@ -594,104 +276,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webroot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PtPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PtPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webroot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="neat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PtPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PtPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webroot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PtPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PtPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webroot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PtPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PtPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webroot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="neat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PtPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PtPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="App" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -732,7 +316,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xdebug" />
+              <option name="myItemId" value="theme" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -780,29 +364,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="proxy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PtPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PtPHP" />
+              <option name="myItemId" value="theme" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="App" />
+              <option name="myItemId" value="neat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manage" />
+              <option name="myItemId" value="block" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -858,7 +428,7 @@
     <property name="SearchEverywhereHistory" value="" />
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/Mark Lagendijk/WinLess/node_modules/.bin/lessc.cmd" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -956,30 +526,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="382" y="26" width="1398" height="902" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3372244" sideWeight="0.49925372" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33203632" sideWeight="0.54477614" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31800264" sideWeight="0.49966645" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28108108" sideWeight="0.4989339" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33203632" sideWeight="0.5403587" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3164721" sideWeight="0.49925262" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1927952" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.05671642" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3141791" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10554371" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15245202" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22998643" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33203632" sideWeight="0.4552239" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26588845" sideWeight="0.49925372" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28108108" sideWeight="0.50053304" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26520053" sideWeight="0.49925262" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32720104" sideWeight="0.49966645" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864866" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864866" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32108107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30869" sideWeight="0.49925372" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32108107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -999,6 +569,111 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/webroot/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="45" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PtPHP/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="5" selection-start="3405" selection-end="3405" vertical-scroll-proportion="0.0" vertical-offset="2204" max-vertical-offset="5225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller/Theme/Neat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="1" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/static/theme/neat/css/error.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="21" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="931">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="842" column="56" selection-start="28184" selection-end="28184" vertical-scroll-proportion="0.0" vertical-offset="15828" max-vertical-offset="17271">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="45" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PtPHP/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="5" selection-start="3405" selection-end="3405" vertical-scroll-proportion="0.0" vertical-offset="2204" max-vertical-offset="5225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller/Theme/Neat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="58" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/static/theme/neat/css/error.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="21" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="931">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="842" column="56" selection-start="28184" selection-end="28184" vertical-scroll-proportion="0.0" vertical-offset="15828" max-vertical-offset="17271">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="45" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PtPHP/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="5" selection-start="1418" selection-end="1418" vertical-scroll-proportion="0.0" vertical-offset="988" max-vertical-offset="3971">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller/Theme/Neat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="10" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/static/theme/neat/css/error.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="21" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="931">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="889" column="10" selection-start="30221" selection-end="30221" vertical-scroll-proportion="0.0" vertical-offset="15828" max-vertical-offset="17271">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/App/Module/Proxy/Parse/Cn_Proxy.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="16" selection-start="989" selection-end="992" vertical-scroll-proportion="-8.642858" vertical-offset="309" max-vertical-offset="931" />
@@ -1034,95 +709,29 @@
         <state line="16" column="0" selection-start="360" selection-end="360" vertical-scroll-proportion="-10.857142" vertical-offset="0" max-vertical-offset="418" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/neat/login.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/neat/dropdown.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/neat/toolbar.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/neat/quicktask.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/neat/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="223" selection-end="223" vertical-scroll-proportion="-5.428571" vertical-offset="0" max-vertical-offset="1235" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/neat/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="12" selection-start="616" selection-end="616" vertical-scroll-proportion="-5.035714" vertical-offset="220" max-vertical-offset="1235" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/neat/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="901" column="36" selection-start="28755" selection-end="28755" vertical-scroll-proportion="0.0" vertical-offset="16805" max-vertical-offset="17271">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Controller/Manage/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="285">
-          <folding />
-        </state>
+        <state line="9" column="1" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="285" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/View/manage/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="39" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="551">
-          <folding />
-        </state>
+        <state line="11" column="39" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="551" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Doc/apache/mod_fcgid-ReadMe.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1368">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1368" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Doc/apache/rewrite.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="60" selection-end="60" vertical-scroll-proportion="0.07883818" vertical-offset="0" max-vertical-offset="482">
-          <folding />
-        </state>
+        <state line="2" column="0" selection-start="60" selection-end="60" vertical-scroll-proportion="0.07883818" vertical-offset="0" max-vertical-offset="482" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webroot/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="45" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/neat/datatables.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="34447">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PtPHP/init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="5" selection-start="1418" selection-end="1418" vertical-scroll-proportion="-18.64151" vertical-offset="0" max-vertical-offset="3971">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Controller/Theme/Neat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="10" selection-start="188" selection-end="188" vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="323">
           <folding />
         </state>
       </provider>
@@ -1134,9 +743,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller/Theme/Unicorn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="1" selection-start="257" selection-end="257" vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller/Xdebug.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="403" selection-end="403" vertical-scroll-proportion="-9.5" vertical-offset="0" max-vertical-offset="3705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PtPHP/View/Block/site/505.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="34" selection-start="1643" selection-end="1643" vertical-scroll-proportion="-7.357143" vertical-offset="801" max-vertical-offset="1463">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PtPHP/View/Block/site/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="14" selection-start="474" selection-end="474" vertical-scroll-proportion="-8.142858" vertical-offset="0" max-vertical-offset="399">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PtPHP/View/Block/site/debug.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="15" selection-start="575" selection-end="575" vertical-scroll-proportion="-12.214286" vertical-offset="0" max-vertical-offset="1653">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PtPHP/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="23" selection-start="303" selection-end="303" vertical-scroll-proportion="13.857142" vertical-offset="578" max-vertical-offset="5149">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller/Theme/Industry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="482">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller/Theme/Neat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="58" selection-start="113" selection-end="122" vertical-scroll-proportion="-3.392857" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="26" selection-start="308" selection-end="308" vertical-scroll-proportion="-12.214286" vertical-offset="0" max-vertical-offset="494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/block/main_nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="38" selection-start="828" selection-end="828" vertical-scroll-proportion="-13.571428" vertical-offset="57" max-vertical-offset="3382">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="24" selection-start="563" selection-end="563" vertical-scroll-proportion="-11.535714" vertical-offset="0" max-vertical-offset="17271">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/datatables.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="189" selection-end="898" vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="34447">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1235">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/App/View/theme/neat/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="889" column="10" selection-start="30221" selection-end="30221" vertical-scroll-proportion="2.6708543" vertical-offset="15828" max-vertical-offset="17271">
+        <state line="64" column="67" selection-start="2026" selection-end="2026" vertical-scroll-proportion="0.83568907" vertical-offset="743" max-vertical-offset="14003">
           <folding />
         </state>
       </provider>
