@@ -1,13 +1,13 @@
 <ul class='main-nav'>
     <li class='active'>
-        <a href="dashboard.html" class='light'>
+        <a href="/theme/neat/?cat=dashboard" class='light'>
             <div class="ico"><i class="icon-home icon-white"></i></div>
             Dashboard
             <span class="label label-warning">10</span>
         </a>
     </li>
     <li>
-        <a href="forms.html" class='light'>
+        <a href="/theme/neat/?cat=forms" class='light'>
             <div class="ico"><i class="icon-list icon-white"></i></div>
             Forms
             <span class="label label-info">1</span>
@@ -26,12 +26,12 @@
                 </a>
             </li>
             <li>
-                <a href="plaintables.html">
+                <a href="/theme/neat/?cat=plaintables">
                     Plain Tables
                 </a>
             </li>
             <li>
-                <a href="mediatables.html">
+                <a href="/theme/neat/?cat=mediatables">
                     Media Tables
                 </a>
             </li>
@@ -45,29 +45,29 @@
         </a>
         <ul class='collapsed-nav closed'>
             <li>
-                <a href="buttons.html">
+                <a href="/theme/neat/?cat=buttons">
                     Buttons & Icons
                 </a>
             </li>
             <li>
-                <a href="sliders.html">
+                <a href="/theme/neat/?cat=sliders">
                     Sliders & Progress-Bars
                 </a>
             </li>
             <li>
-                <a href="tooltips.html">
+                <a href="/theme/neat/?cat=tooltips">
                     Tooltips, Alerts & Notification
                 </a>
             </li>
             <li>
-                <a href="tabs.html">
+                <a href="/theme/neat/?cat=tabs">
                     Tabs, Pills & Accordion
                 </a>
             </li>
         </ul>
     </li>
     <li>
-        <a href="statistics.html" class='light'>
+        <a href="/theme/neat/?cat=statistics" class='light'>
             <div class="ico"><i class="icon-signal icon-white"></i></div>
             Statistics
             <span class="label label-important">3</span>
@@ -81,17 +81,17 @@
         </a>
         <ul class='collapsed-nav closed'>
             <li>
-                <a href="403.html">
+                <a href="/theme/neat/?cat=403">
                     403
                 </a>
             </li>
             <li>
-                <a href="404.html">
+                <a href="/theme/neat/?cat=404">
                     404
                 </a>
             </li>
             <li>
-                <a href="500.html">
+                <a href="/theme/neat/?cat=500">
                     500
                 </a>
             </li>
@@ -105,47 +105,47 @@
         </a>
         <ul class='collapsed-nav closed'>
             <li>
-                <a href="gallery.html">
+                <a href="/theme/neat/?cat=gallery">
                     Gallery
                 </a>
             </li>
             <li>
-                <a href="messages.html">
+                <a href="/theme/neat/?cat=messages">
                     Messages
                 </a>
             </li>
             <li>
-                <a href="userprofile.html">
+                <a href="/theme/neat/?cat=userprofile">
                     User Profile
                 </a>
             </li>
             <li>
-                <a href="index.html">
+                <a href="/theme/neat/?cat=index">
                     Login
                 </a>
             </li>
             <li>
-                <a href="results.html">
+                <a href="/theme/neat/?cat=results">
                     Search results
                 </a>
             </li>
             <li>
-                <a href="view.html">
+                <a href="/theme/neat/?cat=view">
                     View form
                 </a>
             </li>
             <li>
-                <a href="invoice.html">
+                <a href="/theme/neat/?cat=invoice">
                     Invoice
                 </a>
             </li>
             <li>
-                <a href="navigation_hover.html">
+                <a href="/theme/neat/?cat=navigation_hover">
                     Navigation expand on hover
                 </a>
             </li>
             <li>
-                <a href="calendar.html">Calendar</a>
+                <a href="/theme/neat/?cat=calendar">Calendar</a>
             </li>
         </ul>
     </li>

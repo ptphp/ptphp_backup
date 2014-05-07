@@ -72,6 +72,7 @@ $(document).ready(function() {
 		},200);
 	});
 	$(".style-switcher .color a").click(function(e){
+        console.log(this.classNam);
 		$('link').last().attr('href', "css/"+this.className+".css");
 	});
 	$(".style-switcher .pattern a").click(function(e){
