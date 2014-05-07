@@ -238,7 +238,7 @@ function parse_router(){
 	$router['action'] = $action;
 	$router['controller_path'] = $router['base_path'].".php";	
 	$router['method'] = strtolower($_SERVER['REQUEST_METHOD']);
-	console($router);
+	//console($router);
     //exit;
 	return $router;
 }

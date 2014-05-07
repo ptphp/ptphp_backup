@@ -40,6 +40,9 @@ function get_test_title($name){
 }
 function directory_map($source_dir, $directory_depth = 0, $hidden = FALSE)
 {
+    if(!is_dir($source_dir)){
+        return array();
+    }
 	if ($fp = @opendir($source_dir))
 	{
 		$filedata	= array();

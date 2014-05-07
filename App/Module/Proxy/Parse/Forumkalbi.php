@@ -17,7 +17,10 @@ class Forumkalbi extends ParseBase implements ParseInterface{
 		console("parse:".$url);
 		//print_pre($res);
 		//exit;
-		preg_match_all("/<a href=\"([^\"]+)\" id=\"thread_title_\d+\"[^>]+>/", $res['body'],$matches,PREG_SET_ORDER);
+		if(!preg_match_all("/<a href=\"([^\"]+)\" id=\"thread_title_\d+\"[^>]+>/", $res['body'],$matches,PREG_SET_ORDER)){
+            console("parse url list error");
+            return;
+        }
 		//print_pre($matches);
 		//exit;
 		define("PREG_IP_PATTERN",'/(\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3}):([\d]+)/');

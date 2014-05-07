@@ -11,7 +11,7 @@ class Index{
  * 
  * @author joseph
  * usage:
- * 		php bin/run.php -_c=proxy -_a=crawl
+ * 		php bin/run.php __R__=proxy/crawl
  */
 class Crawl{
 	function get(){
@@ -26,6 +26,7 @@ class Crawl{
             new \Module\Proxy\Parse\Pachong(),
             new \Module\Proxy\Parse\Samair(),
 		);
+
 		foreach ($jobs  as $job ){
 			$job->run();
 		}
