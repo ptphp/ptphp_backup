@@ -15,8 +15,12 @@ class Index{
  */
 class Crawl{
 	function get(){
+        #while(1){
+        #    console(time());
+        #    sleep(1);
+        #}
+        #exit;
 		$jobs= array(
-			new \Module\Proxy\Parse\Forumkalbi(),
             new \Module\Proxy\Parse\Cn_Proxy(),
             new \Module\Proxy\Parse\CnProxy(),
             new \Module\Proxy\Parse\Proxy174(),
@@ -25,6 +29,7 @@ class Crawl{
             new \Module\Proxy\Parse\FreeProxyList(),
             new \Module\Proxy\Parse\Pachong(),
             new \Module\Proxy\Parse\Samair(),
+            new \Module\Proxy\Parse\Forumkalbi(),
 		);
 
 		foreach ($jobs  as $job ){

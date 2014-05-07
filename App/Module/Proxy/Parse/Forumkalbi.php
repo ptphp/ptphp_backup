@@ -6,7 +6,8 @@ use Lib\PtCurl;
 class Forumkalbi extends ParseBase implements ParseInterface{
 	var $source = 'Forumkalbi';
 	var $need_pub = True;
-	public function __construct(){
+	var $t = 0;
+    public function __construct(){
 		$this->curl = new PtCurl();
 	}
 	function get_list(){	
@@ -14,6 +15,10 @@ class Forumkalbi extends ParseBase implements ParseInterface{
 		console("get:".$url);
 		$curl = $this->curl;
 		$res = $curl->get($url);
+        if($res['error']){
+            console($res['error']);
+            return;
+        }
 		console("parse:".$url);
 		//print_pre($res);
 		//exit;
@@ -22,7 +27,7 @@ class Forumkalbi extends ParseBase implements ParseInterface{
             return;
         }
 		//print_pre($matches);
-		//exit;
+
 		define("PREG_IP_PATTERN",'/(\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3}):([\d]+)/');
 		foreach($matches as $match){			
 			$url = $match[1];		
@@ -36,6 +41,7 @@ class Forumkalbi extends ParseBase implements ParseInterface{
 				$ip = $proxy_match[1];
 				$port = $proxy_match[2];				
 				console("proxy: ".$ip.":".$port);
+                echo $this->t++;
 				if($this->need_pub){
 					$this->handle_result($ip,$port);
 				}

@@ -3,18 +3,19 @@ defined("PATH_PTPHP") or define("PATH_PTPHP", __DIR__);
 defined("PATH_APP") or define("PATH_APP", realpath("./../App"));
 $config = array();
 $console_array = array();
-ob_start();
+if(PHP_SAPI != "cli"){
+    ob_start();
+    set_error_handler("pt_error_handler");
+}
 include PATH_PTPHP."/Config/default.php";
 
 define("DEBUG",1);
 @ini_set('display_errors', 'On');
 error_reporting(E_ALL);
-set_error_handler("pt_error_handler");
+
 function pt_error_handler($errno, $errstr, $errfile, $errline )
 {
-    ob_end_clean();
-    //ob_clean();
-    ob_start();
+
     if(!defined('E_STRICT'))            define('E_STRICT', 2048);
     if(!defined('E_RECOVERABLE_ERROR')) define('E_RECOVERABLE_ERROR', 4096);
     $trace = debug_backtrace();
@@ -28,6 +29,14 @@ function pt_error_handler($errno, $errstr, $errfile, $errline )
     $res['error']                = 1;
     $res['id']                   = null;
 
+    if(PHP_SAPI == "cli"){
+        ob_end_clean();
+        //ob_clean();
+        ob_start();
+    }else{
+        print_r($res);
+        exit;
+    }
     if(DEBUG){
         if(is_xhr()){
             echo json_encode($res);

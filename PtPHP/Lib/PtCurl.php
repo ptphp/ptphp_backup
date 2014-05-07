@@ -44,15 +44,22 @@ class PtCurl{
 		if($this->_proxy)
 			$options[CURLOPT_PROXY] = $this->_proxy;
 		//print_pre($options);
-		curl_setopt_array($ch, $options);
-		
-		$content = curl_exec($ch);
+
+        curl_setopt_array($ch, $options);
+        $content = curl_exec($ch);
+        $res = array();
+        $res['header'] = '';
+        $res['cookie'] = '';
+        $res['location'] = '';
+        $res['body'] = '';
+        $res['error'] = '';
+
+        if( !$content)
+        {
+            $res['error'] = curl_error($ch);
+            console($res['error']);
+        }
 		//print_pre($content);
-		$res = array();
-		$res['header'] = '';
-		$res['cookie'] = '';
-		$res['location'] = '';
-		$res['body'] = '';
 
 		if(!$content){
 			return $res;
