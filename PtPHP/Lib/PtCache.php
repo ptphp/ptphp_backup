@@ -10,19 +10,14 @@ namespace Lib;
 
 
 class PtCache {
-    private static $_classes = NULL;
-    public static function create( $_class, $_args = NULL ) {
-        if ( self::$_classes == NULL ) {
-            self::$_classes = array();
-        }
+    private static $_classes = array();
+    public static function init( $type) {
+        $_class = "Lib\\PtCache".ucfirst( $type );
 
-        $_class = ucfirst( $_class ).'Cache';
         if ( ! isset( self::$_classes[$_class] ) ) {
-            require _CACHE_HOME_.'/'.$_class.'.class.php';
-            self::$_classes[$_class] = true;
+            global $config;
+            self::$_classes[$_class] = new $_class($config['cache'][$config['mode']][$type]);
         }
-
-        //return the newly created object
-        return new $_class($_args);
+        return self::$_classes[$_class];
     }
 }

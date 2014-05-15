@@ -5,6 +5,11 @@
             <input type="text" value="Search here...">
         </form>
         <ul class='mini'>
+
+
+
+
+
             <li class='dropdown dropdown-noclose supportContainer'>
                 <a href="#" class='dropdown-toggle' data-toggle="dropdown">
                     <img src="/static/theme/neat/img/icons/fugue/book-question.png" alt="">
