@@ -7,10 +7,10 @@
     <orderEntry type="module-library">
       <library name="PHP">
         <CLASSES>
-          <root url="file://D:/usr/local/php/phpunit-master/src" />
+          <root url="file://E:/usr/local/php/phpunit-master/src" />
         </CLASSES>
         <SOURCES>
-          <root url="file://D:/usr/local/php/phpunit-master/src" />
+          <root url="file://E:/usr/local/php/phpunit-master/src" />
         </SOURCES>
       </library>
     </orderEntry>

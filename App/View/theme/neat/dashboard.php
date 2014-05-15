@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="/static/theme/neat/css/jquery.fancybox.css">
 <link rel="stylesheet" href="/static/theme/neat/css/style.css">
 </head>
-<body>
+<body class="wood">
 <?php include View("theme/neat/block/style_switch");?>
 <?php include View("theme/neat/block/topbar");?>
 <?php include View("theme/neat/block/breadcrumbs");?>

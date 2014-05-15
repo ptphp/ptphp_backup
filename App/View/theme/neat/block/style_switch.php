@@ -2,7 +2,7 @@
     <img src="/static/theme/neat/img/icons/fugue/color.png" alt="" class='tip' title="Toggle style-switcher" data-placement="right">
 </div>
 <div class="style-switcher">
-    <h3>Style-switcher</h3>
+    <!--<h3>Style-switcher</h3>
     <ul class='color'>
         <li>
             <a href="#" class='style'>Default</a>
@@ -16,7 +16,7 @@
         <li>
             <a href="#" class='red'>Red</a>
         </li>
-    </ul>
+    </ul>-->
     <h3>Pattern-switcher</h3>
     <ul class='pattern'>
         <li>
