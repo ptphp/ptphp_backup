@@ -1,51 +1,51 @@
-·ûºÅ º¬Òå ÅäÖÃÑùÀı ÑùÀıÎÄ¼şÃû 
-%c µ±Ç°¹¤×÷Ä¿Â¼µÄcrc32Ğ£ÑéÖµ trace.%c trace.1258863198.xt 
-%p µ±Ç°·şÎñÆ÷½ø³ÌµÄpid trace.%p trace.5174.xt 
-%r Ëæ»úÊı trace.%r trace.072db0.xt 
-%s ½Å±¾ÎÄ¼şÃû(×¢) cachegrind.out.%s cachegrind.out._home_httpd_html_test_xdebug_test_php 
-%t UnixÊ±¼ä´Á(Ãë) trace.%t trace.1179434742.xt 
-%u UnixÊ±¼ä´Á(Î¢Ãë) trace.%u trace.1179434749_642382.xt 
-%H $_SERVER['HTTP_HOST'] trace.%H trace.kossu.xt 
-%R $_SERVER['REQUEST_URI'] trace.%R trace._test_xdebug_test_php_var=1_var2=2.xt 
-%S session_id (À´×Ô$_COOKIE Èç¹ûÉèÖÃÁËµÄ»°) trace.%S trace.c70c1ec2375af58f74b390bbdd2a679d.xt 
-%% %×Ö·û trace.%% trace.%.xt ×¢ ´ËÏî²»ÊÊÓÃÓÚtrace fileµÄÎÄ¼şÃû
+ç¬¦å· å«ä¹‰ é…ç½®æ ·ä¾‹ æ ·ä¾‹æ–‡ä»¶å
+%c å½“å‰å·¥ä½œç›®å½•çš„crc32æ ¡éªŒå€¼ trace.%c trace.1258863198.xt
+%p å½“å‰æœåŠ¡å™¨è¿›ç¨‹çš„pid trace.%p trace.5174.xt
+%r éšæœºæ•° trace.%r trace.072db0.xt
+%s è„šæœ¬æ–‡ä»¶å(æ³¨) cachegrind.out.%s cachegrind.out._home_httpd_html_test_xdebug_test_php
+%t Unixæ—¶é—´æˆ³(ç§’) trace.%t trace.1179434742.xt
+%u Unixæ—¶é—´æˆ³(å¾®ç§’) trace.%u trace.1179434749_642382.xt
+%H $_SERVER['HTTP_HOST'] trace.%H trace.kossu.xt
+%R $_SERVER['REQUEST_URI'] trace.%R trace._test_xdebug_test_php_var=1_var2=2.xt
+%S session_id (æ¥è‡ª$_COOKIE å¦‚æœè®¾ç½®äº†çš„è¯) trace.%S trace.c70c1ec2375af58f74b390bbdd2a679d.xt
+%% %å­—ç¬¦ trace.%% trace.%.xt æ³¨ æ­¤é¡¹ä¸é€‚ç”¨äºtrace fileçš„æ–‡ä»¶å
 
-´ÓÉÏ±í¿ÉÒÔÕÒµ½Ò»Ğ©ÊÊºÏÄãµÄ²ÎÊı¡£
-±ÈÈç£¬ÎÒÏëÕë¶ÔÃ¿¸öÎÄ¼şÉú³ÉÒ»¸öÊä³öÎÄ¼ş¡£
-ÄÇÃ´ÎÒ¿ÉÒÔÓÃ£º
+ä»ä¸Šè¡¨å¯ä»¥æ‰¾åˆ°ä¸€äº›é€‚åˆä½ çš„å‚æ•°ã€‚
+æ¯”å¦‚ï¼Œæˆ‘æƒ³é’ˆå¯¹æ¯ä¸ªæ–‡ä»¶ç”Ÿæˆä¸€ä¸ªè¾“å‡ºæ–‡ä»¶ã€‚
+é‚£ä¹ˆæˆ‘å¯ä»¥ç”¨ï¼š
 xdebug.profiler_output_name = cachegrind.out.%s
-¶à¸öÓòÃûµÄ»°£¬Ò²¿ÉÒÔ×éºÏÊ¹ÓÃ
+å¤šä¸ªåŸŸåçš„è¯ï¼Œä¹Ÿå¯ä»¥ç»„åˆä½¿ç”¨
 xdebug.profiler_output_name = cachegrind.out.%H.%u.%s
 
 
 [Xdebug]
 zend_extension = ext\php_xdebug-2.2.4-5.3-vc9-nts.dll
-xdebug.trace_output_dir="c:/xdebug"  
-xdebug.profiler_output_dir="c:/xdebug"  
+xdebug.trace_output_dir="c:/xdebug"
+xdebug.profiler_output_dir="c:/xdebug"
 
 ;xdebug.profiler_output_name = cachegrind.out.%p
 ;xdebug.profiler_output_name = cachegrind.out.%H.%u.%s
 xdebug.profiler_output_name = cachegrind.out.%s
-;ÊÇ·ñ¿ªÆô×Ô¶¯¸ú×Ù
+;æ˜¯å¦å¼€å¯è‡ªåŠ¨è·Ÿè¸ª
 xdebug.auto_trace= On
-;ÊÇ·ñ¿ªÆôÒì³£¸ú×Ù
+;æ˜¯å¦å¼€å¯å¼‚å¸¸è·Ÿè¸ª
 xdebug.show_exception_trace= On
-;ÊÇ·ñÊÕ¼¯±äÁ¿
+;æ˜¯å¦æ”¶é›†å˜é‡
 xdebug.collect_vars= On
-;ÊÇ·ñÊÕ¼¯·µ»ØÖµ
+;æ˜¯å¦æ”¶é›†è¿”å›å€¼
 xdebug.collect_return= On
-;ÊÇ·ñÊÕ¼¯²ÎÊı
+;æ˜¯å¦æ”¶é›†å‚æ•°
 xdebug.collect_params= On
-;ÊÇ·ñ¿ªÆôµ÷ÊÔÄÚÈİ
+;æ˜¯å¦å¼€å¯è°ƒè¯•å†…å®¹
 xdebug.profiler_enable=On
-xdebug.profiler_enable_trigger=1 
+xdebug.profiler_enable_trigger=1
 
-xdebug.dump_once=On 
-xdebug.dump_globals=On 
-xdebug.dump_undefined=On 
-xdebug.dump.REQUEST=* 
-xdebug.dump.SERVER=REQUEST_METHOD,REQUEST_URI,HTTP_USER_AGENT 
-xdebug.default_enable=On 
-xdebug.show_local_vars=1 
-xdebug.max_nesting_level=50 
-xdebug.var_display_max_depth=6 
+xdebug.dump_once=On
+xdebug.dump_globals=On
+xdebug.dump_undefined=On
+xdebug.dump.REQUEST=*
+xdebug.dump.SERVER=REQUEST_METHOD,REQUEST_URI,HTTP_USER_AGENT
+xdebug.default_enable=On
+xdebug.show_local_vars=1
+xdebug.max_nesting_level=50
+xdebug.var_display_max_depth=6

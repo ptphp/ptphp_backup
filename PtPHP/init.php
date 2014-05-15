@@ -34,8 +34,8 @@ function pt_error_handler($errno, $errstr, $errfile, $errline )
         //ob_clean();
         ob_start();
     }else{
-        print_r($res);
-        exit;
+        #print_r($res);
+        #exit;
     }
     if(DEBUG){
         if(is_xhr()){
@@ -77,6 +77,7 @@ function pt_error_handler($errno, $errstr, $errfile, $errline )
 
 function __pt_autoload($class_name){
 	//echo $class_name;
+    //console($class_name);
 	if ( substr($class_name, 0,10) == "Controller" ){		
 		$path = PATH_APP."/".str_replace( "\\", "/",$class_name).".php";
 		#var_dump($path);
@@ -92,8 +93,12 @@ function __pt_autoload($class_name){
 		$path = PATH_APP."/".str_replace( "\\", "/",$class_name).".php";
 		require_once $path;
 	}
+
 	if ( substr($class_name, 0,3) == "Lib" ){
-		$path = PATH_PTPHP."/".str_replace( "\\", "/",$class_name).".php";
+        $path = PATH_APP."/".str_replace( "\\", "/",$class_name).".php";
+        if(!is_file($path)){
+            $path = PATH_PTPHP."/".str_replace( "\\", "/",$class_name).".php";
+        }
 		require_once $path;
 	}
 }
@@ -148,7 +153,12 @@ function console($var){
 	
 	if(PHP_SAPI == "cli"){
 		echo "[".date("m-d H:i:s")."] ";
-		print_r($var);
+        if(is_array($var)){
+            print_r($var);
+        }else{
+            echo $var;
+        }
+
 		echo PHP_EOL;
 	}
 	
@@ -218,7 +228,11 @@ function parse_router(){
 
     }else{
         $__R__ = (isset( $_GET['__R__'] ) && $_GET['__R__'] )? $_GET['__R__'] : "index/index";
-
+		//var_dump($__R__);
+		if($__R__ == "/"){
+			$__R__ = "index/index";
+		}
+		$__R__ = ltrim($__R__,"/");
         $len = strlen($__R__);
         if(substr($__R__,$len-1) == "/"){
             $__R__ .= "index";
@@ -260,7 +274,7 @@ function run(){
 	if(!is_file($controller)){
 		$controller = PATH_PTPHP.'/'.$router['controller_path'];
 	}
-	//print_pre($router);
+	//console($router);
 	//exit;
 	if($router['controller_path'] == 'Controller/Pttest.php'){
 		include_once PATH_PTPHP.'/ptunittest.php';	

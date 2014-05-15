@@ -1,7 +1,308 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16952b0e-bd3d-4c7a-a858-42c8ae6aa3df" name="Default" comment="" />
+    <list default="true" id="16952b0e-bd3d-4c7a-a858-42c8ae6aa3df" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/Lib/PdoDbTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PtPHP/Lib/PtCache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PtPHP/Lib/PtCacheInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PtPHP/Lib/PtDb.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PtPHP/Ext/SSDB.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/boot.php" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\Lib\PtRedis.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Core.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Core\PtCaptcha.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Core\PtFilter.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Core\PtHtml.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Core\PtImgSingleUpload.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Core\PtLog.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Core\PtModel.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Core\PtPassword.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Core\PtRegx.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Core\PtReq.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Core\PtSes.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Core\PtTree.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Core\PtUrl.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Core\PtVali.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Core\db\PtDb.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Init.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Lib\Ext\DownImage.class.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Lib\Ext\PtMarkdown\License.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Lib\Ext\PtMarkdown\Michelf\Markdown.class.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Lib\Ext\PtMarkdown\PtMarkdown.class.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Lib\Ext\UploadHandler.class.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Lib\Ext\captcha\main.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Lib\Ext\captcha\resources\fonts\AntykwaBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Lib\Ext\captcha\resources\fonts\Candice.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Lib\Ext\captcha\resources\fonts\Ding-DongDaddyO.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Lib\Ext\captcha\resources\fonts\Duality.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Lib\Ext\captcha\resources\fonts\Heineken.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Lib\Ext\captcha\resources\fonts\Jura.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Lib\Ext\captcha\resources\fonts\StayPuft.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Lib\Ext\captcha\resources\fonts\TimesNewRomanBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Lib\Ext\captcha\resources\fonts\VeraSansBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Lib\Ext\captcha\resources\tools\dictionary-import\README.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Lib\Ext\captcha\resources\tools\dictionary-import\importwords.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Lib\Ext\captcha\resources\tools\dictionary-import\sample-words-en.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Lib\Ext\captcha\resources\tools\dictionary-import\sample-words-es.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Lib\Ext\captcha\resources\words\en.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Lib\Ext\captcha\resources\words\es.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Lib\Ext\connect\Qq.class.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Lib\Ext\connect\Sina.class.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Lib\Ext\function.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\Lib\Helper.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Block\PtAdmin\footer.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Block\PtAdmin\header.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Block\site\404.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Block\site\505.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Block\site\debug.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Controller\admin\Node.class.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Controller\admin\auth\Node.class.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Controller\admin\auth\login.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Controller\admin\category\Node.class.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Controller\admin\category\edit.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Controller\admin\category\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Controller\admin\common\ueditor\Node.class.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Controller\admin\content\Node.class.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Controller\admin\content\edit.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Controller\admin\content\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Controller\admin\content\upload.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Controller\admin\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Controller\content\Node.class.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Controller\content\detail.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Controller\content\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Lib\AdminControl.class.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Lib\UserControl.class.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Model\Admin\PtUser.model.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Model\Article.model.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Model\Category.model.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Model\Content.model.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Model\User\User.model.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\___PtPHP\PtApp\Runtime\log\error.log" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\build\simpletest_to_junit.xsl" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\build\unit_test_xml.sh" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\phing\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\phing\TestRunnerTask.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\screenshots\failed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\screenshots\passed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\bugs\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\bugs\test_123_bug.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\controllers\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\helpers\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\libraries\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\models\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\models\test_users_model.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\HELP_MY_TESTS_DONT_WORK_ANYMORE" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\README" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\VERSION" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\authentication.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\autorun.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\browser.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\collector.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\compatibility.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\cookies.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\default_reporter.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\detached.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\docs\en\authentication_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\docs\en\browser_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\docs\en\docs.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\docs\en\expectation_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\docs\en\form_testing_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\docs\en\group_test_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\docs\en\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\docs\en\mock_objects_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\docs\en\overview.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\docs\en\partial_mocks_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\docs\en\reporter_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\docs\en\unit_test_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\docs\en\web_tester_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\docs\fr\authentication_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\docs\fr\browser_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\docs\fr\docs.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\docs\fr\expectation_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\docs\fr\form_testing_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\docs\fr\group_test_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\docs\fr\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\docs\fr\mock_objects_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\docs\fr\overview.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\docs\fr\partial_mocks_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\docs\fr\reporter_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\docs\fr\server_stubs_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\docs\fr\unit_test_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\docs\fr\web_tester_documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\dumper.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\eclipse.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\encoding.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\errors.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\exceptions.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\expectation.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\extensions\cli_reporter.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\extensions\my_reporter.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\extensions\pear_test_case.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\extensions\phpunit_test_case.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\extensions\testdox.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\extensions\testdox\test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\form.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\frames.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\http.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\invoker.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\mock_objects.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\page.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\parser.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\php_parser.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\reflection_php4.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\reflection_php5.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\remote.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\reporter.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\scorer.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\selector.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\shell_tester.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\simpletest.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\socket.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\tag.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\acceptance_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\adapter_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\all_tests.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\authentication_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\autorun_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\bad_test_suite.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\browser_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\collector_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\command_line_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\compatibility_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\cookies_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\detached_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\dumper_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\eclipse_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\encoding_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\errors_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\exceptions_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\expectation_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\form_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\frames_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\http_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\interfaces_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\interfaces_test_php5_1.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\live_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\mock_objects_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\page_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\parse_error_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\parser_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\parsing_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\php_parser_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\reflection_php4_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\reflection_php5_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\remote_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\shell_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\shell_tester_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\simpletest_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\site\file.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\socket_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\support\collector\collectable.1" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\support\collector\collectable.2" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\support\empty_test_file.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\support\failing_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\support\latin1_sample" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\support\passing_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\support\spl_examples.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\support\supplementary_upload_sample.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\support\test1.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\support\upload_sample.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\tag_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\test_with_parse_error.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\unit_tester_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\unit_tests.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\url_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\user_agent_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\visual_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\web_tester_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test\xml_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\test_case.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\tidy_parser.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\unit_tester.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\url.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\user_agent.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\web_tester.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\xml.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\simpletest\xmltime.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\test_gui.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\unit_test.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\tests\views\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\unit_test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\codeigniter-simpletest-master\unit_test_xml.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\trace\trace-code.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\trace\trace-own.cache" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\trace\trace.config.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\trace\trace.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\trace\trace.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\config.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\img\asc.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\img\bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\img\blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\img\call_class.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\img\call_include.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\img\call_internal.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\img\call_procedural.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\img\desc.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\img\down.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\img\file.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\img\file_line.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\img\gradient_class.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\img\gradient_include.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\img\gradient_internal.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\img\gradient_left.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\img\gradient_markers.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\img\gradient_procedural.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\img\gradient_right.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\img\head.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\img\marker.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\img\reload.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\img\right.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\index.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\js\jquery.blockUI.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\js\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\js\jquery.scrollTo.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\js\jquery.selectboxes.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\js\jquery.tablesorter.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\js\sprintf.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\library\FileHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\library\Preprocessor.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\library\Reader.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\library\gprof2dot.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\license.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\package.sh" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\styles\style.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\templates\fileviewer.phtml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\webgrind-master\templates\index.phtml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\xdebug-trace-analyser-master\XdebugTrace\HtmlDumper.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\xdebug-trace-analyser-master\XdebugTrace\RecursiveCallIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\xdebug-trace-analyser-master\XdebugTrace\StackTrace.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\xdebug-trace-analyser-master\XdebugTrace\TraceAnalyser.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\xdebug-trace-analyser-master\XdebugTrace\TraceCall.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\xdebug-trace-analyser-master\XdebugTrace\TraceFile.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\xdebug-trace-analyser-master\analyse.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\xdebug-trace-analyser-master\nette.min.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\xdebug-trace-analyser-master\template\trace.latte" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\xdebug-trace-analyser-master\utils\functions.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\PtPHP\PtPHP\tmp\xdebug-trace-analyser-master\utils\progressbar.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Controller/Manage/Index.php" afterPath="$PROJECT_DIR$/App/Controller/Manage/Index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PtPHP.iml" afterPath="$PROJECT_DIR$/.idea/PtPHP.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Model/User.php" afterPath="$PROJECT_DIR$/App/Model/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/boot.php" afterPath="$PROJECT_DIR$/App/boot.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/index.php" afterPath="$PROJECT_DIR$/webroot/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PtPHP/init.php" afterPath="$PROJECT_DIR$/PtPHP/init.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/View/block/manage/leftmenu.php" afterPath="$PROJECT_DIR$/App/View/block/manage/leftmenu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Doc/nginx.md" afterPath="$PROJECT_DIR$/Doc/nginx.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Doc/xdebug.md" afterPath="$PROJECT_DIR$/Doc/xdebug.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Doc/xdebug/xdebug.md" afterPath="$PROJECT_DIR$/Doc/xdebug/xdebug.md" />
+    </list>
     <ignored path="PtPHP.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,6 +312,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PtPHP$MoneyTest.coverage" NAME="MoneyTest Coverage Results" MODIFIED="1399738905489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -22,13 +326,22 @@
     <favorites_list name="PtPHP" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="Forumkalbi.php" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/App/Module/Proxy/Parse/Forumkalbi.php">
+          <file leaf-file-name="SSDB.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/PtPHP/Ext/SSDB.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="27" selection-start="384" selection-end="384" vertical-scroll-proportion="0.7251908" vertical-offset="0" max-vertical-offset="1121">
+                <state line="18" column="29" selection-start="360" selection-end="360" vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="14497">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PtDb.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/PtPHP/Lib/PtDb.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="39" column="10" selection-start="958" selection-end="958" vertical-scroll-proportion="-11.535714" vertical-offset="418" max-vertical-offset="5947">
                   <folding />
                 </state>
               </provider>
@@ -37,16 +350,56 @@
           <file leaf-file-name="PtCurl.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/PtPHP/Lib/PtCurl.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="58" column="44" selection-start="1535" selection-end="1535" vertical-scroll-proportion="-2.7142856" vertical-offset="1026" max-vertical-offset="3192">
+                <state line="58" column="44" selection-start="1535" selection-end="1535" vertical-scroll-proportion="-0.0" vertical-offset="1102" max-vertical-offset="3192">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="init.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/PtPHP/init.php">
+          <file leaf-file-name="PdoDbTest.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tests/Lib/PdoDbTest.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="1" selection-start="255" selection-end="255" vertical-scroll-proportion="-1.3571428" vertical-offset="114" max-vertical-offset="5320">
+                <state line="17" column="34" selection-start="388" selection-end="388" vertical-scroll-proportion="-7.714286" vertical-offset="107" max-vertical-offset="665">
+                  <folding>
+                    <element signature="e#6#87#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="boot.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tests/boot.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="3" column="0" selection-start="78" selection-end="78" vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="171">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PtCacheSSDB.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/PtPHP/Lib/PtCacheSSDB.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="23" column="23" selection-start="519" selection-end="519" vertical-scroll-proportion="-12.214286" vertical-offset="0" max-vertical-offset="608">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PtCacheInterface.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/PtPHP/Lib/PtCacheInterface.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="8" column="14" selection-start="103" selection-end="103" vertical-scroll-proportion="-5.428571" vertical-offset="0" max-vertical-offset="380">
+                  <folding>
+                    <element signature="e#6#87#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PtCache.php" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/PtPHP/Lib/PtCache.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="14" column="39" selection-start="260" selection-end="260" vertical-scroll-proportion="0.30645162" vertical-offset="0" max-vertical-offset="558">
                   <folding />
                 </state>
               </provider>
@@ -56,19 +409,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="test_proxy_parse_forumkalbi.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test/modules/test_proxy_parse_forumkalbi.php">
+          <file leaf-file-name="PtDb.php" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/PtPHP/Lib/PtDb.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="35" selection-start="120" selection-end="172" vertical-scroll-proportion="-4.071429" vertical-offset="0" max-vertical-offset="418">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Proxy.php" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/App/Controller/Proxy.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="31" column="49" selection-start="754" selection-end="754" vertical-scroll-proportion="0.85873604" vertical-offset="358" max-vertical-offset="836">
+                <state line="264" column="4" selection-start="7392" selection-end="7392" vertical-scroll-proportion="0.25968993" vertical-offset="4882" max-vertical-offset="5947">
                   <folding />
                 </state>
               </provider>
@@ -94,21 +438,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/bin/run.php" />
-        <option value="$PROJECT_DIR$/App/boot.php" />
-        <option value="$PROJECT_DIR$/App/Module/Proxy/Parse/FreeProxyList.php" />
-        <option value="$PROJECT_DIR$/webroot/index.php" />
-        <option value="$PROJECT_DIR$/test/modules/test_proxy_parse_cn_proxy.php" />
-        <option value="$PROJECT_DIR$/App/Module/Proxy/Parse/Cn_Proxy.php" />
-        <option value="$PROJECT_DIR$/App/Module/Proxy/Parse/Samair.php" />
-        <option value="$PROJECT_DIR$/App/Module/Proxy/Parse/CnProxy.php" />
-        <option value="$PROJECT_DIR$/App/Module/Proxy/Parse/Dn28.php" />
-        <option value="$PROJECT_DIR$/App/Controller/Theme/Index.php" />
-        <option value="$PROJECT_DIR$/Doc/apache/rewrite.md" />
-        <option value="$PROJECT_DIR$/webroot/.htaccess" />
-        <option value="$PROJECT_DIR$/PtPHP/View/Block/site/505.html" />
-        <option value="$PROJECT_DIR$/PtPHP/View/Block/site/debug.html" />
-        <option value="$PROJECT_DIR$/App/Controller/Index.php" />
         <option value="$PROJECT_DIR$/App/View/theme/neat/block/style_switch.php" />
         <option value="$PROJECT_DIR$/App/View/theme/neat/block/topbar.php" />
         <option value="$PROJECT_DIR$/App/View/theme/neat/block/breadcrumbs.php" />
@@ -118,7 +447,6 @@
         <option value="$PROJECT_DIR$/webroot/static/theme/neat/js/custom.js" />
         <option value="$PROJECT_DIR$/App/View/theme/neat/datatables.php" />
         <option value="$PROJECT_DIR$/App/View/theme/neat/403.html" />
-        <option value="$PROJECT_DIR$/App/Controller/Theme/Neat.php" />
         <option value="$PROJECT_DIR$/App/View/theme/neat/403.php" />
         <option value="$PROJECT_DIR$/App/View/theme/neat/dashboard.php" />
         <option value="$PROJECT_DIR$/App/View/theme/neat/block/main_nav.php" />
@@ -140,24 +468,46 @@
         <option value="$PROJECT_DIR$/webroot/static/theme/neat/js/demo.js" />
         <option value="$PROJECT_DIR$/PtPHP/Controller/Pttest.php" />
         <option value="$PROJECT_DIR$/PtPHP/ptunittest.php" />
-        <option value="$PROJECT_DIR$/PtPHP/init.php" />
         <option value="$PROJECT_DIR$/PtPHP/Lib/PtCurl.php" />
         <option value="$PROJECT_DIR$/test/modules/test_proxy_parse_forumkalbi.php" />
         <option value="$PROJECT_DIR$/App/Module/Proxy/Parse/Forumkalbi.php" />
         <option value="$PROJECT_DIR$/App/Controller/Proxy.php" />
+        <option value="$PROJECT_DIR$/App/Controller/Theme/Neat.php" />
+        <option value="$PROJECT_DIR$/Doc/xdebug.md" />
+        <option value="$PROJECT_DIR$/Doc/xdebug/xdebug.md" />
+        <option value="$PROJECT_DIR$/App/View/block/manage/leftmenu.php" />
+        <option value="$PROJECT_DIR$/App/Controller/Manage/Index.php" />
+        <option value="$PROJECT_DIR$/App/Model/User.php" />
+        <option value="$PROJECT_DIR$/tests/UserTest.php" />
+        <option value="$PROJECT_DIR$/App/boot.php" />
+        <option value="$PROJECT_DIR$/PtPHP/init.php" />
+        <option value="$PROJECT_DIR$/PtPHP/Lib/PtDb.php" />
+        <option value="$PROJECT_DIR$/tests/Lib/PdoDbTest.php" />
+        <option value="$PROJECT_DIR$/PtPHP/Lib/PtMem.php" />
+        <option value="$PROJECT_DIR$/PtPHP/Lib/PtRedis.php" />
+        <option value="$PROJECT_DIR$/PtPHP/Lib/PtMongo.php" />
+        <option value="$PROJECT_DIR$/PtPHP/Lib/PtSSDB.php" />
+        <option value="$PROJECT_DIR$/PtPHP/Lib/PtCacheInterface.php" />
+        <option value="$PROJECT_DIR$/PtPHP/Lib/PtCache.php" />
       </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <option name="servers">
+      <server name="Unnamed" />
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="php55">
     <include_path>
       <path value=".:/php/includes:C:/Users/joseph/Desktop/workspace/PtPHP" />
+      <path value="D:\usr\local\php\phpunit-master\src" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="382" />
-    <option name="y" value="26" />
-    <option name="width" value="1398" />
-    <option name="height" value="902" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -243,7 +593,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -286,7 +635,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -300,11 +649,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
+              <option name="myItemId" value="Lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -354,44 +703,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PtPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PtPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PtPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PtPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -401,26 +715,51 @@
     <property name="recentsLimit" value="5" />
     <property name="SearchEverywhereHistory" value="" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files (x86)/Mark Lagendijk/WinLess/node_modules/.bin/lessc.cmd" />
-    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="D:/usr/local/php/phpunit-master/src" />
+    <property name="options.lastSelected" value="Configurable.PHP" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\PtPHP\PtPHP\Ext" />
+      <recent name="D:\workspace\PtPHP\PtPHP\Lib" />
+      <recent name="D:\workspace\PtPHP\tests" />
       <recent name="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\static\theme\neat\img" />
       <recent name="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\static\theme\neat\js" />
-      <recent name="C:\Users\joseph\Desktop\workspace\PtPHP\App\View\theme\neat\block" />
-      <recent name="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\static\theme\neat" />
-      <recent name="C:\Users\joseph\Desktop\workspace\PtPHP\App\View\theme\neat" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\joseph\Desktop\workspace\PtPHP\Public\static" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.test_proxy_parse_samair.php">
-    <configuration default="false" name="test_proxy_parse_samair.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/test/modules/test_proxy_parse_samair.php">
+  <component name="RunManager" selected="PHPUnit.PdoDbTest.test_include">
+    <configuration default="false" name="PdoDbTest.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/tests/Lib/PdoDbTest.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MoneyTest.testCanBeNegated" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="MoneyTest" file="$PROJECT_DIR$/tests/UserTest.php" method="testCanBeNegated" scope="Method" />
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="UserTest" file="$PROJECT_DIR$/tests/UserTest.php" scope="Class" />
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PdoDbTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="PdoDbTest" file="$PROJECT_DIR$/tests/Lib/PdoDbTest.php" scope="Class" />
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PdoDbTest.test_include" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Lib\PdoDbTest" file="$PROJECT_DIR$/tests/Lib/PdoDbTest.php" method="test_include" scope="Method" />
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
@@ -429,10 +768,41 @@
       <TestRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AppEnginePhpConfigurationType" factoryName="App Engine for PHP">
       <method />
     </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
@@ -444,12 +814,35 @@
       <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="PHP Script.test_proxy_parse_samair.php" />
+    <configuration default="false" name="run.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/bin/run.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserTest.testAdd" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner class="UserTest" file="$PROJECT_DIR$/tests/UserTest.php" method="testAdd" scope="Method" />
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpUnitDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpUnitDebugRunner" />
+      <method />
+    </configuration>
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="PHP Script.run.php" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Script.PdoDbTest.php" />
+      <item index="2" class="java.lang.String" itemvalue="PHPUnit.UserTest.testAdd" />
+      <item index="3" class="java.lang.String" itemvalue="PHPUnit.MoneyTest.testCanBeNegated" />
+      <item index="4" class="java.lang.String" itemvalue="PHPUnit.UserTest" />
+      <item index="5" class="java.lang.String" itemvalue="PHPUnit.PdoDbTest" />
+      <item index="6" class="java.lang.String" itemvalue="PHPUnit.PdoDbTest.test_include" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="PHP Script.test_proxy_parse_samair.php" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.PdoDbTest.test_include" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.PdoDbTest.php" />
+        <item index="2" class="java.lang.String" itemvalue="PHPUnit.PdoDbTest" />
+        <item index="3" class="java.lang.String" itemvalue="PHPUnit.UserTest" />
+        <item index="4" class="java.lang.String" itemvalue="PHPUnit.MoneyTest.testCanBeNegated" />
       </list>
     </recent_temporary>
   </component>
@@ -500,30 +893,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="382" y="26" width="1398" height="902" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2826087" sideWeight="0.49893162" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16120906" sideWeight="0.53979737" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3164721" sideWeight="0.49925262" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2815534" sideWeight="0.49840257" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15733333" sideWeight="0.53874815" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31607336" sideWeight="0.49893504" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1927952" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14327063" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22214182" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1512247" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20394036" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22998643" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16120906" sideWeight="0.459479" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26520053" sideWeight="0.49925262" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32720104" sideWeight="0.49966645" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31567568" sideWeight="0.24813631" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31567568" sideWeight="0.7513312" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32686085" sideWeight="0.49946752" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864866" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30869" sideWeight="0.49925372" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32108107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30869" sideWeight="0.49925372" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -543,362 +937,270 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/App/Controller/Index.php">
+    <entry file="file://$PROJECT_DIR$/App/Module/Proxy/Parse/Samair.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="38" selection-start="240" selection-end="240" vertical-scroll-proportion="-8.866667" vertical-offset="0" max-vertical-offset="494">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1748" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Controller/Theme/Adminia.php">
+    <entry file="file://$PROJECT_DIR$/App/Module/Proxy/Parse/Proxy174.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="1" selection-start="257" selection-end="257" vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="988" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/dashboard.html">
+    <entry file="file://$PROJECT_DIR$/App/Module/Proxy/Parse/Pachong.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="13" selection-start="849" selection-end="849" vertical-scroll-proportion="2.5439332" vertical-offset="0" max-vertical-offset="17271">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1064" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/static/theme/neat/js/jquery.1.7.2.min.js">
+    <entry file="file://$PROJECT_DIR$/App/Module/Proxy/Parse/FreeProxyList.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="29" selection-start="65266" selection-end="65266" vertical-scroll-proportion="0.098615915" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/block/topbar.php">
+    <entry file="file://$PROJECT_DIR$/fabfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="6" selection-start="8130" selection-end="8130" vertical-scroll-proportion="-55.42857" vertical-offset="1051" max-vertical-offset="2717">
-          <folding />
-        </state>
+        <state line="7" column="35" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/block/breadcrumbs.php">
+    <entry file="file://$PROJECT_DIR$/App/Module/Proxy/Parse/Forumkalbi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="29" selection-start="276" selection-end="276" vertical-scroll-proportion="-5.428571" vertical-offset="0" max-vertical-offset="380">
-          <folding />
-        </state>
+        <state line="21" column="31" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="1159" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/block/style_switch.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="337" selection-end="337" vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="779">
-          <folding />
-        </state>
+        <state line="18" column="40" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="103" max-vertical-offset="551" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/static/theme/neat/css/jquery.plupload.queue.css">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="30" selection-start="275" selection-end="275" vertical-scroll-proportion="0.32871974" vertical-offset="0" max-vertical-offset="3914">
-          <folding />
-        </state>
+        <state line="3" column="0" selection-start="9" selection-end="9" vertical-scroll-proportion="-2.28" vertical-offset="0" max-vertical-offset="171" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/static/theme/neat/js/jquery.inputmask.min.js">
+    <entry file="file://$PROJECT_DIR$/Doc/eclipse.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="38" selection-start="161" selection-end="161" vertical-scroll-proportion="0.13148789" vertical-offset="0" max-vertical-offset="1311">
-          <folding />
-        </state>
+        <state line="4" column="49" selection-start="206" selection-end="206" vertical-scroll-proportion="-3.04" vertical-offset="0" max-vertical-offset="190" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/mediatables.html">
+    <entry file="file://$PROJECT_DIR$/Doc/phing.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9025">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="338" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/403.html">
+    <entry file="file://$PROJECT_DIR$/Doc/nginx.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="521" selection-end="557" vertical-scroll-proportion="-14.928572" vertical-offset="0" max-vertical-offset="608">
-          <folding />
-        </state>
+        <state line="8" column="31" selection-start="196" selection-end="196" vertical-scroll-proportion="-0.6" vertical-offset="137" max-vertical-offset="703" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/404.php">
+    <entry file="file://$PROJECT_DIR$/Doc/xdebug.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="46" selection-start="453" selection-end="453" vertical-scroll-proportion="-10.857142" vertical-offset="0" max-vertical-offset="608">
-          <folding />
-        </state>
+        <state line="9" column="18" selection-start="459" selection-end="459" vertical-scroll-proportion="-6.84" vertical-offset="0" max-vertical-offset="1615" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/500.php">
+    <entry file="file://$PROJECT_DIR$/Doc/xdebug/xdebug.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="63" selection-start="394" selection-end="394" vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="608">
-          <folding />
-        </state>
+        <state line="41" column="0" selection-start="1278" selection-end="1278" vertical-scroll-proportion="-3.56" vertical-offset="690" max-vertical-offset="1083" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doc/xdebug/trace.2722960585.xt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doc/xdebug/cachegrind.out.C__Users_joseph_Desktop_projects_1_weilver_sdcCI_unit_test_php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2831" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/modules/test_proxy_parse_forumkalbi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="54" selection-start="139" selection-end="140" vertical-scroll-proportion="0.130674" vertical-offset="0" max-vertical-offset="727" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller/Proxy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="18" selection-start="233" selection-end="233" vertical-scroll-proportion="0.2943604" vertical-offset="109" max-vertical-offset="836" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doc/apache/rewrite.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="-6.84" vertical-offset="0" max-vertical-offset="323" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Config/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="755" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/model/test_proxy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="755" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="755" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doc/apache/mod_fcgid-ReadMe.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1368" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller/Theme/Unicorn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="502" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller/Manage/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="1" selection-start="213" selection-end="213" vertical-scroll-proportion="-6.785714" vertical-offset="0" max-vertical-offset="304" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PtPHP/Controller/Pttest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="35" selection-start="827" selection-end="827" vertical-scroll-proportion="22.892857" vertical-offset="1002" max-vertical-offset="1463" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/View/theme/neat/block/main_nav.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="13" selection-start="4669" selection-end="4669" vertical-scroll-proportion="-8.571428" vertical-offset="2591" max-vertical-offset="3382">
-          <folding />
-        </state>
+        <state line="6" column="12" selection-start="268" selection-end="268" vertical-scroll-proportion="-4.071429" vertical-offset="0" max-vertical-offset="3382" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/datatables.php">
+    <entry file="file://$PROJECT_DIR$/App/View/block/manage/leftmenu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="1254" selection-end="1254" vertical-scroll-proportion="-13.571428" vertical-offset="114" max-vertical-offset="27721">
-          <folding />
-        </state>
+        <state line="16" column="61" selection-start="1836" selection-end="1836" vertical-scroll-proportion="-3.6626506" vertical-offset="0" max-vertical-offset="570" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/forms.php">
+    <entry file="file://$PROJECT_DIR$/App/View/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="4.071429" vertical-offset="114" max-vertical-offset="13623">
-          <folding />
-        </state>
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="114" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/gallery.php">
+    <entry file="file://$PROJECT_DIR$/App/Controller/Theme/Stilearn.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="54" selection-start="617" selection-end="617" vertical-scroll-proportion="-10.821428" vertical-offset="1" max-vertical-offset="9253">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="502" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/index.php">
+    <entry file="file://$PROJECT_DIR$/App/Controller/Theme/Metronic.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="41" selection-start="550" selection-end="550" vertical-scroll-proportion="-10.857142" vertical-offset="0" max-vertical-offset="1235">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="502" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/invoice.php">
+    <entry file="file://$PROJECT_DIR$/App/Controller/Theme/Industry.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="7" selection-start="571" selection-end="571" vertical-scroll-proportion="-9.107142" vertical-offset="11" max-vertical-offset="3496">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="502" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/mediatables.php">
+    <entry file="file://$PROJECT_DIR$/App/Controller/Theme/Adminia.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="1171" selection-end="1171" vertical-scroll-proportion="-8.857142" vertical-offset="227" max-vertical-offset="2318">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/messages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="48" selection-start="666" selection-end="666" vertical-scroll-proportion="-11.535714" vertical-offset="0" max-vertical-offset="19779">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/navigation_hover.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="54" selection-start="633" selection-end="633" vertical-scroll-proportion="-8.714286" vertical-offset="60" max-vertical-offset="1178">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/plaintables.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="1236" selection-end="1236" vertical-scroll-proportion="-5.142857" vertical-offset="350" max-vertical-offset="8721">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/results.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="45" selection-start="712" selection-end="712" vertical-scroll-proportion="-2.0357144" vertical-offset="285" max-vertical-offset="9880">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/sliders.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="1329" selection-end="1329" vertical-scroll-proportion="-3.9285715" vertical-offset="403" max-vertical-offset="5111">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/statistics.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="48" selection-start="592" selection-end="592" vertical-scroll-proportion="-4.642857" vertical-offset="174" max-vertical-offset="3078">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/tabs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="58" selection-start="1460" selection-end="1460" vertical-scroll-proportion="-6.678571" vertical-offset="402" max-vertical-offset="4921">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/userprofile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="872" selection-end="872" vertical-scroll-proportion="0.20181818" vertical-offset="288" max-vertical-offset="3648">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="7" selection-start="493" selection-end="493" vertical-scroll-proportion="0.33636364" vertical-offset="62" max-vertical-offset="3534">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/tooltips.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="10" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.5527273" vertical-offset="342" max-vertical-offset="3705">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="487" selection-end="774" vertical-scroll-proportion="0.4490909" vertical-offset="0" max-vertical-offset="10488">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/static/theme/neat/img/bg2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/static/theme/neat/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="58" selection-start="2690" selection-end="2690" vertical-scroll-proportion="-3.2586207" vertical-offset="1312" max-vertical-offset="9880">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/static/theme/neat/js/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="35" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.2643885" vertical-offset="1259" max-vertical-offset="4446">
-          <folding>
-            <marker date="1399445994408" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="9" column="44" selection-start="252" selection-end="252" vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="323" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Controller/Theme/Neat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="27" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.6587031" vertical-offset="89" max-vertical-offset="703">
+        <state line="4" column="19" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="703" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="45" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="502">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/calendar.php">
+    <entry file="file://$PROJECT_DIR$/App/Model/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="78" selection-start="335" selection-end="335" vertical-scroll-proportion="0.32423207" vertical-offset="0" max-vertical-offset="1425">
-          <folding />
-        </state>
+        <state line="5" column="0" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="247" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/buttons.php">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/ide-phpunit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="316" column="0" selection-start="26162" selection-end="26162" vertical-scroll-proportion="0.13787085" vertical-offset="5925" max-vertical-offset="6498">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="9728" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PtPHP/___PtPHP/PtApp.php">
+    <entry file="file://$PROJECT_DIR$/bin/run.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="7" selection-start="379" selection-end="379" vertical-scroll-proportion="0.36474696" vertical-offset="0" max-vertical-offset="7942">
-          <folding>
-            <marker date="1396602296000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396602296000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/403.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="22" selection-start="425" selection-end="425" vertical-scroll-proportion="0.4215017" vertical-offset="0" max-vertical-offset="608">
+        <state line="6" column="6" selection-start="176" selection-end="176" vertical-scroll-proportion="0.19689119" vertical-offset="0" max-vertical-offset="579">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/boot.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="35" selection-start="165" selection-end="165" vertical-scroll-proportion="-2.7142856" vertical-offset="0" max-vertical-offset="228">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PtPHP/ptunittest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="57" selection-start="1120" selection-end="1120" vertical-scroll-proportion="-0.88372093" vertical-offset="684" max-vertical-offset="2261">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PtPHP/Controller/Pttest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="39" selection-start="328" selection-end="328" vertical-scroll-proportion="-6.785714" vertical-offset="0" max-vertical-offset="1463">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Module/Proxy/Parse/Samair.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Module/Proxy/Parse/Proxy174.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="988">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Module/Proxy/Parse/Pachong.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1064">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Module/Proxy/Parse/FreeProxyList.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/modules/test_proxy_parse_forumkalbi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="35" selection-start="120" selection-end="172" vertical-scroll-proportion="-4.071429" vertical-offset="0" max-vertical-offset="418">
+        <state line="13" column="1" selection-start="367" selection-end="367" vertical-scroll-proportion="-8.821428" vertical-offset="0" max-vertical-offset="380">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PtPHP/init.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="1" selection-start="255" selection-end="255" vertical-scroll-proportion="-1.3571428" vertical-offset="114" max-vertical-offset="5320">
+        <state line="76" column="0" selection-start="2314" selection-end="2314" vertical-scroll-proportion="-2.142857" vertical-offset="1384" max-vertical-offset="5586">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PtPHP/Ext/SSDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="29" selection-start="360" selection-end="360" vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="14497">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PtPHP/Lib/PtCurl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="44" selection-start="1535" selection-end="1535" vertical-scroll-proportion="-2.7142856" vertical-offset="1026" max-vertical-offset="3192">
+        <state line="58" column="44" selection-start="1535" selection-end="1535" vertical-scroll-proportion="-0.0" vertical-offset="1102" max-vertical-offset="3192">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Controller/Proxy.php">
+    <entry file="file://$PROJECT_DIR$/PtPHP/Lib/PtCacheInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="49" selection-start="754" selection-end="754" vertical-scroll-proportion="0.85873604" vertical-offset="358" max-vertical-offset="836">
+        <state line="8" column="14" selection-start="103" selection-end="103" vertical-scroll-proportion="-5.428571" vertical-offset="0" max-vertical-offset="380">
+          <folding>
+            <element signature="e#6#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Lib/PdoDbTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="34" selection-start="388" selection-end="388" vertical-scroll-proportion="-7.714286" vertical-offset="107" max-vertical-offset="665">
+          <folding>
+            <element signature="e#6#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/boot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="78" selection-end="78" vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="171">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Module/Proxy/Parse/Forumkalbi.php">
+    <entry file="file://$PROJECT_DIR$/PtPHP/Lib/PtCacheSSDB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="27" selection-start="384" selection-end="384" vertical-scroll-proportion="0.7251908" vertical-offset="0" max-vertical-offset="1121">
+        <state line="23" column="23" selection-start="519" selection-end="519" vertical-scroll-proportion="-12.214286" vertical-offset="0" max-vertical-offset="608">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PtPHP/Lib/PtDb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="10" selection-start="958" selection-end="958" vertical-scroll-proportion="-11.535714" vertical-offset="418" max-vertical-offset="5947">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PtPHP/Lib/PtCache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="39" selection-start="260" selection-end="260" vertical-scroll-proportion="0.30645162" vertical-offset="0" max-vertical-offset="558">
           <folding />
         </state>
       </provider>
