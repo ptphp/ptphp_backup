@@ -9,6 +9,12 @@ if(PHP_SAPI != "cli"){
 }
 include PATH_PTPHP."/Config/default.php";
 
+class Pt{
+    static  $config;
+    static function config($k){
+        return isset(self::$config[$k])?self::$config[$k]:FALSE;
+    }
+}
 define("DEBUG",1);
 @ini_set('display_errors', 'On');
 error_reporting(E_ALL);
@@ -78,23 +84,33 @@ function pt_error_handler($errno, $errstr, $errfile, $errline )
 function __pt_autoload($class_name){
 	//echo $class_name;
     //console($class_name);
-	if ( substr($class_name, 0,10) == "Controller" ){		
+    $config = Pt::$config;
+    $t = explode("\\",$class_name);
+    $f = $t[0];
+    if(isset($config['namespaces'])){
+        $namespaces = $config['namespaces'];
+        if(array_key_exists($f,$namespaces)){
+            $path = $namespaces[$f].'\\'.str_replace( "\\", "/",$class_name).".php";
+            require_once $path;
+        }
+    }
+	if ( $f == "Controller" ){
 		$path = PATH_APP."/".str_replace( "\\", "/",$class_name).".php";
 		#var_dump($path);
 		require_once $path;
 	}
-	if ( substr($class_name, 0,5) == "Model" ){
+	if ( $f == "Model" ){
 		$path = PATH_APP."/".str_replace( "\\", "/",$class_name).".php";
 		require_once $path;
 	}
-	if ( substr($class_name, 0,6) == "Module" ){
+	if ($f == "Module" ){
 		#echo $class_name;
 		#echo PHP_EOL;
 		$path = PATH_APP."/".str_replace( "\\", "/",$class_name).".php";
 		require_once $path;
 	}
 
-	if ( substr($class_name, 0,3) == "Lib" ){
+	if ( $f == "Lib" ){
         $path = PATH_APP."/".str_replace( "\\", "/",$class_name).".php";
         if(!is_file($path)){
             $path = PATH_PTPHP."/".str_replace( "\\", "/",$class_name).".php";

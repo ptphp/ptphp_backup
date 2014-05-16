@@ -2,6 +2,9 @@
 $config['debug'] = FALSE;
 $config['mode'] = "develop";
 
+$config['namespaces']= array(
+);
+
 $config['db']["develop"] = array(
     'default'=>array(
         'type'=>'mysql',
