@@ -11,7 +11,7 @@ env.timeout = 20
 
 def gitpush():
     local('git add --all')
-    local('git commit -m "change fabric deploy"')
+    local('git commit -m "deploy"')
     local('git push origin master')
 
 def deploy():

@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16952b0e-bd3d-4c7a-a858-42c8ae6aa3df" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/phing.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabfile.py" afterPath="$PROJECT_DIR$/fabfile.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PtPHP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,7 +85,7 @@
       <file leaf-file-name="fabfile.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fabfile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="46" selection-start="350" selection-end="350" vertical-scroll-proportion="0.4448052" vertical-offset="110" max-vertical-offset="589">
+            <state line="12" column="26" selection-start="303" selection-end="303" vertical-scroll-proportion="0.38311687" vertical-offset="110" max-vertical-offset="589">
               <folding />
             </state>
           </provider>
@@ -893,7 +890,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fabfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="46" selection-start="350" selection-end="350" vertical-scroll-proportion="0.4448052" vertical-offset="110" max-vertical-offset="589">
+        <state line="12" column="26" selection-start="303" selection-end="303" vertical-scroll-proportion="0.38311687" vertical-offset="110" max-vertical-offset="589">
           <folding />
         </state>
       </provider>
