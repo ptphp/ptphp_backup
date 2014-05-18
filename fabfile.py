@@ -11,11 +11,15 @@ env.timeout = 20
 
 def gitpush():
     local('git add --all')
-    local('git commit -a')
+    local('git commit -m "change fabric deploy"')
     local('git push origin master')
 
 def deploy():
-    #gitpush();
-    remote_dir = "/var/www/"
+    gitpush();
+    remote_dir = "/var/www/ptphp.com"
     with cd(remote_dir):
-        run("ls")
+        #run("git remote add origin git@github.com:ptphp/PtPHP.git")
+        #run("git add .")
+        #run("git commit -m 'init'")
+        run("git pull origin master")
+        #run("git push origin master")
