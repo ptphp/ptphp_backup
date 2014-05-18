@@ -1,0 +1,143 @@
+version: 1
+creator: xdebug 2.2.4
+cmd: C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\unit_test.php
+part: 1
+positions: line
+
+events: Time
+
+fl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+fn=include::C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+1 0
+
+fl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+fn=b->test
+7 1
+
+fl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+fn=b::a
+4 0
+
+fl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+fn=a
+11 178
+cfl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+cfn=b::a
+calls=1 0 0
+12 0
+
+fl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+fn=test22
+15 312
+cfl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+cfn=b->test
+calls=1 0 0
+17 1
+cfl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+cfn=a
+calls=1 0 0
+18 179
+
+fl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\unit_test.php
+fn=test1
+5 144
+cfl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+cfn=test22
+calls=1 0 0
+7 493
+
+fl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+fn=b->test
+7 0
+
+fl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+fn=b::a
+4 0
+
+fl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+fn=a
+11 157
+cfl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+cfn=b::a
+calls=1 0 0
+12 0
+
+fl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+fn=test22
+15 296
+cfl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+cfn=b->test
+calls=1 0 0
+17 0
+cfl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+cfn=a
+calls=1 0 0
+18 157
+
+fl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\unit_test.php
+fn=test1
+5 141
+cfl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+cfn=test22
+calls=1 0 0
+7 454
+
+fl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+fn=b->test
+7 0
+
+fl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+fn=b::a
+4 0
+
+fl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+fn=a
+11 157
+cfl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+cfn=b::a
+calls=1 0 0
+12 0
+
+fl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+fn=test22
+15 296
+cfl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+cfn=b->test
+calls=1 0 0
+17 0
+cfl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+cfn=a
+calls=1 0 0
+18 157
+
+fl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\unit_test.php
+fn=test2
+9 276
+cfl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\unit_test.php
+cfn=test1
+calls=1 0 0
+10 596
+cfl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+cfn=test22
+calls=1 0 0
+11 453
+
+fl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\unit_test.php
+fn={main}
+
+summary: 2511
+
+1 546
+cfl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+cfn=include::C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\test.php
+calls=1 0 0
+2 0
+cfl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\unit_test.php
+cfn=test1
+calls=1 0 0
+14 638
+cfl=C:\Users\joseph\Desktop\projects\1\weilver\sdcCI\unit_test.php
+cfn=test2
+calls=1 0 0
+15 1326
+
