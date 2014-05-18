@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16952b0e-bd3d-4c7a-a858-42c8ae6aa3df" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/View/theme/neat/dashboard1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/View/theme/neat/datatables.php" afterPath="$PROJECT_DIR$/App/View/theme/neat/datatables.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabfile.py" afterPath="$PROJECT_DIR$/fabfile.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PtPHP.iws" />
@@ -42,7 +43,7 @@
       <file leaf-file-name="Exception.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://E:/usr/local/php/phpunit-master/src/Exception.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="40" selection-start="2150" selection-end="2150" vertical-scroll-proportion="-5.428571" vertical-offset="0" max-vertical-offset="437">
+            <state line="50" column="40" selection-start="2150" selection-end="2150" vertical-scroll-proportion="0.0" vertical-offset="950" max-vertical-offset="1235">
               <folding />
             </state>
           </provider>
@@ -51,7 +52,7 @@
       <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/View/theme/neat/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="13" selection-start="745" selection-end="745" vertical-scroll-proportion="-12.892858" vertical-offset="133" max-vertical-offset="17271">
+            <state line="26" column="13" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="17271">
               <folding />
             </state>
           </provider>
@@ -60,7 +61,7 @@
       <file leaf-file-name="dashboard.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/View/theme/neat/dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="536" column="34" selection-start="19673" selection-end="19675" vertical-scroll-proportion="-12.428572" vertical-offset="9836" max-vertical-offset="10488">
+            <state line="536" column="34" selection-start="19673" selection-end="19675" vertical-scroll-proportion="0.0" vertical-offset="9836" max-vertical-offset="10488">
               <folding />
             </state>
           </provider>
@@ -69,20 +70,26 @@
       <file leaf-file-name="datatables.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/View/theme/neat/datatables.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1310" column="16" selection-start="34613" selection-end="34613" vertical-scroll-proportion="-8.142858" vertical-offset="24662" max-vertical-offset="27740">
+            <state line="1310" column="16" selection-start="34613" selection-end="34613" vertical-scroll-proportion="0.0" vertical-offset="24662" max-vertical-offset="27740">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard1.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="dashboard1.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/View/theme/neat/dashboard1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="18" selection-start="4620" selection-end="4620" vertical-scroll-proportion="0.2315951" vertical-offset="343" max-vertical-offset="8284">
-              <folding>
-                <element signature="tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-              </folding>
+            <state line="143" column="12" selection-start="4624" selection-end="4624" vertical-scroll-proportion="-0.0" vertical-offset="2717" max-vertical-offset="10488">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fabfile.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fabfile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="16" selection-start="260" selection-end="260" vertical-scroll-proportion="0.40140846" vertical-offset="0" max-vertical-offset="494">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,13 +105,13 @@
       </file>
       <file leaf-file-name="rabbitmq.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Doc/rabbitmq.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="30" column="0" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0" vertical-offset="505" max-vertical-offset="969">
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
           </provider>
         </entry>
       </file>
@@ -135,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/PtPHP/Lib/PtCurl.php" />
         <option value="$PROJECT_DIR$/test/modules/test_proxy_parse_forumkalbi.php" />
         <option value="$PROJECT_DIR$/App/Module/Proxy/Parse/Forumkalbi.php" />
         <option value="$PROJECT_DIR$/App/Controller/Proxy.php" />
@@ -186,6 +192,7 @@
         <option value="$PROJECT_DIR$/PtPHP/Lib/PtAmqp.php" />
         <option value="$PROJECT_DIR$/tests/Lib/PtAmqpTest.php" />
         <option value="$PROJECT_DIR$/App/View/theme/neat/datatables.php" />
+        <option value="$PROJECT_DIR$/fabfile.py" />
       </list>
     </option>
   </component>
@@ -309,38 +316,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PtPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PtPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PtPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PtPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -428,10 +403,10 @@
     <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
       <method />
     </configuration>
-    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
+    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
       <method />
     </configuration>
-    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
@@ -561,7 +536,11 @@
       <created>1400211080433</created>
       <updated>1400211080433</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="p">
+      <created>1400286039864</created>
+      <updated>1400286039864</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -586,31 +565,31 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2803468" sideWeight="0.49818182" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22604951" sideWeight="0.53780615" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.51345533" sideWeight="0.5372737" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3150289" sideWeight="0.4989091" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1927952" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08785942" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17305644" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17465389" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22998643" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22604951" sideWeight="0.46166134" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.51345533" sideWeight="0.46219382" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39130434" sideWeight="0.75127274" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32608697" sideWeight="0.4989091" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864866" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289855" sideWeight="0.49963635" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30869" sideWeight="0.49925372" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32108107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30869" sideWeight="0.49925372" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -626,7 +605,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="add ptamqp" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ptamqp" />
+    <MESSAGE value="p" />
+    <option name="LAST_COMMIT_MESSAGE" value="p" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -640,11 +620,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PtPHP/Ext/SSDB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="29" selection-start="360" selection-end="360" vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="14497" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/boot.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="78" selection-end="78" vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="171" />
@@ -855,13 +830,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Doc/rabbitmq.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="0" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0" vertical-offset="505" max-vertical-offset="969">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp/amqp/work.php">
@@ -887,39 +862,43 @@
     </entry>
     <entry file="file://E:/usr/local/php/phpunit-master/src/Exception.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="40" selection-start="2150" selection-end="2150" vertical-scroll-proportion="-5.428571" vertical-offset="0" max-vertical-offset="437">
+        <state line="50" column="40" selection-start="2150" selection-end="2150" vertical-scroll-proportion="0.0" vertical-offset="950" max-vertical-offset="1235">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/View/theme/neat/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="745" selection-end="745" vertical-scroll-proportion="-12.892858" vertical-offset="133" max-vertical-offset="17271">
+        <state line="26" column="13" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="17271">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/View/theme/neat/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="536" column="34" selection-start="19673" selection-end="19675" vertical-scroll-proportion="-12.428572" vertical-offset="9836" max-vertical-offset="10488">
+        <state line="536" column="34" selection-start="19673" selection-end="19675" vertical-scroll-proportion="0.0" vertical-offset="9836" max-vertical-offset="10488">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/View/theme/neat/datatables.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1310" column="16" selection-start="34613" selection-end="34613" vertical-scroll-proportion="-8.142858" vertical-offset="24662" max-vertical-offset="27740">
+        <state line="1310" column="16" selection-start="34613" selection-end="34613" vertical-scroll-proportion="0.0" vertical-offset="24662" max-vertical-offset="27740">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/View/theme/neat/dashboard1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="18" selection-start="4620" selection-end="4620" vertical-scroll-proportion="0.2315951" vertical-offset="343" max-vertical-offset="8284">
-          <folding>
-            <element signature="tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
+        <state line="143" column="12" selection-start="4624" selection-end="4624" vertical-scroll-proportion="0.0" vertical-offset="2717" max-vertical-offset="10488">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fabfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="16" selection-start="260" selection-end="260" vertical-scroll-proportion="0.40140846" vertical-offset="0" max-vertical-offset="494">
+          <folding />
         </state>
       </provider>
     </entry>
