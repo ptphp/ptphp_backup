@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16952b0e-bd3d-4c7a-a858-42c8ae6aa3df" name="Default" comment="" />
+    <list default="true" id="dfcd0a9f-ade4-4eff-beb1-d0f85bd89b4e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/Controller/IndexTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Controller/Log.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PtPHP/Lib/PtAmqp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/Lib/PtAmqpTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/View/chat/chat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Doc/composer" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/View/theme/neat/dashboard1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/View/log/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/phing.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Doc/rabbitmq.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Controller/Theme/Neat.php" afterPath="$PROJECT_DIR$/App/Controller/Theme/Neat.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PtPHP/Lib/PtDb.php" afterPath="$PROJECT_DIR$/PtPHP/Lib/PtDb.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PtPHP.iml" afterPath="$PROJECT_DIR$/.idea/PtPHP.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/boot.php" afterPath="$PROJECT_DIR$/App/boot.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/View/theme/neat/dashboard.php" afterPath="$PROJECT_DIR$/App/View/theme/neat/dashboard.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/View/theme/neat/datatables.php" afterPath="$PROJECT_DIR$/App/View/theme/neat/datatables.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Config/default.php" afterPath="$PROJECT_DIR$/App/Config/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PtPHP/Config/default.php" afterPath="$PROJECT_DIR$/PtPHP/Config/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabfile.py" afterPath="$PROJECT_DIR$/fabfile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/index.php" afterPath="$PROJECT_DIR$/webroot/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PtPHP/init.php" afterPath="$PROJECT_DIR$/PtPHP/init.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/View/theme/neat/block/main_nav.php" afterPath="$PROJECT_DIR$/App/View/theme/neat/block/main_nav.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/run.php" afterPath="$PROJECT_DIR$/bin/run.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/View/theme/neat/block/style_switch.php" afterPath="$PROJECT_DIR$/App/View/theme/neat/block/style_switch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="PtPHP.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,9 +43,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PtPHP$MoneyTest.coverage" NAME="MoneyTest Coverage Results" MODIFIED="1399738905489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -25,71 +54,67 @@
     <favorites_list name="PtPHP" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6203493">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="main_nav.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/App/View/theme/neat/block/main_nav.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="18" column="27" selection-start="1119" selection-end="1119" vertical-scroll-proportion="-4.3846154" vertical-offset="0" max-vertical-offset="836">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Neat.php" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/App/Controller/Theme/Neat.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="118" column="14" selection-start="4197" selection-end="4197" vertical-scroll-proportion="0.7231405" vertical-offset="1717" max-vertical-offset="4085">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="PtDb.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/PtPHP/Lib/PtDb.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="292" column="30" selection-start="8224" selection-end="8224" vertical-scroll-proportion="-3.3846154" vertical-offset="5284" max-vertical-offset="5947">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="PtFileCacheTest.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tests/Lib/PtFileCacheTest.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="4" selection-start="347" selection-end="598" vertical-scroll-proportion="-9.5" vertical-offset="0" max-vertical-offset="608">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="PtMemTest.php" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/tests/Lib/PtMemTest.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="26" selection-start="265" selection-end="265" vertical-scroll-proportion="0.261708" vertical-offset="0" max-vertical-offset="726">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="Log.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Controller/Log.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="19" selection-start="64" selection-end="64" vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="266">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexTest.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Controller/IndexTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="1" selection-start="258" selection-end="258" vertical-scroll-proportion="-6.785714" vertical-offset="0" max-vertical-offset="304">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PtPHP/init.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="25" selection-start="171" selection-end="171" vertical-scroll-proportion="-0.974359" vertical-offset="0" max-vertical-offset="6099">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PtPHP/Config/default.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="26" selection-start="333" selection-end="333" vertical-scroll-proportion="-10.857142" vertical-offset="0" max-vertical-offset="817">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="boot.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/boot.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="78" selection-end="78" vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="171">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bin/run.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="6" selection-start="103" selection-end="103" vertical-scroll-proportion="0.22485207" vertical-offset="0" max-vertical-offset="338">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
-  </component>
-  <component name="FrameworkCommandLineHistory">
-    <commandsHistory>
-      <command text="ls" />
-    </commandsHistory>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -97,134 +122,20 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/App/View/theme/neat/gallery.php" />
-        <option value="$PROJECT_DIR$/App/View/theme/neat/invoice.php" />
-        <option value="$PROJECT_DIR$/App/View/theme/neat/mediatables.php" />
-        <option value="$PROJECT_DIR$/App/View/theme/neat/messages.php" />
-        <option value="$PROJECT_DIR$/App/View/theme/neat/navigation_hover.php" />
-        <option value="$PROJECT_DIR$/App/View/theme/neat/plaintables.php" />
-        <option value="$PROJECT_DIR$/App/View/theme/neat/results.php" />
-        <option value="$PROJECT_DIR$/App/View/theme/neat/sliders.php" />
-        <option value="$PROJECT_DIR$/App/View/theme/neat/statistics.php" />
-        <option value="$PROJECT_DIR$/App/View/theme/neat/tabs.php" />
-        <option value="$PROJECT_DIR$/App/View/theme/neat/tooltips.php" />
-        <option value="$PROJECT_DIR$/App/View/theme/neat/userprofile.php" />
-        <option value="$PROJECT_DIR$/App/View/theme/neat/view.php" />
-        <option value="$PROJECT_DIR$/App/View/theme/neat/buttons.php" />
-        <option value="$PROJECT_DIR$/webroot/static/theme/neat/js/demo.js" />
-        <option value="$PROJECT_DIR$/PtPHP/Controller/Pttest.php" />
-        <option value="$PROJECT_DIR$/PtPHP/ptunittest.php" />
-        <option value="$PROJECT_DIR$/PtPHP/Lib/PtCurl.php" />
-        <option value="$PROJECT_DIR$/test/modules/test_proxy_parse_forumkalbi.php" />
-        <option value="$PROJECT_DIR$/App/Module/Proxy/Parse/Forumkalbi.php" />
-        <option value="$PROJECT_DIR$/App/Controller/Proxy.php" />
-        <option value="$PROJECT_DIR$/Doc/xdebug.md" />
-        <option value="$PROJECT_DIR$/Doc/xdebug/xdebug.md" />
-        <option value="$PROJECT_DIR$/App/View/block/manage/leftmenu.php" />
-        <option value="$PROJECT_DIR$/App/Controller/Manage/Index.php" />
-        <option value="$PROJECT_DIR$/App/Model/User.php" />
-        <option value="$PROJECT_DIR$/tests/UserTest.php" />
-        <option value="$PROJECT_DIR$/App/boot.php" />
+        <option value="$PROJECT_DIR$/App/View/log/index.php" />
+        <option value="$PROJECT_DIR$/App/Controller/Log.php" />
         <option value="$PROJECT_DIR$/PtPHP/init.php" />
-        <option value="$PROJECT_DIR$/PtPHP/Lib/PtDb.php" />
-        <option value="$PROJECT_DIR$/PtPHP/Lib/PtMem.php" />
-        <option value="$PROJECT_DIR$/PtPHP/Lib/PtRedis.php" />
-        <option value="$PROJECT_DIR$/PtPHP/Lib/PtSSDB.php" />
-        <option value="$PROJECT_DIR$/PtPHP/Lib/PtCacheFile.php" />
-        <option value="$PROJECT_DIR$/PtPHP/Lib/PtCacheInterface.php" />
-        <option value="$PROJECT_DIR$/tests/Lib/PtFileCacheTest.php" />
-        <option value="$PROJECT_DIR$/tests/Lib/PtRedisTest.php" />
-        <option value="$PROJECT_DIR$/PtPHP/Lib/PtCacheMem.php" />
-        <option value="$PROJECT_DIR$/PtPHP/Lib/PtCacheRedis.php" />
-        <option value="$PROJECT_DIR$/PtPHP/Lib/PtCacheSSDB.php" />
-        <option value="$PROJECT_DIR$/tests/Lib/PtCacheSSDBTest.php" />
-        <option value="$PROJECT_DIR$/PtPHP/Lib/PtMongo.php" />
-        <option value="$PROJECT_DIR$/PtPHP/Lib/PtCache.php" />
-        <option value="$PROJECT_DIR$/tests/Lib/PtCacheTest.php" />
+        <option value="$PROJECT_DIR$/tests/Controller/IndexTest.php" />
         <option value="$PROJECT_DIR$/PtPHP/Config/default.php" />
-        <option value="$PROJECT_DIR$/tests/Lib/PdoDbTest.php" />
-        <option value="$PROJECT_DIR$/tests/Lib/PtMemTest.php" />
-        <option value="$PROJECT_DIR$/Doc/apache/rewrite.md" />
-        <option value="$PROJECT_DIR$/App/View/theme/neat/block/topbar.php" />
-        <option value="$PROJECT_DIR$/App/View/theme/neat/block/main_nav.php" />
-        <option value="$PROJECT_DIR$/App/Controller/Theme/Neat.php" />
       </list>
     </option>
   </component>
-  <component name="PhpServers">
-    <option name="servers">
-      <server name="Unnamed" />
-    </option>
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="php55">
-    <include_path>
-      <path value=".:/php/includes:C:/Users/joseph/Desktop/workspace/PtPHP" />
-      <path value="D:\usr\local\php\phpunit-master\src" />
-    </include_path>
-  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="php55" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>CSS</id>
-          </State>
-          <State>
-            <id>Code style issuesJavaScript</id>
-          </State>
-          <State>
-            <id>Control flow issuesJavaScript</id>
-          </State>
-          <State>
-            <id>JavaScript</id>
-          </State>
-          <State>
-            <id>JavaScript function metricsJavaScript</id>
-          </State>
-          <State>
-            <id>JavaScript validity issuesJavaScript</id>
-          </State>
-          <State>
-            <id>PHP</id>
-          </State>
-          <State>
-            <id>PHPDocPHP</id>
-          </State>
-          <State>
-            <id>Portability issues</id>
-          </State>
-          <State>
-            <id>Potentially confusing code constructsJavaScript</id>
-          </State>
-          <State>
-            <id>Probable bugsJavaScript</id>
-          </State>
-          <State>
-            <id>SQL</id>
-          </State>
-          <State>
-            <id>UndefinedPHP</id>
-          </State>
-          <State>
-            <id>XPath</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Portability issues</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
+    <option name="x" value="296" />
+    <option name="y" value="131" />
+    <option name="width" value="1278" />
+    <option name="height" value="830" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -252,6 +163,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -260,64 +172,59 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PtPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PtPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PtPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PtPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="SearchEverywhereHistory" value="" />
-    <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="D:/usr/local/php/phpunit-master/src" />
-    <property name="options.lastSelected" value="Configurable.PHP" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProxyCrawl" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\PtPHP\PtPHP\Ext" />
-      <recent name="D:\workspace\PtPHP\PtPHP\Lib" />
-      <recent name="D:\workspace\PtPHP\tests" />
-      <recent name="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\static\theme\neat\img" />
-      <recent name="C:\Users\joseph\Desktop\workspace\PtPHP\webroot\static\theme\neat\js" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\joseph\Desktop\workspace\PtPHP\Public\static" />
+      <recent name="D:\workspace\PtPHP\App\View\chat" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.PtMemTest.test_set">
-    <configuration default="false" name="PdoDbTest.test_drop_table" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Lib\PdoDbTest" file="$PROJECT_DIR$/tests/Lib/PdoDbTest.php" method="test_drop_table" scope="Method" />
+  <component name="RunManager" selected="PHPUnit.IndexTest.test_tset (1)">
+    <configuration default="false" name="IndexTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Controller\Log\IndexTest" file="$PROJECT_DIR$/tests/Controller/IndexTest.php" scope="Class" />
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="PdoDbTest.test_show_tables" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Lib\PdoDbTest" file="$PROJECT_DIR$/tests/Lib/PdoDbTest.php" method="test_show_tables" scope="Method" />
+    <configuration default="false" name="IndexTest (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Controller\IndexTest" file="$PROJECT_DIR$/tests/Controller/IndexTest.php" scope="Class" />
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="PdoDbTest.test_desc_table" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Lib\PdoDbTest" file="$PROJECT_DIR$/tests/Lib/PdoDbTest.php" method="test_desc_table" scope="Method" />
-      <RunnerSettings RunnerId="PhpRunner" />
-      <ConfigurationWrapper RunnerId="PhpRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PdoDbTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Lib\PdoDbTest" file="$PROJECT_DIR$/tests/Lib/PdoDbTest.php" scope="Class" />
-      <RunnerSettings RunnerId="PhpRunner" />
-      <ConfigurationWrapper RunnerId="PhpRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PtMemTest.test_set" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Lib\PtMemTest" file="$PROJECT_DIR$/tests/Lib/PtMemTest.php" method="test_set" scope="Method" />
+    <configuration default="false" name="IndexTest.test_tset" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Controller\IndexTest" file="$PROJECT_DIR$/tests/Controller/IndexTest.php" method="test_tset" scope="Method" />
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
@@ -326,163 +233,69 @@
       <TestRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
-    <configuration default="true" type="XSLT" factoryName="XSLT">
-      <option name="myOutputFile" />
-      <option name="myOpenOutputFile" value="false" />
-      <option name="myOpenInBrowser" value="false" />
-      <option name="mySmartErrorHandling" value="true" />
-      <option name="myRunnerPort" value="34873" />
-      <option name="myVmArguments" />
-      <option name="myWorkingDirectory" />
-      <option name="myModule" />
-      <option name="myJdk" />
-      <parameters />
-      <OutputType value="CONSOLE" save-to-file="false" />
-      <FileType name="XML" />
-      <JdkChoice value="FROM_MODULE" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AppEnginePhpConfigurationType" factoryName="App Engine for PHP">
-      <method />
-    </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PtFileCacheTest.test_set" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner class="Lib\PtFileCacheTest" file="$PROJECT_DIR$/tests/Lib/PtFileCacheTest.php" method="test_set" scope="Method" />
-      <RunnerSettings RunnerId="PhpRunner" />
-      <ConfigurationWrapper RunnerId="PhpRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="run.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/bin/run.php">
-      <RunnerSettings RunnerId="PhpRunner" />
-      <ConfigurationWrapper RunnerId="PhpRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="UserTest.testAdd" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner class="UserTest" file="$PROJECT_DIR$/tests/UserTest.php" method="testAdd" scope="Method" />
+    <configuration default="false" name="IndexTest.test_tset (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner class="Controller\Log\IndexTest" file="$PROJECT_DIR$/tests/Controller/IndexTest.php" method="test_tset" scope="Method" />
       <RunnerSettings RunnerId="PhpRunner" />
       <RunnerSettings RunnerId="PhpUnitDebugRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpUnitDebugRunner" />
       <method />
     </configuration>
-    <list size="8">
-      <item index="0" class="java.lang.String" itemvalue="PHPUnit.PtFileCacheTest.test_set" />
-      <item index="1" class="java.lang.String" itemvalue="PHP Script.run.php" />
-      <item index="2" class="java.lang.String" itemvalue="PHPUnit.UserTest.testAdd" />
-      <item index="3" class="java.lang.String" itemvalue="PHPUnit.PdoDbTest.test_drop_table" />
-      <item index="4" class="java.lang.String" itemvalue="PHPUnit.PdoDbTest.test_show_tables" />
-      <item index="5" class="java.lang.String" itemvalue="PHPUnit.PdoDbTest.test_desc_table" />
-      <item index="6" class="java.lang.String" itemvalue="PHPUnit.PdoDbTest" />
-      <item index="7" class="java.lang.String" itemvalue="PHPUnit.PtMemTest.test_set" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.IndexTest" />
+      <item index="1" class="java.lang.String" itemvalue="PHPUnit.IndexTest (1)" />
+      <item index="2" class="java.lang.String" itemvalue="PHPUnit.IndexTest.test_tset" />
+      <item index="3" class="java.lang.String" itemvalue="PHPUnit.IndexTest.test_tset (1)" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="PHPUnit.PtMemTest.test_set" />
-        <item index="1" class="java.lang.String" itemvalue="PHPUnit.PdoDbTest" />
-        <item index="2" class="java.lang.String" itemvalue="PHPUnit.PdoDbTest.test_desc_table" />
-        <item index="3" class="java.lang.String" itemvalue="PHPUnit.PdoDbTest.test_drop_table" />
-        <item index="4" class="java.lang.String" itemvalue="PHPUnit.PdoDbTest.test_show_tables" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.IndexTest.test_tset" />
+        <item index="1" class="java.lang.String" itemvalue="PHPUnit.IndexTest (1)" />
+        <item index="2" class="java.lang.String" itemvalue="PHPUnit.IndexTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="16952b0e-bd3d-4c7a-a858-42c8ae6aa3df" name="Default" comment="" />
-      <created>1399173676604</created>
-      <updated>1399173676604</updated>
+      <changelist id="dfcd0a9f-ade4-4eff-beb1-d0f85bd89b4e" name="Default" comment="" />
+      <created>1400563412441</created>
+      <updated>1400563412441</updated>
     </task>
     <servers />
   </component>
-  <component name="TodoView" selected-index="0">
-    <todo-panel id="selected-file">
-      <are-packages-shown value="false" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="false" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="false" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="false" />
-    </todo-panel>
-    <todo-panel id="default-changelist">
-      <are-packages-shown value="false" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="false" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="296" y="131" width="1278" height="830" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2815534" sideWeight="0.49840257" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15675676" sideWeight="0.53833866" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31607336" sideWeight="0.49893504" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1927952" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1512247" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14749734" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22998643" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15675676" sideWeight="0.46166134" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39459458" sideWeight="0.7513312" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32686085" sideWeight="0.49946752" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38442624" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39914164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43919885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864866" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32108107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30869" sideWeight="0.49925372" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -500,137 +313,114 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/tests/Lib/PtRedisTest.php</url>
-          <line>20</line>
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Doc/xdebug/cachegrind.out.C__Users_joseph_Desktop_projects_1_weilver_sdcCI_unit_test_php">
+    <entry file="file://$PROJECT_DIR$/App/View/chat/chat.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2831" />
+        <state line="9" column="34" selection-start="188" selection-end="188" vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="1254">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/modules/test_proxy_parse_forumkalbi.php">
+    <entry file="file://$PROJECT_DIR$/App/View/theme/stilearn/视频教程大全.url">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="54" selection-start="139" selection-end="140" vertical-scroll-proportion="0.130674" vertical-offset="0" max-vertical-offset="727" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/theme/stilearn/电子书大全.url">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/theme/stilearn/更多给力作品.url">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="228">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/manage/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6821">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/manage/________template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="888">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Module/Proxy/Parse/Samair.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="158" vertical-scroll-proportion="-0.6785714" vertical-offset="0" max-vertical-offset="494">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Controller/Proxy.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="18" selection-start="233" selection-end="233" vertical-scroll-proportion="0.2943604" vertical-offset="109" max-vertical-offset="836" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Config/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="755" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/test_proxy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="755" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="755" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Controller/Theme/Unicorn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="502" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Controller/Manage/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="213" selection-end="213" vertical-scroll-proportion="-6.785714" vertical-offset="0" max-vertical-offset="304" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PtPHP/Controller/Pttest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="35" selection-start="827" selection-end="827" vertical-scroll-proportion="22.892857" vertical-offset="1002" max-vertical-offset="1463" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/block/manage/leftmenu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="61" selection-start="1836" selection-end="1836" vertical-scroll-proportion="-3.6626506" vertical-offset="0" max-vertical-offset="570" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="114" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Controller/Theme/Stilearn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="502" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Controller/Theme/Metronic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="502" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Controller/Theme/Industry.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="502" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Controller/Theme/Adminia.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="44" selection-start="252" selection-end="252" vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="323" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="45" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="502">
+        <state line="5" column="27" selection-start="88" selection-end="88" vertical-scroll-proportion="0.10882016" vertical-offset="0" max-vertical-offset="873">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Model/User.php">
+    <entry file="file://$PROJECT_DIR$/App/View/log/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="247" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/ide-phpunit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="9728" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/run.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6" selection-start="176" selection-end="176" vertical-scroll-proportion="0.19689119" vertical-offset="0" max-vertical-offset="579">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/boot.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="1" selection-start="367" selection-end="367" vertical-scroll-proportion="-8.821428" vertical-offset="0" max-vertical-offset="380">
-          <folding />
+        <state line="210" column="27" selection-start="13804" selection-end="13805" vertical-scroll-proportion="1.7709091" vertical-offset="3503" max-vertical-offset="5320">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PtPHP/init.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="0" selection-start="2314" selection-end="2314" vertical-scroll-proportion="-2.142857" vertical-offset="1384" max-vertical-offset="5586">
+        <state line="4" column="25" selection-start="171" selection-end="171" vertical-scroll-proportion="-0.974359" vertical-offset="0" max-vertical-offset="6099">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PtPHP/Ext/SSDB.php">
+    <entry file="file://$PROJECT_DIR$/tests/Controller/IndexTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="29" selection-start="360" selection-end="360" vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="14497">
+        <state line="15" column="1" selection-start="258" selection-end="258" vertical-scroll-proportion="-6.785714" vertical-offset="0" max-vertical-offset="304">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller/Log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="64" selection-end="64" vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="266">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PtPHP/Config/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="26" selection-start="333" selection-end="333" vertical-scroll-proportion="-10.857142" vertical-offset="0" max-vertical-offset="817">
           <folding />
         </state>
       </provider>
@@ -642,198 +432,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PtPHP/Lib/PtCacheInterface.php">
+    <entry file="file://$PROJECT_DIR$/bin/run.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="220" selection-end="220" vertical-scroll-proportion="0.4767025" vertical-offset="0" max-vertical-offset="558">
-          <folding>
-            <element signature="e#6#87#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PtPHP/Lib/PtCache.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="-6.785714" vertical-offset="0" max-vertical-offset="437">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Lib/PtRedisTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="5" selection-start="165" selection-end="590" vertical-scroll-proportion="-14.5" vertical-offset="50" max-vertical-offset="608">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PtPHP/Lib/PtCurl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="44" selection-start="1535" selection-end="1535" vertical-scroll-proportion="-0.0" vertical-offset="1102" max-vertical-offset="3192">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Lib/PtCacheSSDBTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="24" selection-start="511" selection-end="511" vertical-scroll-proportion="-13.0" vertical-offset="35" max-vertical-offset="608">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PtPHP/Lib/PtCacheMem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="189" selection-end="189" vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="551">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PtPHP/Lib/PtCacheFile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="17" selection-start="479" selection-end="479" vertical-scroll-proportion="-11.535714" vertical-offset="0" max-vertical-offset="1311">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PtPHP/Lib/PtCacheSSDB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="22" selection-start="285" selection-end="289" vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="741">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PtPHP/Lib/PtCacheRedis.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="23" selection-start="517" selection-end="517" vertical-scroll-proportion="-13.071428" vertical-offset="14" max-vertical-offset="551">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PtPHP/Lib/PtMongo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="-2.7142856" vertical-offset="0" max-vertical-offset="304">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PtPHP/Config/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="34" selection-start="343" selection-end="343" vertical-scroll-proportion="-7.642857" vertical-offset="90" max-vertical-offset="741">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/filecache/09/8f6/098f6bcd4621d373cade4e832627b4f6.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Lib/PtCacheTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="18" selection-start="356" selection-end="356" vertical-scroll-proportion="-6.785714" vertical-offset="0" max-vertical-offset="741">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PtPHP/Lib/PtDb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="292" column="30" selection-start="8224" selection-end="8224" vertical-scroll-proportion="-3.3846154" vertical-offset="5284" max-vertical-offset="5947">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Lib/PtFileCacheTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="4" selection-start="347" selection-end="598" vertical-scroll-proportion="-9.5" vertical-offset="0" max-vertical-offset="608">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Lib/PdoDbTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="21" selection-start="1802" selection-end="1802" vertical-scroll-proportion="-13.571428" vertical-offset="969" max-vertical-offset="2223">
-          <folding>
-            <element signature="e#6#87#0" expanded="true" />
-            <marker date="1400134497078" expanded="true" signature="-1:-1" placeholder="create table..if..." />
-            <marker date="1400134497078" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..if..." />
-            <marker date="1400134497078" expanded="true" signature="-1:-1" placeholder="drop table i..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Doc/apache/mod_fcgid-ReadMe.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="798" max-vertical-offset="1368">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Doc/apache/rewrite.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="36" selection-start="200" selection-end="200" vertical-scroll-proportion="-5.32" vertical-offset="0" max-vertical-offset="266">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Doc/ptserver/php53.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="21" selection-start="556" selection-end="556" vertical-scroll-proportion="-7.6" vertical-offset="228" max-vertical-offset="2052">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/calendar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="10" selection-start="716" selection-end="716" vertical-scroll-proportion="-12.214286" vertical-offset="0" max-vertical-offset="1425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/calendar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="32" selection-start="330" selection-end="330" vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="8132">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/block/topbar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="47" selection-start="276" selection-end="276" vertical-scroll-proportion="-2.9230769" vertical-offset="0" max-vertical-offset="2812">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Lib/PtMemTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="26" selection-start="265" selection-end="265" vertical-scroll-proportion="0.261708" vertical-offset="0" max-vertical-offset="726">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/block/breadcrumbs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="246" selection-end="246" vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="380">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="188" selection-end="188" vertical-scroll-proportion="-5.428571" vertical-offset="0" max-vertical-offset="17271">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/theme/neat/block/main_nav.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="27" selection-start="1119" selection-end="1119" vertical-scroll-proportion="-4.3846154" vertical-offset="0" max-vertical-offset="836">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Controller/Theme/Neat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="14" selection-start="4197" selection-end="4197" vertical-scroll-proportion="0.7231405" vertical-offset="1717" max-vertical-offset="4085">
+        <state line="4" column="6" selection-start="103" selection-end="103" vertical-scroll-proportion="0.22485207" vertical-offset="0" max-vertical-offset="338">
           <folding />
         </state>
       </provider>

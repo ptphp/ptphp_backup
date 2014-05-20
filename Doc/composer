@@ -1,0 +1,2 @@
+curl -sS https://getcomposer.org/installer | php -- --filename=composer --install-dir=bin
+php -r "readfile('https://getcomposer.org/installer');" | php -- --filename=composer --install-dir=bin

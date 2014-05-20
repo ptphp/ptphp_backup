@@ -1449,6 +1449,7 @@
 <script src="/static/theme/neat/js/ui.spinner.js"></script>
 <script src="/static/theme/neat/js/jquery.cookie.js"></script>
 <script src="/static/theme/neat/js/tableTools/js/TableTools.min.js"></script>
-<script src="/static/theme/neat/js/custom.js"></script><script src="/static/theme/neat/js/demo.js"></script>
+<script src="/static/theme/neat/js/custom.js"></script>
+<script src="/static/theme/neat/js/demo.js"></script>
 </body>
 </html>

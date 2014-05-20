@@ -135,6 +135,10 @@ class PdoDb {
         $this->conn->beginTransaction();
         return $this;
     }
+
+    function quote($str){
+        return $this->conn->quote($str);
+    }
     
     //执行并无返回值记录
     public function runSql($sql,$args=array()) {        
@@ -189,8 +193,20 @@ class PdoDb {
             return $RSarray;
         }       
     }
+
+    function insert($table,$rows){
+        $this->_insert($table,$rows,"INSERT");
+    }
     
-    function insert($table,$rows){      
+    function replace($table,$rows){
+        $this->_insert($table,$rows,"REPLACE");
+    }
+    
+    function _insert($table,$rows,$type = "INSERT"){
+
+        if($type != "INSERT"){
+            $type = "REPLACE";
+        }
         $field = '';
         $val = '';
         $keys = array_keys($rows);
@@ -202,7 +218,7 @@ class PdoDb {
         $val = rtrim($val,' ');
         $field = rtrim($field,',');
         $field = rtrim($field,' ');
-        $sql = 'INSERT INTO `'.$table.'` ('.$field.' ) VALUES('.$val.' );';
+        $sql = $type.' INTO `'.$table.'` ('.$field.' ) VALUES('.$val.' );';
         //echo $sql;
         $this->runSql($sql,$rows);
         return $this->lastId();     

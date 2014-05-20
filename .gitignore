@@ -21,3 +21,7 @@ local.properties
 
 # PDT-specific
 .buildpath
+
+
+*.ppk
+

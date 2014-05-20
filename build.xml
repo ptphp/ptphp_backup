@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="HelloWorld" default="welcome" basedir=".">
-	<property name="message" value="Hello World!"/>
- <target name="welcome">
-  <echo msg="${message}"/>
- </target>
+<project name="PtPHP" default="help" basedir=".">
+    <target name="help">
+        <echo>
+            This is Phing menu
+            1.phing build
+        </echo>
+    </target>
+    <target name="deploy">
+        <echo msg="deploy project"></echo>
+        <ssh username="root" privkeyfile="C:\\Users\\Amy\\.ssh\\id_rsa"
+             host="al.ptphp.com" command="ls" display="true"/>
+
+    </target>
+
+
 </project>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>PtPHP - PHP framework</title>
+<title>Neat Admin Template</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width">
 <link rel="stylesheet" href="/static/theme/neat/css/bootstrap.css">

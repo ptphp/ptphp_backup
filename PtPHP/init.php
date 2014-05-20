@@ -9,6 +9,12 @@ if(PHP_SAPI != "cli"){
 }
 include PATH_PTPHP."/Config/default.php";
 
+class Pt{
+    static  $config;
+    static function config($k){
+        return isset(self::$config[$k])?self::$config[$k]:FALSE;
+    }
+}
 define("DEBUG",1);
 @ini_set('display_errors', 'On');
 error_reporting(E_ALL);
@@ -78,23 +84,33 @@ function pt_error_handler($errno, $errstr, $errfile, $errline )
 function __pt_autoload($class_name){
 	//echo $class_name;
     //console($class_name);
-	if ( substr($class_name, 0,10) == "Controller" ){		
+    $config = Pt::$config;
+    $t = explode("\\",$class_name);
+    $f = $t[0];
+    if(isset($config['namespaces'])){
+        $namespaces = $config['namespaces'];
+        if(array_key_exists($f,$namespaces)){
+            $path = $namespaces[$f].'\\'.str_replace( "\\", "/",$class_name).".php";
+            require_once $path;
+        }
+    }
+	if ( $f == "Controller" ){
 		$path = PATH_APP."/".str_replace( "\\", "/",$class_name).".php";
 		#var_dump($path);
 		require_once $path;
 	}
-	if ( substr($class_name, 0,5) == "Model" ){
+	if ( $f == "Model" ){
 		$path = PATH_APP."/".str_replace( "\\", "/",$class_name).".php";
 		require_once $path;
 	}
-	if ( substr($class_name, 0,6) == "Module" ){
+	if ($f == "Module" ){
 		#echo $class_name;
 		#echo PHP_EOL;
 		$path = PATH_APP."/".str_replace( "\\", "/",$class_name).".php";
 		require_once $path;
 	}
 
-	if ( substr($class_name, 0,3) == "Lib" ){
+	if ( $f == "Lib" ){
         $path = PATH_APP."/".str_replace( "\\", "/",$class_name).".php";
         if(!is_file($path)){
             $path = PATH_PTPHP."/".str_replace( "\\", "/",$class_name).".php";
@@ -109,15 +125,6 @@ function print_pre($v){
 	echo "<pre>";
 	print_r($v);
 	echo "</pre>";	
-}
-
-function tail_log($msg){
-	if(is_array($msg)){
-		$_msg = var_export($msg,TRUE);
-	}else{
-		$_msg = $msg;
-	}
-	error_log("[ ".date("m/d H:i:s",time())." ] ".str_replace("\n", "\n\t", $_msg)."\n",3,"c:\\log.txt");
 }
 function is_xhr(){
 	return TRUE === (isset($_SERVER["HTTP_X_REQUESTED_WITH"]) && $_SERVER["HTTP_X_REQUESTED_WITH"] == "XMLHttpRequest");
@@ -146,19 +153,39 @@ RES;
 	}	
 }
 
+
+
 register_shutdown_function("shut_down_fun");
 
+function get_line_and_filename($trace){
+    return basename($trace[0]['file'])." | ".$trace[0]['line'];
+}
+function console_log($var){
+    $curl = new Lib\PtCurl();
+    if(is_array($var) ||  is_object($var)){
+        $data = json_encode($var,True);
+    }else{
+        $data = $var;
+    }
+    $url = "http://chat.ptphp.com/push/push?cname=log&content=".urlencode($data);
+    $curl->get($url);
+}
+
+
 function console($var){		
+    $trace = debug_backtrace();
+    $file_info = get_line_and_filename($trace);
 	global $config;
-	
+	$hd = "\n[".date("m-d H:i:s")."] $file_info : ";
 	if(PHP_SAPI == "cli"){
-		echo "[".date("m-d H:i:s")."] ";
-        if(is_array($var)){
+		echo $hd;
+        if(is_array($var) || is_object($var)){
             print_r($var);
+            console_log($hd.json_encode($var));
         }else{
             echo $var;
+            console_log($hd.$var);
         }
-
 		echo PHP_EOL;
 	}
 	
