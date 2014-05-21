@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit bootstrap="tests/bootstrap.php" colors="true">
+<phpunit bootstrap="tests/boot.php" colors="true">
+    <php>
+        <var name="db_dsn" value="mysql:dbname=hello_world_test;host=localhost"/>
+        <var name="db_username" value="root"/>
+        <var name="db_password" value="root"/>
+    </php>
     <testsuites>
         <testsuite name="PtPHP Test Suite">
             <directory>./tests/</directory>
