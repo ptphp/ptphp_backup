@@ -12,6 +12,7 @@ require_once PATH_PTPHP."/Ext/SSDB.php";
 
 class PtCacheSSDB implements PtCacheInterface{
     var $_cache;
+    var $org;
     var $config = array(
         "host" => "127.0.0.1",
         "port" => 8430,
@@ -25,6 +26,7 @@ class PtCacheSSDB implements PtCacheInterface{
         }catch(Exception $e){
             die(__LINE__ . ' ' . $e->getMessage());
         }
+        $this->org = $this->_cache;
     }
 
     function set($key,$value){
