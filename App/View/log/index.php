@@ -157,7 +157,7 @@
         var html = '';
         html += '<p id="'+message.id+'">';
         html += '<span class="stream color2"> ' + $s[0] + '] </span>';
-        html += '<span class="node color1"> '+$msg_h1+' </span>';
+        html += '<span class="node color1"> '+$msg_h1+' </span><BR>';
         html += '<span class="message"> '+$msg_body+'</span>';
         html += '</p>';
         if($(".msg").children().length > 1000){

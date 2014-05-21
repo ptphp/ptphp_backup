@@ -13,4 +13,4 @@ if(is_file(PATH_APP."/Lib/common.php")){
 if(is_file(PATH_APP."/Config/default.php")){
     include PATH_APP."/Config/default.php";
 }
-Pt::$config = $config;
+Pt::set_config($config);

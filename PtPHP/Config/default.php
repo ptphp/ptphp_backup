@@ -1,6 +1,7 @@
 <?php
-$config['debug'] = FALSE;
-$config['mode'] = "develop";
+$config['mode'] = "product";
+$config['develop']['debug'] = FALSE;
+$config['product']['debug'] = FALSE;
 
 $config['namespaces']= array(
 

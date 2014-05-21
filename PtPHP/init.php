@@ -14,71 +14,78 @@ class Pt{
     static function config($k){
         return isset(self::$config[$k])?self::$config[$k]:FALSE;
     }
+    static function set_config($config){
+        self::$config = $config;
+        define("DEBUG",$config[$config['mode']]['debug']);
+        if(DEBUG){
+            @ini_set('display_errors', 'On');
+            error_reporting(E_ALL);
+        }else{
+            @ini_set('display_errors', 'Off');
+            #@ini_set('log_errors', 'On');
+            error_reporting(E_ALL & ~E_DEPRECATED);
+        }
+    }
 }
-define("DEBUG",1);
-@ini_set('display_errors', 'On');
-error_reporting(E_ALL);
+
 
 function pt_error_handler($errno, $errstr, $errfile, $errline )
 {
-
     if(!defined('E_STRICT'))            define('E_STRICT', 2048);
     if(!defined('E_RECOVERABLE_ERROR')) define('E_RECOVERABLE_ERROR', 4096);
     $trace = debug_backtrace();
     array_shift($trace);
-
     $res['result']['msg']        = $errstr;
     $res['result']['errfile']    = $errfile;
     $res['result']['errline']    = $errline;
-    //$res['result']['router']     = PtApp::$router;
     $res['result']['trace']      = $trace;
     $res['error']                = 1;
     $res['id']                   = null;
-
     if(PHP_SAPI == "cli"){
+        console($res);
+    }else{
         ob_end_clean();
-        //ob_clean();
         ob_start();
-    }else{
-        #print_r($res);
-        #exit;
-    }
-    if(DEBUG){
-        if(is_xhr()){
-            echo json_encode($res);
-        }else{
-            include PATH_PTPHP.'/View/Block/site/debug.html';
-        }
-    }else{
-        global $config;
-        if($errstr == '404'){
-            if(file_exists(PATH_APP.'/View/Block/site/tpl/404.html')){
-                include PATH_APP.'/View/Block/site/tpl/404.html';
+        if(DEBUG){
+            if(is_xhr()){
+                echo json_encode($res);
             }else{
-                include PATH_PTPHP.'/View/Block/site/404.html';
+                include PATH_PTPHP.'/View/Block/site/debug.html';
             }
         }else{
-            $id = md5(time());
-            $res['id'] = $id;
+            $msg = "System Error: ".md5(time());
             if(is_xhr()){
+                if($errstr != '404'){
+                    error_log($msg."==>".var_export($res,1));
+                }
                 $res_ajax                   = array();
-                $res_ajax['result']['msg']  = "System Error";
+                $res_ajax['result']['msg']  = $msg;
                 $res_ajax['error']          = 1;
                 $res_ajax['id']             = null;
                 echo json_encode($res_ajax);
             }else{
-                $view_msg = "System Error :".$id;
-                if(file_exists(PATH_APP.'/View/Block/site/tpl/505.html')){
-                    include PATH_APP.'/View/Block/site/tpl/505.html';
+                if($errstr == '404'){
+                    if(file_exists(PATH_APP.'/View/Block/site/tpl/404.html')){
+                        include PATH_APP.'/View/Block/site/tpl/404.html';
+                    }else{
+                        include PATH_PTPHP.'/View/Block/site/404.html';
+                    }
                 }else{
-                    include PATH_PTPHP.'/View/Block/site/505.html';
+                    error_log($msg."==>".var_export($res,1));
+                    $view_msg = $msg;
+                    if(file_exists(PATH_APP.'/View/Block/site/tpl/505.html')){
+                        include PATH_APP.'/View/Block/site/tpl/505.html';
+                    }else{
+                        include PATH_PTPHP.'/View/Block/site/505.html';
+                    }
                 }
             }
         }
-
+        ob_end_flush();
+        exit;
     }
-    ob_end_flush();
-    exit;
+
+
 }
 
 function __pt_autoload($class_name){
@@ -143,7 +150,7 @@ function shut_down_fun(){
 		return;
 	}
 	global $config;
-	if($config['debug']){
+	if(DEBUG){
 		global $console_array;
 		array_unshift($console_array,$_SERVER);
 		$data = json_encode($console_array);
@@ -322,7 +329,7 @@ function run(){
 	}
 	//exit;
 	if(!is_file($controller)){
-		die("not found");
+        trigger_error("404");
 	}
 	include $controller;
 	$controller_obj = new $router['namespace']();
