@@ -7,6 +7,16 @@ if(PHP_SAPI != "cli"){
     ob_start();
     set_error_handler("pt_error_handler");
 }
+function get_mode(){
+    return isset($_SERVER['PT_MODE'])?$_SERVER['PT_MODE']:FALSE;
+}
+function set_test(){
+
+    if(isset($GLOBALS['PT_MODE'])){
+        $_SERVER['PT_MODE'] = "test";
+    }
+}
+set_test();
 include PATH_PTPHP."/Config/default.php";
 
 class Pt{

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit bootstrap="Tests/bootstrap.php" colors="true">
     <php>
-        <var name="db_dsn" value="mysql:dbname=hello_world_test;host=127.0.0.1"/>
-        <var name="db_username" value="root"/>
-        <var name="db_password" value="root"/>
+        <var name="PT_MODE" value="test"/>
     </php>
     <testsuites>
         <testsuite name="PtPHP Test Suite">

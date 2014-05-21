@@ -1,12 +1,10 @@
 <?php
-$PT_MODE = getenv('PT_MODE');
-
+$PT_MODE = get_mode();
 if($PT_MODE === FALSE){
     $config['mode'] = "product";
 }else{
     $config['mode'] = $PT_MODE;
 }
-
 $config['develop']['debug'] = 1;
 $config['product']['debug'] = FALSE;
 

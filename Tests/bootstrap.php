@@ -1,11 +1,16 @@
 <?php
+define("PATH_PRO", dirname(__DIR__));
+require PATH_PRO."/App/boot.php";
 
-function loader($class)
+class BaseTestCase extends PHPUnit_Framework_TestCase
 {
-    $file = $class . '.php';
-    if (file_exists($file)) {
-        require $file;
+    public function setUp()
+    {
+        #$GLOBALS
+    }
+
+    public function tearDown()
+    {
+
     }
 }
-
-spl_autoload_register('loader');
