@@ -57,7 +57,7 @@ class PtCurl{
         if( !$content)
         {
             $res['error'] = curl_error($ch);
-            console($res['error']);
+            #console($res['error']);
         }
 		//print_pre($content);
 

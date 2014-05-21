@@ -120,6 +120,12 @@ function __pt_autoload($class_name){
 }
 
 spl_autoload_register('__pt_autoload');
+function get_pid(){
+    return getmypid();
+}
+function is_win(){
+    return PHP_OS == "WINNT";
+}
 
 function print_pre($v){
 	echo "<pre>";
@@ -158,7 +164,14 @@ RES;
 register_shutdown_function("shut_down_fun");
 
 function get_line_and_filename($trace){
-    return basename($trace[0]['file'])." | ".$trace[0]['line'];
+    $info = '';
+    if(isset($trace[1]['class']) && $trace[1]['class']){
+        $info .= $trace[1]['class']."::";
+    }else{
+        $info .= basename($trace[0]['file'])."::";
+    }
+    $info .= $trace[1]['function']."()";
+    return $info.":".$trace[0]['line'];
 }
 function console_log($var){
     $curl = new Lib\PtCurl();
@@ -176,7 +189,8 @@ function console($var){
     $trace = debug_backtrace();
     $file_info = get_line_and_filename($trace);
 	global $config;
-	$hd = "\n[".date("m-d H:i:s")."] $file_info : ";
+    $pid = get_pid();
+	$hd = "[".date("m-d H:i:s")."] [$pid] [$file_info] ";
 	if(PHP_SAPI == "cli"){
 		echo $hd;
         if(is_array($var) || is_object($var)){

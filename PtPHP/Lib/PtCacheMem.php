@@ -3,6 +3,7 @@ namespace Lib;
 use Memcache as Memcache;
 class PtCacheMem implements PtCacheInterface{
     var $_cache;
+    var $org;
     var $config = array(
         "host" => "127.0.0.1",
         "port" => 11211,
@@ -10,6 +11,7 @@ class PtCacheMem implements PtCacheInterface{
 	function __construct($config){
         $this->_cache = new Memcache();
         $this->_cache->connect($config['host'], intval($config['port']));
+        $this->org = $this->_cache;
 	}
 	
 	function set($key,$value){

@@ -4,7 +4,7 @@ namespace Lib;
 class PtCacheFile implements PtCacheInterface{
     private $_length = 3000;
     public $_cache_dir = NULL;
-
+    var $org;
     public function __construct( $_args ) {
         if ( $_args != NULL ) {
             if ( isset($_args['cache_dir']) )
@@ -12,6 +12,7 @@ class PtCacheFile implements PtCacheInterface{
             if ( isset($_args['length']) )
                 $this->_length = $_args['length'];
         }
+        $this->org = $this;
     }
 
     private function getCacheFile($key) {

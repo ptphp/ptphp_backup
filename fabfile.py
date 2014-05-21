@@ -5,7 +5,7 @@ from fabric.operations import put
 
 env.hosts = "162.243.144.109"
 env.user = "root"
-env.key_filename = "C:\\Users\\Amy\\.ssh\\id_rsa"
+#env.key_filename = "C:\\Users\\Amy\\.ssh\\id_rsa"
 env.usesshconfig = True
 env.timeout = 20
 

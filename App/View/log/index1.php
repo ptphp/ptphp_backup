@@ -81,18 +81,124 @@
 
 <body>
 <div id="web_client">
+    <div id="log_controls">
+        <a class="select_mode active" href="#log_control_streams">
+            Streams
+        </a>
+        <a class="select_mode" href="#log_control_nodes">
+            Nodes
+        </a>
+        <div id="log_control_streams" class="object_controls">
+            <input class="filter" placeholder="Filter..." type="text">
+            <div class="groups" style="height: 399px;">
+                <div class="group">
+                    <div class="header">
+                        <div class="screen_buttons">
+                            <input type="checkbox" checked="checked" title="screen-c10">
+                            <input type="checkbox" title="screen-c27">
+                        </div>
+                        <div class="diode floatl active color2">
+                        </div>
+                        <div class="object_name floatl">
+                            nginx
+                        </div>
+                        <div style="clear: both;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: none" id="log_control_nodes" class="object_controls">
+            <input class="filter" placeholder="Filter..." type="text">
+            <div class="groups" style="height: 399px;">
+                <div class="group">
+                    <div class="header">
+                        <div class="screen_buttons">
+                            <input type="checkbox" checked="checked" title="screen-c10">
+                            <input type="checkbox" title="screen-c27">
+                        </div>
+                        <div class="diode floatl active color1">
+                        </div>
+                        <div class="object_name floatl">
+                            logio_webserver01
+                        </div>
+                        <div style="clear: both;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <div id="log_screens" style="margin-left: 10px;margin-right: 10px;width:100%">
+    <div id="log_screens" style="width: 1107px;">
         <div class="log_screens">
             <div class="log_screen">
-                <div class="messages" style="height: 600px">
+                <div class="controls">
+                    <a href="#" class="clear">
+                        clear
+                    </a>
+                    <a href="#" class="filter">
+                        filter
+                        <input type="text">
+                    </a>
+                </div>
+                <div class="messages" style="height: 202.5px;">
                     <div class="msg">
 
                     </div>
                 </div>
             </div>
         </div>
-
+        <div class="status_bar">
+            <a href="#" class="button" onclick="start_listen()" id="new_screen_button">
+                New Screen
+            </a>
+            <div class="stats" style="display:none">
+                <div class="stats">
+                    <div class="stat">
+                                <span class="num">
+                                    0.03
+                                </span>
+                                <span class="label">
+                                    messages/sec
+                                </span>
+                    </div>
+                    <div class="stat">
+                                <span class="num">
+                                    1:07
+                                </span>
+                                <span class="label">
+                                    elapsed
+                                </span>
+                    </div>
+                    <div class="stat">
+                                <span class="num">
+                                    2
+                                </span>
+                                <span class="label">
+                                    Messages
+                                </span>
+                    </div>
+                    <div class="stat">
+                                <span class="num">
+                                    1
+                                </span>
+                                <span class="label">
+                                    Nodes
+                                </span>
+                    </div>
+                    <div class="stat">
+                                <span class="num">
+                                    1
+                                </span>
+                                <span class="label">
+                                    Streams
+                                </span>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both"></div>
+        </div>
     </div>
 </div>
 
@@ -145,20 +251,11 @@
         //console.log(message);
         var existing = $("#m" + message.id);
         if (existing.length > 0) return;
-
-
-        $s = message.html.split("] ");
-
-        $msg_h = $s[0]+"] "+$s[1]+"] "+$s[2]+"] ";
-
-        $msg_h1 = $s[1]+"] "+$s[2]+"] ";
-        $msg_body = message.html.replace($msg_h,"");
-        console.log($msg_body);
         var html = '';
         html += '<p id="'+message.id+'">';
-        html += '<span class="stream color2"> ' + $s[0] + '] </span>';
-        html += '<span class="node color1"> '+$msg_h1+' </span>';
-        html += '<span class="message"> '+$msg_body+'</span>';
+        html += '<span class="stream color2">  nginx </span>';
+        html += '<span class="node color1"> '+message.id+' </span>';
+        html += '<span class="message"> '+message.html+'</span>';
         html += '</p>';
         if($(".msg").children().length > 1000){
             $(".msg").children(":lt(800)").remove();
