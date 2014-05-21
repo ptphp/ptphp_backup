@@ -210,7 +210,7 @@ function console($var){
 		echo PHP_EOL;
 	}
 	
-	if(!$config['debug']){
+	if(!DEBUG){
 		return;
 	}	
 	

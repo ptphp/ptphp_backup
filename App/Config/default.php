@@ -7,7 +7,7 @@ if($PT_MODE === FALSE){
     $config['mode'] = $PT_MODE;
 }
 
-$config['develop']['debug'] = 0;
+$config['develop']['debug'] = 1;
 $config['product']['debug'] = FALSE;
 
 $config['namespaces']= array(
