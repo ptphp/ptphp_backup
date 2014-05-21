@@ -8,10 +8,16 @@
     </target>
     <target name="deploy">
         <echo msg="deploy project"></echo>
-        <ssh username="root" privkeyfile="C:\\Users\\Amy\\.ssh\\id_rsa"
+        <ssh username="root"
              host="al.ptphp.com" command="ls" display="true"/>
-
     </target>
-
-
+    <target name="test">
+        <phpunit printsummary="true" haltonfailure="true" bootstrap="./Tests/bootstrap.php">
+            <batchtest>
+                <fileset dir="./Tests">
+                    <include name="**/*Test.php"/>
+                </fileset>
+            </batchtest>
+        </phpunit>
+    </target>
 </project>
