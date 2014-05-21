@@ -33,6 +33,6 @@ $config['cache']["develop"] = array(
     ),
     'SSDB'=>array(
         'host' => '127.0.0.1',
-        'port' => 8430,
+        'port' => 8121,
     )
 );
