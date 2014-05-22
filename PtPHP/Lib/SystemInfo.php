@@ -12,6 +12,9 @@ namespace Lib;
 class SystemInfo {
     var $return_array = array();
     var $mac_addr;
+    function info(){
+        return php_uname();
+    }
     function __construct()
     {
         $os_type = PHP_OS;

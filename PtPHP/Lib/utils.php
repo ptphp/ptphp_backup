@@ -1,5 +1,28 @@
 <?php
 
+function list_files($dir){
+    $files = array();
+    foreach (new DirectoryIterator($dir) as $fileInfo) {
+        if($fileInfo->isDot()) continue;
+        if($fileInfo->isFile()){
+            $files[] = $dir.DIRECTORY_SEPARATOR.$fileInfo->getFilename();
+        }
+    }
+    return $files;
+}
+
+function list_dirs($dir){
+    $dirs = array();
+    foreach (new DirectoryIterator($dir) as $fileInfo) {
+        if($fileInfo->isDot()) continue;
+        if($fileInfo->isDir()){
+            $dirs[] = $dir.DIRECTORY_SEPARATOR.$fileInfo->getFilename();
+        }
+    }
+    return $dirs;
+}
+
+
 function pt_error_handler($errno, $errstr, $errfile, $errline )
 {
     if(!defined('E_STRICT'))            define('E_STRICT', 2048);

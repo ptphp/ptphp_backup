@@ -34,10 +34,18 @@ class Pt{
 }
 
 function View($_path){
-	$path = PATH_APP."/View/".$_path.".php";
-	if(!is_file($path)){
-		$path = PATH_PTPHP."/View/".$_path.".php";
-	}
+    $info = pathinfo($_path);
+    if(!isset($info['extension'])){
+        $_path = $_path.".php";
+    }
+	$path = PATH_APP."/View/".ltrim($_path,"/");
+    if(!is_file($path)){
+        $path_sys = PATH_PTPHP."/View/".$_path;
+        if(!is_file($path_sys)){
+            trigger_error("Template not fonnd! ".$path);
+        }
+        $path = $path_sys;
+    }
 	return $path;
 }
 

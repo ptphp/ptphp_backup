@@ -1596,14 +1596,16 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 	<script src="/static/theme/metronic/bootstrap/js/bootstrap.min.js"></script>
 	<script src="/static/theme/metronic/js/jquery.blockui.js"></script>	
 	<script src="/static/theme/metronic/js/jquery.cookie.js"></script>
-	<script src="/static/theme/metronic/jqvmap/jqvmap/jquery.vmap.js" type="text/javascript"></script>	
+	<script src="/static/theme/metronic/jqvmap/jqvmap/jquery.vmap.js" type="text/javascript"></script>
 	<script src="/static/theme/metronic/jqvmap/jqvmap/maps/jquery.vmap.russia.js" type="text/javascript"></script>
 	<script src="/static/theme/metronic/jqvmap/jqvmap/maps/jquery.vmap.world.js" type="text/javascript"></script>
 	<script src="/static/theme/metronic/jqvmap/jqvmap/maps/jquery.vmap.europe.js" type="text/javascript"></script>
 	<script src="/static/theme/metronic/jqvmap/jqvmap/maps/jquery.vmap.germany.js" type="text/javascript"></script>
 	<script src="/static/theme/metronic/jqvmap/jqvmap/maps/jquery.vmap.usa.js" type="text/javascript"></script>
-	<script src="/static/theme/metronic/jqvmap/jqvmap/data/jquery.vmap.sampledata.js" type="text/javascript"></script>	
-	<script src="/static/theme/metronic/flot/jquery.flot.js"></script>
+	<script src="/static/theme/metronic/jqvmap/jqvmap/data/jquery.vmap.sampledata.js" type="text/javascript"></script>
+
+
+    <script src="/static/theme/metronic/flot/jquery.flot.js"></script>
 	<script src="/static/theme/metronic/flot/jquery.flot.resize.js"></script>
 	<script type="text/javascript" src="/static/theme/metronic/gritter/js/jquery.gritter.js"></script>
 	<script type="text/javascript" src="/static/theme/metronic/uniform/jquery.uniform.min.js"></script>	
