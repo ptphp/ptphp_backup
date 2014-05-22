@@ -131,7 +131,7 @@ function run(){
 	//console($router);
 	//exit;
 	if($router['controller_path'] == 'Controller/Pttest.php'){
-		include_once PATH_PTPHP.'/ptunittest.php';	
+		include_once PATH_PTPHP . '/ptunittest.php';
 	}
 	//exit;
 	if(!is_file($controller)){

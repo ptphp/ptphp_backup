@@ -3,12 +3,12 @@ define('PATH_SIMPLE_TEST', PATH_PTPHP."/Ext/simpletest");
 define('PATH_TEST', PATH_PRO."/test");
 
 //do not use autorun as it output ugly report upon no test run
-require_once PATH_SIMPLE_TEST.'/unit_tester.php';
-require_once PATH_SIMPLE_TEST.'/mock_objects.php';
-require_once PATH_SIMPLE_TEST.'/collector.php';
-require_once PATH_SIMPLE_TEST.'/web_tester.php';
-require_once PATH_SIMPLE_TEST.'/extensions/my_reporter.php';
-require_once PATH_SIMPLE_TEST.'/extensions/cli_reporter.php';
+require_once PATH_SIMPLE_TEST . '/unit_tester.php';
+require_once PATH_SIMPLE_TEST . '/mock_objects.php';
+require_once PATH_SIMPLE_TEST . '/collector.php';
+require_once PATH_SIMPLE_TEST . '/web_tester.php';
+require_once PATH_SIMPLE_TEST . '/extensions/my_reporter.php';
+require_once PATH_SIMPLE_TEST . '/extensions/cli_reporter.php';
 
 
 function get_unit_tests($path){
