@@ -1,21 +1,24 @@
-*.pydevproject
-.project
-.metadata
-.buildpath
-tmp/**
-tmp/**/*
-*.tmp
-*.bak
-*.swp
-.classpath
-.settings/
-.loadpath
+/tmp
+/.idea
+/vendor
+/build
+/dist
+/tags
 
-# PDT-specific
-.buildpath
+Data/*.db
 
-.idea
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+
 *.ppk
 *.pyc
-Data/*.db
-vendor/
+
