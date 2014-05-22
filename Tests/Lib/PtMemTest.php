@@ -11,6 +11,7 @@ namespace Lib;
 
 class PtMemTest extends \PHPUnit_Framework_TestCase {
     function setUp(){
+        exit;
         $config = array(
             "host"=>"127.0.0.1",
             "port"=>11211,
@@ -34,4 +35,3 @@ class PtMemTest extends \PHPUnit_Framework_TestCase {
     }
 
 }
- 

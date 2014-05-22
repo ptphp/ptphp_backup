@@ -3,9 +3,8 @@ from fabric.api import env, local, cd, run
 from fabric.colors import *
 from fabric.operations import put
 
-env.hosts = "162.243.144.109"
+env.hosts = "www.ptphp.com"
 env.user = "root"
-#env.key_filename = "C:\\Users\\Amy\\.ssh\\id_rsa"
 env.usesshconfig = True
 env.timeout = 20
 
@@ -23,3 +22,4 @@ def deploy():
         #run("git commit -m 'init'")
         run("git pull origin master")
         #run("git push origin master")
+        run("chmod -R 777 ./Data")

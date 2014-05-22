@@ -20,4 +20,6 @@ local.properties
 .idea
 
 *.ppk
+*.pyc
+Data/*.db
 

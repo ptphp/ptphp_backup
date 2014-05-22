@@ -71,15 +71,14 @@ class PdoDb {
                 $_config['type'] = 'mysql';
             }
             if($_config['type'] == 'sqlite'){
-                $_path = $_config['dbname'];
-                if(!file_exists($_config['dbname'])){
-                    pt_mkdir(dirname($_config['dbname']));
-                    #alert("没有找到数据库文件");
-                }                
+                $_path = PATH_PRO."/Data/".$_config['dbname'];
+                $dir = dirname($_path);
+                if(!is_dir($dir)){
+                    pt_mkdir($dir);
+                }
                 $dsn = $_config['type'].":".$_path;               
                 $this->conn = new PDO($dsn);
             }else{
-                //PHP版本小于5.3.6，我需要在连接字符串中添加charset参数。
                 $dsn = $_config['type'].":host=".$_config['host'].";charset=".$_config['charset'].";dbname=".$_config['dbname'].";port=".$_config['port'];
                 $this->conn = new PDO($dsn,$_config['dbuser'],$_config['dbpass']);
             }

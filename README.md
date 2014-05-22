@@ -1,5 +1,7 @@
-#PtPHP
+PtPHP Framework
 
---
+===================
 
-fastcgi_param PT_MODE develop;
+[![Build Status](https://travis-ci.org/ptphp/PtPHP.svg)](https://travis-ci.org/ptphp/PtPHP)
+
+	fastcgi_param PT_MODE develop;

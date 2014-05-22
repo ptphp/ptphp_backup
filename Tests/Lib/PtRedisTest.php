@@ -28,5 +28,22 @@ class PtRedisTest extends \PHPUnit_Framework_TestCase {
         $this->cache->del("tset");
         echo  $this->cache->get("tset");
     }
+
+    function test_page(){
+        #for ($i=0;$i<25000;$i++)
+        #	$this->redis->__redis->lpush('mylist',$i);
+
+        $length = $this->cache->org->llen('mylist');
+
+        $pagesize = 5;
+        $pageno = max(1,7);
+        $totalpage = ceil($length/$pagesize);
+        $start = ($pageno-1)*$pagesize;
+        $end = $start+$pagesize;
+
+        $lists = $this->cache->org->lrange('mylist',$start,$end);
+
+        var_dump($lists);
+    }
 }
  
