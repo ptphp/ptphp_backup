@@ -15,6 +15,7 @@
             <directory>./Tests/</directory>
             <exclude>
                 <directory>./Tests/Lib</directory>
+                <file>./Tests/Lib/PtCacheSSDBTest.php</file>
             </exclude>
         </testsuite>
     </testsuites>
