@@ -26,7 +26,7 @@ PtPHP Framework
 
 `nginx`
 
-    fastcgi_param PT_MODE develop;
+    fastcgi_param PT_MODE test;
 
 `App/Config/default.php`
 

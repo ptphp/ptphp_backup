@@ -6,7 +6,7 @@ class Index{
         console($_GET);
 		$cat = isset($_GET['cat'])?$_GET['cat']:"index.html";
 		#$cat = strtolower(str_replace(".html", "", $cat));
-		include View('theme/cleanzone/'.$cat);
+		include View('theme/cloud/'.$cat);
 	}
 }
 
