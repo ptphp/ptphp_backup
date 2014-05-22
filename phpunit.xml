@@ -13,6 +13,9 @@
     <testsuites>
         <testsuite name="PtPHP Test Suite">
             <directory>./Tests/</directory>
+            <exclude>
+                <directory>./Tests/Lib</directory>
+            </exclude>
         </testsuite>
     </testsuites>
     <filter>

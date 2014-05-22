@@ -1,7 +1,7 @@
 <?php
 
 $config['namespaces']= array(
-    'PhpAmqpLib'=>"E:\\usr\\local\\php\\lib\\php-amqplib",
+    'PhpAmqpLib'=>PATH_PTPHP."/Ext",
 );
 
 $config['product'] = array(
