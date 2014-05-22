@@ -11,13 +11,11 @@ tmp/**/*
 .settings/
 .loadpath
 
-
 # PDT-specific
 .buildpath
 
 .idea
-
 *.ppk
 *.pyc
 Data/*.db
-
+vendor/

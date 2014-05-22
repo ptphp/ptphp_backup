@@ -19,4 +19,9 @@ if(is_file(PATH_APP."/Config/default.php")){
 if(is_file(PATH_APP."/Lib/common.php")){
     include PATH_APP."/Lib/common.php";
 }
+
+if(is_file(PATH_PRO.'/vendor/autoload.php')){
+    include PATH_PRO.'/vendor/autoload.php';
+}
+
 Pt::set_config($config);

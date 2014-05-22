@@ -1,2 +1,19 @@
 curl -sS https://getcomposer.org/installer | php -- --filename=composer --install-dir=bin
 php -r "readfile('https://getcomposer.org/installer');" | php -- --filename=composer --install-dir=bin
+
+
+Add a composer.json file to your project:
+
+{
+  "require": {
+      "videlalvaro/php-amqplib": "2.2.*"
+  }
+}
+
+
+$ composer.phar install
+
+require_once __DIR__.'/vendor/autoload.php';
+
+use PhpAmqpLib\Connection\AMQPConnection;
+use PhpAmqpLib\Message\AMQPMessage;
