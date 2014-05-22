@@ -1,4 +1,5 @@
 {
+    "name": "PtPHP",
     "require": {
         "videlalvaro/php-amqplib": "2.2.*"
     }
