@@ -22,3 +22,4 @@ def deploy():
         #run("git commit -m 'init'")
         run("git pull origin master")
         #run("git push origin master")
+        run("chmod -R 777 ./Data")

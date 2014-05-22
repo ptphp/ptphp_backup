@@ -9,6 +9,7 @@ namespace Lib;
 
 class PdoDbTest extends \PHPUnit_Framework_TestCase {
     var $db;
+    var $sqlite_name = "test.db";
     function setUp(){
         PtDb::$config = array(
             'default'=>array(
@@ -19,11 +20,24 @@ class PdoDbTest extends \PHPUnit_Framework_TestCase {
                 'dbuser'=>'root',
                 'dbpass'=>'root',
                 'charset'=>'utf8',
-            )
+            ),
+            'sqlite'=>array(
+                'type'=>'sqlite',
+                'dbname'=>$this->sqlite_name,
+            ),
         );
         $this->db = PtDb::init("default");
+        $this->sqlite = PtDb::init("sqlite");
     }
-
+    function tearDown(){
+        @unlink(PATH_PRO.'/Data/'.$this->sqlite_name);
+    }
+    function test_sqlite(){
+        $path = PATH_PRO.'/Data/'.$this->sqlite_name;
+        var_dump($path);
+        $res = is_file($path);
+        var_dump($res);
+    }
     function test_runSql(){
 
     }
@@ -37,48 +51,21 @@ class PdoDbTest extends \PHPUnit_Framework_TestCase {
 
     }
     function test_exec(){
-        $sql = "
-CREATE TABLE `test_user` (
-  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'id',
-  `username` varchar(255) DEFAULT NULL COMMENT 'username',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8
- ";
+        $sql = "CREATE TABLE `test_user` (`id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'id', `username` varchar(255) DEFAULT NULL COMMENT 'username',PRIMARY KEY (`id`))";
         $this->db->exec($sql);
     }
     function test_exec_many(){
-        $sql = "
-CREATE TABLE `test_user2111` (
-  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'id',
-  `username` varchar(255) DEFAULT NULL COMMENT 'username',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-CREATE TABLE `test_user2121` (
-  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'id',
-  `username` varchar(255) DEFAULT NULL COMMENT 'username',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8
- ";
+        $sql = "CREATE TABLE `test_user2111` ( `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'id', `username` varchar(255) DEFAULT NULL COMMENT 'username', PRIMARY KEY (`id`)) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+                CREATE TABLE `test_user2121` (  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'id',  `username` varchar(255) DEFAULT NULL COMMENT 'username',  PRIMARY KEY (`id`)) ENGINE=MyISAM DEFAULT CHARSET=utf8";
         echo $this->db->exec($sql);
 
-        $sql = "
-CREATE TABLE `test_user3111` (
-  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'id',
-  `username` varchar(255) DEFAULT NULL COMMENT 'username',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-CREATE TABLE `test_user3121` (
-  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'id',
-  `username` varchar(255) DEFAULT NULL COMMENT 'username',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8
- ";
+        $sql = "CREATE TABLE `test_user3111` (  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'id',  `username` varchar(255) DEFAULT NULL COMMENT 'username',  PRIMARY KEY (`id`)) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+              CREATE TABLE `test_user3121` (  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'id',  `username` varchar(255) DEFAULT NULL COMMENT 'username',  PRIMARY KEY (`id`)) ENGINE=MyISAM DEFAULT CHARSET=utf8 ";
         echo $this->db->exec($sql);
 
     }
 
     function test_drop_table(){
-
         $tables = $this->db->listTables("test_%");
         foreach($tables as $table){
             $sql = 'DROP TABLE '.$table;
@@ -93,13 +80,7 @@ CREATE TABLE `test_user3121` (
     }
     function test_desc_table(){
         $tablename = "test_user_desc";
-        $sql = "
-CREATE TABLE if not exists `$tablename` (
-  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'id',
-  `username` varchar(255) DEFAULT NULL COMMENT 'username',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8
- ";
+        $sql = "CREATE TABLE if not exists `$tablename` (  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'id',  `username` varchar(255) DEFAULT NULL COMMENT 'username',  PRIMARY KEY (`id`)) ENGINE=MyISAM DEFAULT CHARSET=utf8 ";
 
         $this->db->exec($sql);
         $des = $this->db->descTable($tablename);
