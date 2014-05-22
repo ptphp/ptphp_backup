@@ -15,7 +15,7 @@ def gitpush():
     local('git push origin master')
 
 def deploy():
-    gitpush();
+    #gitpush();
     remote_dir = "/var/www/ptphp.com"
     with cd(remote_dir):
         #run("git remote add origin git@github.com:ptphp/PtPHP.git")

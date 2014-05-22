@@ -13,11 +13,6 @@ local.properties
 .settings/
 .loadpath
 
-# External tool builders
-.externalToolBuilders/
-
-# Locally stored "Eclipse launch configurations"
-*.launch
 
 # PDT-specific
 .buildpath
