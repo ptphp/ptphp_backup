@@ -22,7 +22,8 @@ class PtRedisTest extends \PHPUnit_Framework_TestCase {
 
     }
     function test_set(){
-        $this->cache->set("test","safsdsfs");
+        $res = $this->cache->set("test","safsdsfs");
+        $this->assertEquals($res,true);
     }
 
     function test_get(){
