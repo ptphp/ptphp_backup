@@ -179,12 +179,6 @@ function pt_mkdir($dir, $mode = 0777)
 function get_mode(){
     return isset($_SERVER['PT_MODE'])?$_SERVER['PT_MODE']:FALSE;
 }
-function set_test(){
-
-    if(isset($GLOBALS['PT_MODE'])){
-        $_SERVER['PT_MODE'] = "test";
-    }
-}
 
 function get_line_and_filename($trace){
     $info = '';

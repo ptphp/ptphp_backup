@@ -9,7 +9,4 @@
 namespace Lib;
 
 interface PtCacheInterface {
-    function set($key,$value);
-    function get($key,$time);
-    function del($key);
 }

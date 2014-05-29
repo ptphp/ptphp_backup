@@ -10,30 +10,35 @@ namespace Lib;
 
 
 class PtRedisTest extends \PHPUnit_Framework_TestCase {
-    function setUp(){
+    var $cache;
+    function __construct(){
         $config = array(
             "host"=>"127.0.0.1",
             "port"=>6379,
         );
         $this->cache = new PtCacheRedis($config);
     }
+    function setUp(){
+
+    }
     function test_set(){
-        $this->cache->set("tset","safsdsfs");
+        $this->cache->set("test","safsdsfs");
     }
 
     function test_get(){
-        echo  $this->cache->get("tset");
+        $value =  $this->cache->get("test");
+        PtConsole::log($value);
     }
     function test_del(){
-        $this->cache->del("tset");
-        echo  $this->cache->get("tset");
+        $this->cache->del("test");
+        echo  $this->cache->get("test");
     }
 
     function test_page(){
-        #for ($i=0;$i<25000;$i++)
-        #	$this->redis->__redis->lpush('mylist',$i);
+        for ($i=0;$i<25000;$i++)
+        	$this->cache->lpush('mylist',$i);
 
-        $length = $this->cache->org->llen('mylist');
+        $length = $this->cache->obj->llen('mylist');
 
         $pagesize = 5;
         $pageno = max(1,7);
@@ -41,7 +46,7 @@ class PtRedisTest extends \PHPUnit_Framework_TestCase {
         $start = ($pageno-1)*$pagesize;
         $end = $start+$pagesize;
 
-        $lists = $this->cache->org->lrange('mylist',$start,$end);
+        $lists = $this->cache->obj->lrange('mylist',$start,$end);
 
         var_dump($lists);
     }

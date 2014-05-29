@@ -2,25 +2,22 @@
 namespace Lib;
 use Redis as Redis;
 class PtCacheRedis implements PtCacheInterface{
-    var $_cache;
-    var $org;
+    var $obj;
     var $config = array(
         "host" => "127.0.0.1",
         "port" => 6379,
     );
+
 	function __construct($config){
-		$this->_cache = new Redis();
-        $this->_cache->connect($config['host'], intval($config['port']));
-        $this->org = $this->_cache;
+	    $this->obj  = new Redis();
+        if(isset($config['pconnect']) && $config['pconnect']){
+            $this->obj->pconnect($config['host'],intval($config['port']));
+        }else{
+            $this->obj->connect($config['host'],intval($config['port']));
+        }
 	}
 
-    function set($key,$value){
-        $this->_cache->set($key,$value);
-    }
-    function get($key,$time = -1){
-        return $this->_cache->get($key);
-    }
-    function del($key){
-        return $this->_cache->set($key,"");
+    function __call($name, $arguments){
+        return call_user_func_array(array($this->obj,$name),$arguments);
     }
 }

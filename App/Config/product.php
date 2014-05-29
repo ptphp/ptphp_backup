@@ -1,6 +1,4 @@
 <?php
-/**
-
 $config['debug'] = FALSE;
 $config['namespaces']= array();
 $config['db']["mysql"] = array(
@@ -35,11 +33,5 @@ $config['cache']["ssdb"] = array(
         'port' => 8121,
     )
 );
-$config['cache']["mem"] = array(
-    'default'=>array(
-        'host' => '127.0.0.1',
-        'port' => 11211,
-    )
-);
- *  */
+
 

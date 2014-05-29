@@ -6,7 +6,6 @@ $console_array = array();
 include PATH_PTPHP."/Config/default.php";
 include PATH_PTPHP."/Lib/utils.php";
 
-set_test();
 spl_autoload_register('__pt_autoload');
 register_shutdown_function("shut_down_fun");
 if(PHP_SAPI != "cli"){
@@ -21,7 +20,12 @@ class Pt{
     }
     static function set_config($config){
         self::$config = $config;
-        define("DEBUG",$config[$config['mode']]['debug']);
+        if(isset($config['debug'])){
+            define("DEBUG",$config['debug']);
+        }else{
+            define("DEBUG",false);
+        }
+
         if(DEBUG){
             @ini_set('display_errors', 'On');
             error_reporting(E_ALL);
@@ -32,13 +36,14 @@ class Pt{
         }
     }
 }
+class Console extends Lib\PtConsole{}
 
 function View($_path){
     $info = pathinfo($_path);
     if(!isset($info['extension'])){
         $_path = $_path.".php";
     }
-	$path = PATH_APP."/View/".ltrim($_path,"/");
+    $path = PATH_APP."/View/".ltrim($_path,"/");
     if(!is_file($path)){
         $path_sys = PATH_PTPHP."/View/".$_path;
         if(!is_file($path_sys)){
@@ -46,7 +51,7 @@ function View($_path){
         }
         $path = $path_sys;
     }
-	return $path;
+    return $path;
 }
 
 function parse_router(){
@@ -90,11 +95,11 @@ function parse_router(){
 
     }else{
         $__R__ = (isset( $_GET['__R__'] ) && $_GET['__R__'] )? $_GET['__R__'] : "index/index";
-		//var_dump($__R__);
-		if($__R__ == "/"){
-			$__R__ = "index/index";
-		}
-		$__R__ = ltrim($__R__,"/");
+        //var_dump($__R__);
+        if($__R__ == "/"){
+            $__R__ = "index/index";
+        }
+        $__R__ = ltrim($__R__,"/");
         $len = strlen($__R__);
         if(substr($__R__,$len-1) == "/"){
             $__R__ .= "index";
@@ -109,7 +114,7 @@ function parse_router(){
 
         $__namespace = $__path = 'Controller';
         for($i = 0;$i < $len-1;$i++){
-           // echo $r[$i];
+            // echo $r[$i];
             $__path .= "/".ucfirst(strtolower($r[$i]));
             $__namespace .= "\\".ucfirst(strtolower($r[$i]));
         }
@@ -119,35 +124,35 @@ function parse_router(){
         //var_dump($router);
         //exit;
     }
-	
-	$router['action'] = $action;
-	$router['controller_path'] = $router['base_path'].".php";	
-	$router['method'] = strtolower($_SERVER['REQUEST_METHOD']);
-	//console($router);
+
+    $router['action'] = $action;
+    $router['controller_path'] = $router['base_path'].".php";
+    $router['method'] = strtolower($_SERVER['REQUEST_METHOD']);
+    //console($router);
     //exit;
-	return $router;
+    return $router;
 }
 
 function run(){
-	global $config;
-	$router = parse_router();
-	$controller = PATH_APP.'/'.$router['controller_path'];
-	
-	if(!is_file($controller)){
-		$controller = PATH_PTPHP.'/'.$router['controller_path'];
-	}
-	if(DEBUG){
+    global $config;
+    $router = parse_router();
+    $controller = PATH_APP.'/'.$router['controller_path'];
+
+    if(!is_file($controller)){
+        $controller = PATH_PTPHP.'/'.$router['controller_path'];
+    }
+    if(DEBUG){
         console($router);
     }
-	//exit;
-	if($router['controller_path'] == 'Controller/Pttest.php'){
-		include_once PATH_PTPHP . '/ptunittest.php';
-	}
-	//exit;
-	if(!is_file($controller)){
+    //exit;
+    if($router['controller_path'] == 'Controller/Pttest.php'){
+        include_once PATH_PTPHP . '/ptunittest.php';
+    }
+    //exit;
+    if(!is_file($controller)){
         trigger_error("404");
-	}
-	include $controller;
-	$controller_obj = new $router['namespace']();
-	$controller_obj->$router['method']();
+    }
+    include $controller;
+    $controller_obj = new $router['namespace']();
+    $controller_obj->$router['method']();
 }

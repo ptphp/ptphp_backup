@@ -11,8 +11,8 @@ namespace Lib;
 require_once PATH_PTPHP."/Ext/SSDB.php";
 
 class PtCacheSSDB implements PtCacheInterface{
-    var $_cache;
-    var $org;
+    var $obj;
+
     var $config = array(
         "host" => "127.0.0.1",
         "port" => 8430,
@@ -21,21 +21,14 @@ class PtCacheSSDB implements PtCacheInterface{
         $host = $config['host'];
         $port = $config['port'];
        try{
-           $this->_cache = new \SimpleSSDB($host, $port);
+           $this->obj = new \SimpleSSDB($host, $port);
             //$ssdb->easy();
         }catch(Exception $e){
             die(__LINE__ . ' ' . $e->getMessage());
         }
-        $this->org = $this->_cache;
     }
 
-    function set($key,$value){
-        $this->_cache->set($key,$value);
-    }
-    function get($key,$time = -1){
-        return $this->_cache->get($key);
-    }
-    function del($key){
-        return $this->_cache->set($key,"");
+    function __call($name, $arguments){
+        return call_user_func_array(array($this->obj,$name),$arguments);
     }
 }

@@ -1,6 +1,4 @@
 <?php
-/**
-
 $config['debug'] = FALSE;
 $config['namespaces']= array();
 $config['db']["mysql"] = array(
@@ -41,5 +39,3 @@ $config['cache']["mem"] = array(
         'port' => 11211,
     )
 );
- *  */
-
