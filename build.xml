@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="PtPHP" default="help" basedir=".">
+<project name="PtPHP-com" default="help" basedir=".">
+    <property name="PtPHP_DIR" value="../PtPHP"/>
+    <property name="PtTheme_DIR" value="../PtTheme"/>
     <target name="help">
         <echo>
             This is Phing menu
@@ -11,13 +13,74 @@
         <ssh username="root"
              host="al.ptphp.com" command="ls" display="true"/>
     </target>
-    <target name="test">
-        <phpunit printsummary="true" haltonfailure="true" bootstrap="./Tests/bootstrap.php">
-            <batchtest>
-                <fileset dir="./Tests">
-                    <include name="**/*Test.php"/>
-                </fileset>
-            </batchtest>
-        </phpunit>
+    <target name="build_App">
+        <available file="./App/boot.php" property="App_exists" type="file" />
+        <if>
+            <equals arg1="${App_exists}" arg2="true" />
+            <then>
+                <echo>App Exists</echo>
+            </then>
+            <else>
+                <phingcall target="build_Ptphp" />
+                <echo>Building App</echo>
+                <mkdir dir="./App" />
+                <copy todir="./App/">
+                    <fileset dir="${PtPHP_DIR}/App/"></fileset>
+                </copy>
+                <mkdir dir="./Tests" />
+                <copy todir="./Tests/">
+                    <fileset dir="${PtPHP_DIR}/Tests/"></fileset>
+                </copy>
+                <mkdir dir="./etc" />
+                <copy todir="./etc/">
+                    <fileset dir="${PtPHP_DIR}/etc/"></fileset>
+                </copy>
+                <mkdir dir="./bin" />
+                <copy todir="./bin/">
+                    <fileset dir="${PtPHP_DIR}/bin/"></fileset>
+                </copy>
+                <mkdir dir="./webroot" />
+                <copy todir="./webroot/">
+                    <fileset dir="${PtPHP_DIR}/webroot/"></fileset>
+                </copy>
+                <mkdir dir="./Data" />
+                <copy todir="./Data/">
+                    <fileset dir="${PtPHP_DIR}/Data/"></fileset>
+                </copy>
+                <copy file="${PtPHP_DIR}/fabfile.py" tofile="./fabfile.py" />
+                <copy file="${PtPHP_DIR}/phpunit.xml" tofile="./phpunit.xml" />
+                <copy file="${PtPHP_DIR}/.gitignore" tofile="./.gitignore" />
+            </else>
+        </if>
+    </target>
+
+    <target name="build_Theme">
+        <available file="./App/Controller/Theme/Cleanzone.php" property="theme_exists" type="file" />
+        <if>
+            <equals arg1="${theme_exists}" arg2="true" />
+            <then>
+                <echo>Theme Exists</echo>
+            </then>
+            <else>
+                <echo>Building App</echo>
+                <mkdir dir="./App/View/theme/cleanzone" />
+                <copy todir="./App/View/theme/cleanzone">
+                    <fileset dir="${PtTheme_DIR}/App/View/theme/cleanzone"></fileset>
+                </copy>
+                <copy todir="./webroot/theme/cleanzone">
+                    <fileset dir="${PtTheme_DIR}/webroot/theme/cleanzone"></fileset>
+                </copy>
+                <copy file="${PtTheme_DIR}/App/Controller/Theme/Cleanzone.php" tofile="./App/Controller/Theme/Cleanzone.php" />
+            </else>
+        </if>
+    </target>
+    <target name="build_Ptphp">
+        <echo msg="copy PtPHP Core"></echo>
+        <delete dir="./PtPHP" />
+        <mkdir dir="./PtPHP" />
+        <copy todir="./PtPHP/">
+            <fileset dir="${PtPHP_DIR}/PtPHP/"></fileset>
+        </copy>
+        <echo msg="build_Ptphp ok"></echo>
     </target>
 </project>

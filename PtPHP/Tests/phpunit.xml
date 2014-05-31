@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+        bootstrap="Tests/bootstrap.php"
+        colors="true"
+        convertErrorsToExceptions="true"
+        convertNoticesToExceptions="true"
+        convertWarningsToExceptions="true"
+        strict="true"
+        verbose="true">
+    <php>
+        <var name="PT_MODE" value="test"/>
+    </php>
+    <testsuites>
+        <testsuite name="PtPHP Test Suite">
+            <directory>./Tests/</directory>
+            <exclude>
+                <directory>./Tests/Lib</directory>
+                <file>./Tests/Lib/PtCacheSSDBTest.php</file>
+            </exclude>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory>./</directory>
+            <exclude>
+                <directory>./Tests</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+</phpunit>
