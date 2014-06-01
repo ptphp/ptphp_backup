@@ -7,7 +7,10 @@
 <body>
 
 <div class="main">
+hello PtPHP Framework
+    <hr/>
 
+    <?php echo time();?>
 </div>
 </body>
 </html>
