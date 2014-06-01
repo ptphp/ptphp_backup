@@ -12,3 +12,13 @@ def push():
     local('git add --all')
     local('git commit -m "deploy"')
     local('git push origin master')
+
+
+def reload():
+    run("service nginx reload")
+
+def deploy():
+    remote_dir = "/root"
+    with cd(remote_dir):
+        run("git pull origin master")
+        reload()
