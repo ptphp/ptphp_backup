@@ -153,6 +153,36 @@ function run(){
         trigger_error("404");
     }
     include $controller;
+
     $controller_obj = new $router['namespace']();
-    $controller_obj->$router['method']();
+
+    if(0){
+        $controller_obj->$router['method']();
+        return;
+    }
+    $ref = new ReflectionClass($router['namespace']);
+    if($ref->hasMethod($router['method'])){
+
+        $method = $ref->getMethod($router['method']);
+        $args = $method->getParameters();
+        $params = array();
+        foreach($args as $arg){
+            $params[] =get_param_for_controller($router['method'],$arg->getName());
+        }
+        call_user_func_array(array($controller_obj,$router['method']),$params);
+    }else{
+        trigger_error("not found method");
+    }
 }
+
+function get_param_for_controller($method,$key){
+    if($method == "get"){
+        $t = $_GET;
+    }elseif($method == "post"){
+        $t = $_POST;
+    }else{
+        trigger_error("unsupport method");
+    }
+    return isset($t[$key]) ? $t[$key]:null;
+}
+
