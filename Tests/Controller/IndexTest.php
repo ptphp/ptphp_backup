@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * Created by PhpStorm.
  * User: Joseph
@@ -11,14 +11,6 @@ namespace Controller;
 class IndexTest extends \PHPUnit_Framework_TestCase {
     function test_tset(){
         $data =array("tst"=>1);
-        echo $_SERVER;
-        echo $_SERVER;
-        echo $_SERVER;
-        echo $_SERVER;echo $_SERVER;
-        echo $_SERVER;
-        echo $_SERVER;
-        echo $_SERVER;
-        echo $_SERVER;
         $this->assertTrue(is_array($data));
     }
 }
