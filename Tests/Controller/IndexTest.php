@@ -1,5 +1,5 @@
-﻿<?php
-﻿namespace Controller;
+<?php
+namespace Controller;
 
 class IndexTest extends \PHPUnit_Framework_TestCase {
     function test_tset(){
