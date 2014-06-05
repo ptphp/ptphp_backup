@@ -7,35 +7,37 @@ PtPHP Framework
 **Requirements: PHP 5.3** + due to the use of `namespaces`.
 
 
-# 配置 #
+#包含组件
+
+ * php-5.5.13-Win32-VC11-x86 (./bin/php-5.5/)
+ * PHPUnit 3.7.37            (./bin/php-5.5/phpunit.phar)
+ * Ping 2.7.0                (./bin/php-5.5/phing.phar)
 
 
-## 开发 ##
+#安装
 
-`nginx`
+    git clone http://git.oschina.net/dholer/PtPHP.git
 
-    fastcgi_param PT_MODE develop;
+or 
 
-`App/Config/default.php`
+    git clone https://github.com/ptphp/PtPHP.git
 
-    $config['develop'] = array(
-        "debug" => 0
-    );
 
-## 测试 ##
+启动：
 
-`nginx`
+    cd PtPHP
+    bin\php-5.5\php -S 127.0.0.1:8778 -t webroot
 
-    fastcgi_param PT_MODE test;
+浏览器打开 `http:/127.0.0.1:8778/`
 
-`App/Config/default.php`
+[![browser](http://git.oschina.net/dholer/PtPHP/raw/master/Doc/ptphp_browser.png)](http://git.oschina.net/dholer/PtPHP/raw/master/Doc/ptphp_browser.png)
 
-    $config['test'] = array(
-        "debug" => 0
-    );
 
-## 生产 ##
+CLI:
 
-    $config['product'] = array(
-        "debug" => 0
-    );
+    bin\php-5.5\php bin\run.php
+    
+[![cli](http://git.oschina.net/dholer/PtPHP/raw/master/Doc/ptphp_cli.png)](http://git.oschina.net/dholer/PtPHP/raw/master/Doc/ptphp_cli.png)
+
+
+    
